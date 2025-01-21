@@ -7,8 +7,11 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:badlands": "2025-01-21 19:25:26 +0100",
+      "minecraft:eroded_badlands": "2025-01-21 19:25:30 +0100",
       "minecraft:forest": "2024-02-12 15:09:34 +0100",
       "minecraft:taiga": "2024-02-18 12:32:05 +0100",
+      "minecraft:river": "2025-01-21 19:25:32 +0100",
       "minecraft:dripstone_caves": "2024-02-14 16:58:53 +0100",
       "minecraft:savanna": "2024-05-22 14:31:56 +0200",
       "minecraft:plains": "2024-02-11 20:56:10 +0100"
@@ -1500,6 +1503,18 @@
   "minecraft:recipes/building_blocks/chiseled_deepslate": {
     "criteria": {
       "has_cobbled_deepslate_slab": "2025-01-21 18:41:16 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald": {
+    "criteria": {
+      "has_emerald_block": "2025-01-21 19:05:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_glazed_terracotta": {
+    "criteria": {
+      "has_orange_terracotta": "2025-01-21 19:29:03 +0100"
     },
     "done": true
   },

@@ -304,7 +304,7 @@ npcs:
   7ad1d969-4a74-48d3-9700-c9a4cfde6406:
     name: BW
     creator: ac44621c-00d6-45a0-b025-850eb3db4aee
-    displayName: BW
+    displayName: LOLOLOLOL
     type: PLAYER
     location:
       world: lobby
@@ -321,7 +321,7 @@ npcs:
     turnToPlayer: true
     messages: []
     interactionCooldown: 0.0
-    playerCommand: mvtp Bed_Wars
+    playerCommand: mvtp parkour
   6fd3b5d8-a561-468c-b27c-e542604307f4:
     name: pit_g3
     creator: ac44621c-00d6-45a0-b025-850eb3db4aee

@@ -1,51 +1,52 @@
-[18:36:29] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[18:36:30] [ServerMain/INFO]: Loaded 1174 recipes
-[18:36:30] [ServerMain/INFO]: Loaded 1271 advancements
-[18:36:30] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[18:36:30] [Server thread/INFO]: Loading properties
-[18:36:30] [Server thread/INFO]: This server is running Paper version git-Paper-408 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: c5d168c)
-[18:36:31] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[18:36:31] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:36:31] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[19:16:07] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:16:08] [ServerMain/INFO]: Loaded 1174 recipes
+[19:16:08] [ServerMain/INFO]: Loaded 1271 advancements
+[19:16:08] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[19:16:08] [Server thread/INFO]: Loading properties
+[19:16:08] [Server thread/INFO]: This server is running Paper version git-Paper-408 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: c5d168c)
+[19:16:09] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:16:09] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:16:09] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[18:36:31] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and gen parallelism of 4 threads
-[18:36:31] [Server thread/INFO]: Default game type: SURVIVAL
-[18:36:31] [Server thread/INFO]: Generating keypair
-[18:36:31] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:36:32] [Server thread/INFO]: Using default channel type
-[18:36:32] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[18:36:32] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[18:36:32] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R3.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[18:36:33] [Server thread/WARN]: Legacy plugin tpLogin v1.5.1 does not specify an api-version.
-[18:36:34] [Server thread/WARN]: Legacy plugin KillCounter v1.3 does not specify an api-version.
-[18:36:34] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.2-SNAPSHOT (b90-2886a71)
-[18:36:34] [Server thread/INFO]: [floodgate] Floodgate wurde in 338 ms gestartet
-[18:36:34] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
-[18:36:34] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
-[18:36:34] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[18:36:34] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[18:36:35] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.2.2-SNAPSHOT
-[18:36:35] [Server thread/INFO]: [Geyser-Spigot] Lade Erweiterungen...
-[18:36:35] [Server thread/INFO]: [Geyser-Spigot] 0 Erweiterung(en) geladen
-[18:36:35] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
-[18:36:35] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.19+6642-415ef95
-[18:36:35] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@49cec97c]
-[18:36:35] [Server thread/INFO]: [WorldResourcepacks] Loading server plugin WorldResourcepacks v1.9.0-SNAPSHOT (build 557)
-[18:36:35] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.2
-[18:36:35] [Server thread/INFO]: [tpLogin] Loading server plugin tpLogin v1.5.1
-[18:36:35] [Server thread/INFO]: [OpenInv] Loading server plugin OpenInv v4.4.2
-[18:36:35] [Server thread/INFO]: [MyCommand] Loading server plugin MyCommand v5.7.4
-[18:36:35] [Server thread/INFO]: [Multiverse-Portals] Loading server plugin Multiverse-Portals v4.2.3
-[18:36:35] [Server thread/INFO]: [Multiverse-Inventories] Loading server plugin Multiverse-Inventories v4.2.6
-[18:36:35] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.117
-[18:36:35] [Server thread/INFO]: [KillCounter] Loading server plugin KillCounter v1.3
-[18:36:35] [Server thread/INFO]: [GCore] Loading server plugin GCore v8.48.0
-[18:36:35] [Server thread/INFO]: [FancyNpcs] Loading server plugin FancyNpcs v2.0.7
-[18:36:35] [Server thread/INFO]: [CraftAttackSpawnBoost] Loading server plugin CraftAttackSpawnBoost v1.1
-[18:36:35] [Server thread/INFO]: [BlueMap] Loading server plugin BlueMap v3.20
-[18:36:35] [Server thread/INFO]: [AntiXRay] Loading server plugin AntiXRay v1.9.0
-[18:36:35] [Server thread/WARN]: Server permissions file permissions.yml is not valid YAML.
+[19:16:09] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and gen parallelism of 4 threads
+[19:16:09] [Server thread/INFO]: Default game type: SURVIVAL
+[19:16:09] [Server thread/INFO]: Generating keypair
+[19:16:09] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:16:09] [Server thread/INFO]: Using default channel type
+[19:16:09] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[19:16:09] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[19:16:10] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R3.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[19:16:11] [Server thread/WARN]: Legacy plugin tpLogin v1.5.1 does not specify an api-version.
+[19:16:11] [Server thread/WARN]: Legacy plugin KillCounter v1.3 does not specify an api-version.
+[19:16:12] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.2-SNAPSHOT (b90-2886a71)
+[19:16:12] [Server thread/INFO]: [floodgate] Floodgate wurde in 340 ms gestartet
+[19:16:12] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
+[19:16:12] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[19:16:12] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[19:16:12] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[19:16:12] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.2.2-SNAPSHOT
+[19:16:13] [Server thread/INFO]: [Geyser-Spigot] Lade Erweiterungen...
+[19:16:13] [Server thread/INFO]: [Geyser-Spigot] 0 Erweiterung(en) geladen
+[19:16:13] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
+[19:16:13] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.19+6642-415ef95
+[19:16:13] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@8387f73]
+[19:16:13] [Server thread/INFO]: [WorldResourcepacks] Loading server plugin WorldResourcepacks v1.9.0-SNAPSHOT (build 610)
+[19:16:13] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.2
+[19:16:13] [Server thread/INFO]: [tpLogin] Loading server plugin tpLogin v1.5.1
+[19:16:13] [Server thread/INFO]: [ProJumpPads] Loading server plugin ProJumpPads v4.0
+[19:16:13] [Server thread/INFO]: [OpenInv] Loading server plugin OpenInv v4.4.2
+[19:16:13] [Server thread/INFO]: [MyCommand] Loading server plugin MyCommand v5.7.4
+[19:16:13] [Server thread/INFO]: [Multiverse-Portals] Loading server plugin Multiverse-Portals v4.2.3
+[19:16:13] [Server thread/INFO]: [Multiverse-Inventories] Loading server plugin Multiverse-Inventories v4.2.6
+[19:16:13] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.117
+[19:16:13] [Server thread/INFO]: [KillCounter] Loading server plugin KillCounter v1.3
+[19:16:13] [Server thread/INFO]: [GCore] Loading server plugin GCore v8.48.0
+[19:16:13] [Server thread/INFO]: [FancyNpcs] Loading server plugin FancyNpcs v2.0.7
+[19:16:13] [Server thread/INFO]: [CraftAttackSpawnBoost] Loading server plugin CraftAttackSpawnBoost v1.1
+[19:16:13] [Server thread/INFO]: [BlueMap] Loading server plugin BlueMap v3.20
+[19:16:13] [Server thread/INFO]: [AntiXRay] Loading server plugin AntiXRay v1.9.0
+[19:16:13] [Server thread/WARN]: Server permissions file permissions.yml is not valid YAML.
 java.lang.ClassCastException: class java.lang.String cannot be cast to class java.util.Map (java.lang.String and java.util.Map are in module java.base of loader 'bootstrap')
 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.loadCustomPermissions(CraftServer.java:1174) ~[paper-1.20.4.jar:git-Paper-408]
 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugins(CraftServer.java:541) ~[paper-1.20.4.jar:git-Paper-408]
@@ -53,162 +54,120 @@ java.lang.ClassCastException: class java.lang.String cannot be cast to class jav
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1131) ~[paper-1.20.4.jar:git-Paper-408]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-408]
 	at java.lang.Thread.run(Thread.java:1570) ~[?:?]
-[18:36:35] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.19+6642-415ef95
-[18:36:35] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[18:36:35] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[18:36:36] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R3.PaperweightAdapter as the Bukkit adapter
-[18:36:36] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.117
-[18:36:36] [Server thread/INFO]:         __    
-[18:36:36] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.117
-[18:36:36] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[18:36:36] [Server thread/INFO]: 
-[18:36:36] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[18:36:37] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[18:36:37] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[18:36:37] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[18:36:37] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 888ms)
-[18:36:37] [Server thread/INFO]: Preparing level "world"
-[18:36:38] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[18:36:38] [Server thread/INFO]: Time elapsed: 805 ms
-[18:36:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[18:36:39] [Server thread/INFO]: Time elapsed: 124 ms
-[18:36:39] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[18:36:39] [Server thread/INFO]: Time elapsed: 27 ms
-[18:36:39] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.2-SNAPSHOT (b90-2886a71)
-[18:36:39] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
-[18:36:39] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3-1.20.4 (765)
-[18:36:39] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.2.2-SNAPSHOT
-[18:36:39] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
-[18:36:39] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[18:36:39] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[18:36:39] [Server thread/INFO]: Preparing start region for dimension minecraft:pvp_s
-[18:36:39] [Server thread/INFO]: Time elapsed: 98 ms
-[18:36:39] [Server thread/INFO]: Preparing start region for dimension minecraft:bed_wars
-[18:36:39] [Server thread/INFO]: Time elapsed: 106 ms
-[18:36:39] [Server thread/INFO]: Preparing start region for dimension minecraft:shop
-[18:36:39] [Server thread/INFO]: Time elapsed: 59 ms
-[18:36:39] [Server thread/INFO]: Preparing start region for dimension minecraft:spleef
-[18:36:39] [Server thread/INFO]: Time elapsed: 15 ms
-[18:36:39] [Server thread/INFO]: Preparing start region for dimension minecraft:pvp
-[18:36:40] [Server thread/INFO]: Time elapsed: 47 ms
-[18:36:40] [Server thread/INFO]: Preparing start region for dimension minecraft:pvp_j
-[18:36:40] [Server thread/INFO]: Time elapsed: 14 ms
-[18:36:40] [Server thread/INFO]: Preparing start region for dimension minecraft:hexheat
-[18:36:40] [Server thread/INFO]: Time elapsed: 22 ms
-[18:36:40] [Server thread/INFO]: Preparing start region for dimension minecraft:arcade
-[18:36:40] [Server thread/INFO]: Time elapsed: 12 ms
-[18:36:40] [Server thread/INFO]: Preparing start region for dimension minecraft:bw_1v1_m1
-[18:36:40] [Server thread/INFO]: Time elapsed: 50 ms
-[18:36:40] [Server thread/INFO]: Preparing start region for dimension minecraft:pvp_f
-[18:36:40] [Server thread/INFO]: Time elapsed: 13 ms
-[18:36:40] [Server thread/INFO]: Preparing start region for dimension minecraft:lobby
-[18:36:40] [Server thread/INFO]: Time elapsed: 38 ms
-[18:36:40] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: yo
-[18:36:40] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
-[18:36:40] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: Fyeex
-[18:36:40] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
-[18:36:40] [Server thread/INFO]: Preparing start region for dimension minecraft:pit
-[18:36:40] [Server thread/INFO]: Time elapsed: 19 ms
-[18:36:40] [Server thread/INFO]: Preparing start region for dimension minecraft:parkour
-[18:36:40] [Server thread/INFO]: Time elapsed: 19 ms
-[18:36:40] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: This_World_shall_know_pain
-[18:36:40] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
-[18:36:40] [Server thread/INFO]: [Multiverse-Core] 16 - World(s) loaded.
-[18:36:40] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[18:36:40] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] Enabling WorldResourcepacks v1.9.0-SNAPSHOT (build 557)
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] Loading config!
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] Debug level: INFO
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] Found locale en
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Loading packs:
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] examplepack - http://example.com/lobbyresourcepack.zip - abcdef012345678abcdef012345678abcdef0123
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] {url=http://example.com/lobbyresourcepack.zip, uuid=51d028e6-c675-3df9-a344-9049add5fda6, hash=abcdef012345678abcdef012345678abcdef0123, local-path=null, format=1, version=1.8, restricted=false, permission=worldresourcepacks.pack.examplepack, type=null, variants=null}
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] gamepack - 2 variants
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] {url=null, uuid=null, hash=null, local-path=null, format=null, version=null, restricted=false, permission=worldresourcepacks.pack.gamepack, type=null, variants=[{url=http://example.com/minigameresourcepack_1_15.zip, uuid=c8928dd9-ab47-385a-b0c4-b0adc844d911, hash=012345678abcdef012345678abcdef012345678a, local-path=null, format=null, version=1.15, restricted=false, permission=worldresourcepacks.pack.gamepack-variant-1, type=null, variants=null}, {url=http://example.com/minigameresourcepack_1_12.zip, uuid=d700594a-c620-3a4a-b92c-b982494837b7, hash=012345678abcdef01234567dddcdef012345678a, local-path=null, format=null, version=1.12, restricted=false, permission=worldresourcepacks.pack.gamepack-variant-2, type=null, variants=null}]}
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] lobby - https://github.com/SkullGamer727/shloppatMCServer/blob/main/Texture%20packs/Lobby.zip - 415c82ef5d4f523db403ab4b797a626ab773ea00
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] {url=https://github.com/SkullGamer727/shloppatMCServer/blob/main/Texture%20packs/Lobby.zip, uuid=0d4c3d1b-3f0c-34e4-aae9-e9598ed745db, hash=415c82ef5d4f523db403ab4b797a626ab773ea00, local-path=null, format=null, version=null, restricted=false, permission=resourcepacksplugin.pack.lobby, type=null, variants=null}
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] arcade - https://github.com/SkullGamer727/shloppatMCServer/blob/main/Texture%20packs/Arcade.zip - ff71e7bb82bf0e393250fa58c5cffd638f6ca037
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] {url=https://github.com/SkullGamer727/shloppatMCServer/blob/main/Texture%20packs/Arcade.zip, uuid=2ececd0e-63e4-38b6-b751-4044265f451c, hash=ff71e7bb82bf0e393250fa58c5cffd638f6ca037, local-path=null, format=null, version=null, restricted=false, permission=resourcepacksplugin.pack.arcade, type=null, variants=null}
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] Empty pack - http://cdn.moep.tv/files/Empty.zip - 01517226212d27586ea0c5d6aff1aa5492dd2484
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] Loading global assignment...
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Send delay: 10
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Loaded PackAssignment{name=global, packs=[], optional-packs=[], sendDelay=10}
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] Loading world assignments...
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] Loading assignment for world your_example_world...
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Pack: examplepack
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Loaded PackAssignment{name=your_example_world, packs=[examplepack], optional-packs=[], sendDelay=-1}
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] Loading assignment for world Lobby...
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Pack: lobby
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Loaded PackAssignment{name=Lobby, packs=[lobby], optional-packs=[], sendDelay=-1}
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] Loading assignment for world Pit...
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Pack: lobby
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Loaded PackAssignment{name=Pit, packs=[lobby], optional-packs=[], sendDelay=-1}
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] Loading assignment for world HexHeat...
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Pack: lobby
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Loaded PackAssignment{name=HexHeat, packs=[lobby], optional-packs=[], sendDelay=-1}
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] Loading assignment for world Arcade...
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Pack: arcade
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Loaded PackAssignment{name=Arcade, packs=[arcade], optional-packs=[], sendDelay=-1}
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] Loading assignment for world your_example_nether...
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Regex: example_nether_.*
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Loaded PackAssignment{name=your_example_nether, packs=[], optional-packs=[], sendDelay=-1, regex=example_nether_.*}
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Stored packs override assignments: false
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Append hash to pack URL: true
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Detected server server protocol version 765!
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Detected internal server version v1_20_R3
-[18:36:40] [Server thread/ERROR]: [WorldResourcepacks] Unable to find method which enables us to efficiently send a resource pack!
-java.lang.ClassNotFoundException: net.minecraft.server.v1_20_R3.EntityPlayer
-	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:197) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
-	at java.lang.Class.forName0(Native Method) ~[?:?]
-	at java.lang.Class.forName(Class.java:413) ~[?:?]
-	at java.lang.Class.forName(Class.java:404) ~[?:?]
-	at de.themoep.resourcepacksplugin.bukkit.internal.InternalHelper_fallback.<init>(InternalHelper_fallback.java:65) ~[WorldResourcepacks.jar:?]
-	at de.themoep.resourcepacksplugin.bukkit.internal.InternalHelper_v1_20_R3.<init>(InternalHelper_v1_20_R3.java:38) ~[WorldResourcepacks.jar:?]
-	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
-	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
-	at de.themoep.resourcepacksplugin.bukkit.WorldResourcepacks.onEnable(WorldResourcepacks.java:202) ~[WorldResourcepacks.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:188) ~[paper-1.20.4.jar:git-Paper-408]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[paper-1.20.4.jar:git-Paper-408]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugin(CraftServer.java:637) ~[paper-1.20.4.jar:git-Paper-408]
-	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugins(CraftServer.java:548) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:671) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:431) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:308) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1131) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-408]
-	at java.lang.Thread.run(Thread.java:1570) ~[?:?]
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] Using InternalHelper_v1_20_R3
-[18:36:40] [Server thread/ERROR]: Error occurred while enabling WorldResourcepacks v1.9.0-SNAPSHOT (build 557) (Is it up to date?)
-java.lang.NoClassDefFoundError: us/myles/ViaVersion/api/Via
-	at de.themoep.resourcepacksplugin.bukkit.WorldResourcepacks.onEnable(WorldResourcepacks.java:214) ~[WorldResourcepacks.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:188) ~[paper-1.20.4.jar:git-Paper-408]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[paper-1.20.4.jar:git-Paper-408]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugin(CraftServer.java:637) ~[paper-1.20.4.jar:git-Paper-408]
-	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugins(CraftServer.java:548) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:671) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:431) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:308) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1131) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-408]
-	at java.lang.Thread.run(Thread.java:1570) ~[?:?]
-Caused by: java.lang.ClassNotFoundException: us.myles.ViaVersion.api.Via
-	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:197) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
-	... 13 more
-[18:36:40] [Server thread/INFO]: [WorldResourcepacks] Disabling WorldResourcepacks v1.9.0-SNAPSHOT (build 557)
-[18:36:42] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.2
-[18:36:42] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.20.4-R0.1
-[18:36:42] [Server thread/INFO]: [voicechat] Compatibility version 18
-[18:36:42] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[18:36:42] [Server thread/ERROR]: [voicechat] Failed to add ViaVersion mappings
+[19:16:13] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.19+6642-415ef95
+[19:16:13] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[19:16:13] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[19:16:13] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R3.PaperweightAdapter as the Bukkit adapter
+[19:16:14] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.117
+[19:16:14] [Server thread/INFO]:         __    
+[19:16:14] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.117
+[19:16:14] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[19:16:14] [Server thread/INFO]: 
+[19:16:14] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[19:16:15] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[19:16:15] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[19:16:15] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[19:16:15] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 912ms)
+[19:16:15] [Server thread/INFO]: Preparing level "world"
+[19:16:16] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:16:17] [Server thread/INFO]: Time elapsed: 760 ms
+[19:16:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:16:17] [Server thread/INFO]: Time elapsed: 23 ms
+[19:16:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:16:17] [Server thread/INFO]: Time elapsed: 103 ms
+[19:16:17] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.2-SNAPSHOT (b90-2886a71)
+[19:16:17] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[19:16:17] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3-1.20.4 (765)
+[19:16:17] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.2.2-SNAPSHOT
+[19:16:17] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
+[19:16:17] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[19:16:17] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[19:16:17] [Server thread/INFO]: Preparing start region for dimension minecraft:pvp_s
+[19:16:17] [Server thread/INFO]: Time elapsed: 76 ms
+[19:16:17] [Server thread/INFO]: Preparing start region for dimension minecraft:bed_wars
+[19:16:17] [Server thread/INFO]: Time elapsed: 30 ms
+[19:16:17] [Server thread/INFO]: Preparing start region for dimension minecraft:shop
+[19:16:17] [Server thread/INFO]: Time elapsed: 65 ms
+[19:16:17] [Server thread/INFO]: Preparing start region for dimension minecraft:spleef
+[19:16:17] [Server thread/INFO]: Time elapsed: 23 ms
+[19:16:18] [Server thread/INFO]: Preparing start region for dimension minecraft:pvp
+[19:16:18] [Server thread/INFO]: Time elapsed: 21 ms
+[19:16:18] [Server thread/INFO]: Preparing start region for dimension minecraft:pvp_j
+[19:16:18] [Server thread/INFO]: Time elapsed: 23 ms
+[19:16:18] [Server thread/INFO]: Preparing start region for dimension minecraft:hexheat
+[19:16:18] [Server thread/INFO]: Time elapsed: 19 ms
+[19:16:18] [Server thread/INFO]: Preparing start region for dimension minecraft:arcade
+[19:16:18] [Server thread/INFO]: Time elapsed: 11 ms
+[19:16:18] [Server thread/INFO]: Preparing start region for dimension minecraft:bw_1v1_m1
+[19:16:18] [Server thread/INFO]: Time elapsed: 47 ms
+[19:16:18] [Server thread/INFO]: Preparing start region for dimension minecraft:pvp_f
+[19:16:18] [Server thread/INFO]: Time elapsed: 30 ms
+[19:16:18] [Server thread/INFO]: Preparing start region for dimension minecraft:lobby
+[19:16:18] [Server thread/INFO]: Time elapsed: 19 ms
+[19:16:18] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: yo
+[19:16:18] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[19:16:18] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: Fyeex
+[19:16:18] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[19:16:18] [Server thread/INFO]: Preparing start region for dimension minecraft:pit
+[19:16:18] [Server thread/INFO]: Time elapsed: 27 ms
+[19:16:18] [Server thread/INFO]: Preparing start region for dimension minecraft:parkour
+[19:16:18] [Server thread/INFO]: Time elapsed: 20 ms
+[19:16:18] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: This_World_shall_know_pain
+[19:16:18] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[19:16:18] [Server thread/INFO]: [Multiverse-Core] 16 - World(s) loaded.
+[19:16:18] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[19:16:18] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] Enabling WorldResourcepacks v1.9.0-SNAPSHOT (build 610)
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] Loading config!
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] Debug level: INFO
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] Found locale en
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Loading packs:
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] examplepack - http://example.com/lobbyresourcepack.zip - abcdef012345678abcdef012345678abcdef0123
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] {url=http://example.com/lobbyresourcepack.zip, uuid=51d028e6-c675-3df9-a344-9049add5fda6, hash=abcdef012345678abcdef012345678abcdef0123, local-path=null, format=1, version=1.8, restricted=false, permission=worldresourcepacks.pack.examplepack, type=null, variants=null}
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] gamepack - 2 variants
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] {url=null, uuid=null, hash=null, local-path=null, format=null, version=null, restricted=false, permission=worldresourcepacks.pack.gamepack, type=null, variants=[{url=http://example.com/minigameresourcepack_1_15.zip, uuid=c8928dd9-ab47-385a-b0c4-b0adc844d911, hash=012345678abcdef012345678abcdef012345678a, local-path=null, format=null, version=1.15, restricted=false, permission=worldresourcepacks.pack.gamepack-variant-1, type=null, variants=null}, {url=http://example.com/minigameresourcepack_1_12.zip, uuid=d700594a-c620-3a4a-b92c-b982494837b7, hash=012345678abcdef01234567dddcdef012345678a, local-path=null, format=null, version=1.12, restricted=false, permission=worldresourcepacks.pack.gamepack-variant-2, type=null, variants=null}]}
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] lobby - https://github.com/SkullGamer727/shloppatMCServer/raw/refs/heads/main/Texture%20packs/Lobby.zip - 415c82ef5d4f523db403ab4b797a626ab773ea00
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] {url=https://github.com/SkullGamer727/shloppatMCServer/raw/refs/heads/main/Texture%20packs/Lobby.zip, uuid=0d4c3d1b-3f0c-34e4-aae9-e9598ed745db, hash=415c82ef5d4f523db403ab4b797a626ab773ea00, local-path=null, format=null, version=null, restricted=false, permission=resourcepacksplugin.pack.lobby, type=null, variants=null}
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] arcade - https://github.com/SkullGamer727/shloppatMCServer/raw/refs/heads/main/Texture%20packs/Arcade.zip - ff71e7bb82bf0e393250fa58c5cffd638f6ca037
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] {url=https://github.com/SkullGamer727/shloppatMCServer/raw/refs/heads/main/Texture%20packs/Arcade.zip, uuid=2ececd0e-63e4-38b6-b751-4044265f451c, hash=ff71e7bb82bf0e393250fa58c5cffd638f6ca037, local-path=null, format=null, version=null, restricted=false, permission=resourcepacksplugin.pack.arcade, type=null, variants=null}
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] Empty pack - http://cdn.moep.tv/files/Empty.zip - 01517226212d27586ea0c5d6aff1aa5492dd2484
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] Loading global assignment...
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Send delay: 10
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Loaded PackAssignment{name=global, packs=[], optional-packs=[], sendDelay=10}
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] Loading world assignments...
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] Loading assignment for world your_example_world...
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Pack: examplepack
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Loaded PackAssignment{name=your_example_world, packs=[examplepack], optional-packs=[], sendDelay=-1}
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] Loading assignment for world Lobby...
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Pack: lobby
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Loaded PackAssignment{name=Lobby, packs=[lobby], optional-packs=[], sendDelay=-1}
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] Loading assignment for world Pit...
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Pack: lobby
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Loaded PackAssignment{name=Pit, packs=[lobby], optional-packs=[], sendDelay=-1}
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] Loading assignment for world HexHeat...
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Pack: lobby
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Loaded PackAssignment{name=HexHeat, packs=[lobby], optional-packs=[], sendDelay=-1}
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] Loading assignment for world Arcade...
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Pack: arcade
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Loaded PackAssignment{name=Arcade, packs=[arcade], optional-packs=[], sendDelay=-1}
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] Loading assignment for world your_example_nether...
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Regex: example_nether_.*
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Loaded PackAssignment{name=your_example_nether, packs=[], optional-packs=[], sendDelay=-1, regex=example_nether_.*}
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Stored packs override assignments: false
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Append hash to pack URL: true
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Detected server server protocol version 765!
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Detected internal server version v1_20_R3
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Using InternalHelper_v1_20_R3
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] Detected ViaVersion 5.2.1
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] Detected Geyser-Spigot 2.2.2-SNAPSHOT
+[19:16:18] [Server thread/INFO]: [WorldResourcepacks] Detected floodgate 2.2.2-SNAPSHOT (b90-2886a71)
+[19:16:18] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.2
+[19:16:18] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.20.4-R0.1
+[19:16:18] [Server thread/INFO]: [voicechat] Compatibility version 18
+[19:16:18] [WorldResourcepacks Thread - 1/INFO]: [WorldResourcepacks] Generating hashes...
+[19:16:18] [WorldResourcepacks Thread - 1/INFO]: [WorldResourcepacks] Downloading examplepack...
+[19:16:18] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[19:16:18] [Server thread/ERROR]: [voicechat] Failed to add ViaVersion mappings
 java.lang.NoClassDefFoundError: com/viaversion/viaversion/protocols/protocol1_13to1_12_2/Protocol1_13To1_12_2
 	at de.maxhenkel.voicechat.integration.viaversion.ViaVersionCompatibility.register(ViaVersionCompatibility.java:13) ~[voicechat-bukkit-2.5.2.jar:?]
 	at de.maxhenkel.voicechat.Voicechat.onEnable(Voicechat.java:114) ~[voicechat-bukkit-2.5.2.jar:?]
@@ -229,647 +188,506 @@ Caused by: java.lang.ClassNotFoundException: com.viaversion.viaversion.protocols
 	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
 	... 14 more
-[18:36:42] [Server thread/INFO]: [tpLogin] Enabling tpLogin v1.5.1*
-[18:36:42] [Server thread/INFO]: 
-[18:36:42] [Server thread/INFO]: tpLogin v1.5.1 has been enabled!
-[18:36:42] [Server thread/INFO]: [OpenInv] Enabling OpenInv v4.4.2
-[18:36:42] [Server thread/INFO]: [MyCommand] Enabling MyCommand v5.7.4
-[18:36:42] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-* MyCommand v.5.7.4*-=-=-=-=-=-=-=-=-=-*
-[18:36:42] [Server thread/INFO]: | Vault plugin not found. Using BukkitPermissions
-[18:36:42] [Server thread/INFO]: | No Economy support without Vault!
-[18:36:42] [Server thread/INFO]: | Command file(s) found : 12
-[18:36:42] [Server thread/INFO]: | Config : Ready.
-[18:36:42] [Server thread/INFO]: | ProtocolLib not found.
-[18:36:42] [Server thread/INFO]: | PlaceholderAPI: Not Found
-[18:36:42] [Server thread/INFO]: | Duplicated command found. shortcut in examples.yml
-[18:36:42] [Server thread/INFO]: | Custom commands loaded : 55
-[18:36:42] [Server thread/INFO]: | You're running the latest version of MyCommand.
-[18:36:42] [Server thread/INFO]: |          by emmerrei a.k.a. ivanfromitaly.           
-[18:36:42] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-*   Done!   *-=-=-=-=-=-=-=-=-=-=-*
-[18:36:42] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v4.2.3
-[18:36:42] [Server thread/INFO]: [Multiverse-Portals] 2 - Portals(s) loaded
-[18:36:42] [Server thread/INFO]: [Multiverse-Portals] Found WorldEdit. Using it for selections.
-[18:36:42] [Server thread/INFO]: [Multiverse-Portals 4.2.3]  Enabled - By Rigby and fernferret
-[18:36:42] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v4.2.6
-[18:36:42] [Server thread/INFO]: [Multiverse-Inventories 4.2.6] enabled.
-[18:36:42] [Server thread/INFO]: [KillCounter] Enabling KillCounter v1.3*
-[18:36:42] [Server thread/INFO]: [KillCounter] [STDOUT] [KillCounter] KillCounter v1.3 wurde aktiviert!
-[18:36:42] [Server thread/WARN]: Nag author(s): '[Stuppsman]' of 'KillCounter v1.3' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
-[18:36:42] [Server thread/INFO]: [KillCounter] [STDOUT] [KillCounter]Die KillCounter wurden erfolgreich geladen!
-[18:36:42] [Server thread/INFO]: [GCore] Enabling GCore v8.48.0
-[18:36:42] [Server thread/INFO]: [GCore-migration] Already processed v7 -> v8 (config)
-[18:36:42] [Server thread/INFO]: [GCore-migration] Already processed v7 -> v8 (data)
-[18:36:42] [Server thread/INFO]: [GCore-migration] Already processed v8.4 -> v8.5
-[18:36:42] [Server thread/INFO]: [GCore-migration] Already processed v8.8 -> v8.9
-[18:36:42] [Server thread/INFO]: [GCore-migration] Already processed v8.23 -> v8.24
-[18:36:42] [Server thread/INFO]: [GCore-migration] Already processed v8.24 -> v8.25
-[18:36:42] [Server thread/INFO]: [GCore-migration] Already processed v8.29 -> v8.30
-[18:36:42] [Server thread/INFO]: [GCore-8.48.0] Found server version MC_1_20_R1
-[18:36:43] [Server thread/INFO]: [GCore-8.48.0] Loading materials...
-[18:36:43] [Server thread/INFO]: [GCore-8.48.0] Loading sounds...
-[18:36:43] [Server thread/INFO]: [GCore-8.48.0] Loading particles...
-[18:36:43] [Server thread/INFO]: [GCore-8.48.0] Enabled currency XP_LEVEL
-[18:36:43] [Server thread/INFO]: [GCore-8.48.0] Enabled currency XP
-[18:36:43] [Server thread/INFO]: [GCore-8.48.0] Loading texts...
-[18:36:43] [Server thread/INFO]: [GCore-8.48.0] Text durationformatdays doesn't exist in default files (not even in en_US)
-[18:36:43] [Server thread/INFO]: [GCore-8.48.0] Loaded 1 missing text from default lang for generic.yml : durationFormatDays
-[18:36:43] [Server thread/INFO]: [GCore-8.48.0] Initializing worker and caches
-[18:36:43] [Server thread/INFO]: [GCore-8.48.0] Registering integrations
-[18:36:43] [Server thread/INFO]: [GCore-8.48.0] Initializing tasks and listeners
-[18:36:43] [Server thread/INFO]: [GCore-8.48.0] Successfully enabled
-[18:36:43] [Server thread/INFO]: [FancyNpcs] Enabling FancyNpcs v2.0.7
-[18:36:43] [Server thread/INFO]: [CraftAttackSpawnBoost] Enabling CraftAttackSpawnBoost v1.1
-[18:36:43] [Server thread/INFO]: [BlueMap] Enabling BlueMap v3.20
-[18:36:43] [BlueMap-Load/INFO]: [BlueMap] Loading...
-[18:36:43] [Server thread/INFO]: [AntiXRay] Enabling AntiXRay v1.9.0
-[18:36:43] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[18:36:43] [Server thread/INFO]: [Geyser-Spigot] 
-[18:36:43] [Server thread/INFO]: [Geyser-Spigot] Geyser Version 2.2.2-SNAPSHOT (git-master-19c6648) wird geladen
-[18:36:43] [Server thread/INFO]: [Geyser-Spigot] 
-[18:36:43] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[18:36:43] [BlueMap-Load/INFO]: [BlueMap] Loading resources...
-[18:36:44] [BlueMap-Load/INFO]: [BlueMap] Loading textures...
-[18:36:44] [Thread-14/WARN]: [FancyNpcs] -------------------------------------------------------
-[18:36:44] [Thread-14/WARN]: [FancyNpcs] You are not using the latest version the FancyNpcs plugin.
-[18:36:44] [Thread-14/WARN]: [FancyNpcs] Please update to the newest version (2.4.1).
-[18:36:44] [Thread-14/WARN]: [FancyNpcs] https://modrinth.com/plugin/FancyNpcs
-[18:36:44] [Thread-14/WARN]: [FancyNpcs] -------------------------------------------------------
-[18:36:46] [Server thread/INFO]: [Geyser-Spigot] Geyser wurde unter 0.0.0.0:19132 gestartet
-[18:36:46] [Server thread/INFO]: [Geyser-Spigot] Fertig (2,597s)! Verwende /geyser help für Hilfe!
-[18:36:46] [Server thread/INFO]: Starting GS4 status listener
-[18:36:46] [Server thread/INFO]: Thread Query Listener started
-[18:36:46] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[18:36:46] [Server thread/INFO]: Running delayed init tasks
-[18:36:46] [Craft Scheduler Thread - 3 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[18:36:46] [Server thread/INFO]: [Multiverse-Inventories] First run!
-[18:36:46] [Server thread/INFO]: Done (15.661s)! For help, type "help"
-[18:36:46] [Server thread/INFO]: Timings Reset
-[18:36:46] [Server thread/INFO]: [voicechat] Loading plugins
-[18:36:46] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
-[18:36:46] [Server thread/INFO]: [voicechat] Initializing plugins
-[18:36:46] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
-[18:36:46] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
-[18:36:46] [ForkJoinPool.commonPool-worker-2/INFO]: [Geyser-Spigot] Es steht ein neues Geyser Update zur Unterstützung von Bedrock Version 1.21.51 zur Verfügung. Laden Sie es hier herunter: https://geysermc.org/download
-[18:36:46] [BlueMap-Load/INFO]: [BlueMap] Baking resources...
-[18:36:46] [BlueMap-Load/INFO]: [BlueMap] Resources loaded.
-[18:36:46] [BlueMap-Load/INFO]: [BlueMap] Loading world 'b701cb03-9aaa-4e61-b721-425144b35dc8' (C:\Users\Niklas\Documents\MC server\shloppat\world)...
-[18:36:46] [BlueMap-Load/INFO]: [BlueMap] Initializing Storage: 'file' (Type: FILE)
-[18:36:46] [BlueMap-Load/INFO]: [BlueMap] Loading map 'Survival overworld'...
-[18:36:47] [BlueMap-Load/INFO]: [BlueMap] Loading world 'a785135a-3dda-4552-a192-5c9e4a4b86e9' (C:\Users\Niklas\Documents\MC server\shloppat\world_the_end\DIM1)...
-[18:36:47] [BlueMap-Load/INFO]: [BlueMap] Loading map 'Survival End'...
-[18:36:47] [BlueMap-Load/INFO]: [BlueMap] Loading world 'dfd05576-1755-4dbb-bafc-13d65b84ea3b' (C:\Users\Niklas\Documents\MC server\shloppat\Lobby)...
-[18:36:47] [BlueMap-Load/INFO]: [BlueMap] Loading map 'Lobby'...
-[18:36:47] [User Authenticator #0/INFO]: UUID of player LX84 is 3962a548-62ac-4a90-94b9-07aad1e2df32
-[18:36:47] [BlueMap-Load/INFO]: [BlueMap] Loading world 'b74cbd5d-5996-4d29-9db8-b19e51def239' (C:\Users\Niklas\Documents\MC server\shloppat\world_nether\DIM-1)...
-[18:36:47] [BlueMap-Load/INFO]: [BlueMap] Loading map 'Survival Nether'...
-[18:36:47] [BlueMap-Load/INFO]: [BlueMap] Loading world 'fc99b05d-fb9f-45c6-b65f-1372e5c82c81' (C:\Users\Niklas\Documents\MC server\shloppat\Pit)...
-[18:36:47] [BlueMap-Load/INFO]: [BlueMap] Loading map 'Pit'...
-[18:36:47] [BlueMap-Load/INFO]: [BlueMap] WebServer bound to all network interfaces on port 8100
-[18:36:47] [Thread-20/INFO]: [BlueMap] WebServer started.
-[18:36:47] [BlueMap-Load/INFO]: [BlueMap] Loaded!
-[18:36:47] [Server thread/INFO]: Detected the PlayerJoinEvent of player LX84
-[18:36:47] [Server thread/INFO]: Forced LX84 to defined location.
-[18:36:47] [Server thread/INFO]: LX84 joined the game
-[18:36:47] [Server thread/INFO]: LX84[/93.131.253.73:62743] logged in with entity id 189 at ([lobby]192.94374600682713, 26.0, 943.982833298634)
-[18:36:51] [Craft Scheduler Thread - 16 - FancyNpcs/INFO]: [ChatColorHandler] Found MiniMessage in Server. MiniMessage support enabled.
-[18:36:54] [Server thread/INFO]: LX84 issued server command: /gamemode creative
-[18:36:54] [Server thread/INFO]: [LX84: Set own game mode to Creative Mode]
-[18:37:20] [User Authenticator #0/INFO]: UUID of player TheProPlayer639 is ac44621c-00d6-45a0-b025-850eb3db4aee
-[18:37:21] [Server thread/INFO]: Detected the PlayerJoinEvent of player TheProPlayer639
-[18:37:21] [Server thread/INFO]: Forced TheProPlayer639 to defined location.
-[18:37:21] [Server thread/INFO]: TheProPlayer639 joined the game
-[18:37:21] [Server thread/INFO]: TheProPlayer639[/87.159.157.58:60265] logged in with entity id 226 at ([lobby]192.94374600682713, 26.0, 943.982833298634)
-[18:37:45] [Server thread/INFO]: TheProPlayer639 issued server command: /mvtp parkour
-[18:37:54] [Server thread/INFO]: TheProPlayer639 issued server command: /mvconfirm
-[18:37:58] [Server thread/INFO]: TheProPlayer639 issued server command: /gamemode creative
-[18:37:58] [Server thread/INFO]: [TheProPlayer639: Set own game mode to Creative Mode]
-[18:38:07] [User Authenticator #0/INFO]: UUID of player MR_Ozelot is 762e430d-c0a7-4ffc-a39c-4e76a3ff2241
-[18:38:07] [Server thread/INFO]: Detected the PlayerJoinEvent of player MR_Ozelot
-[18:38:07] [Server thread/INFO]: Forced MR_Ozelot to defined location.
-[18:38:07] [Server thread/INFO]: MR_Ozelot joined the game
-[18:38:07] [Server thread/INFO]: MR_Ozelot[/93.131.253.73:49944] logged in with entity id 227 at ([lobby]192.94374600682713, 26.0, 943.982833298634)
-[18:38:11] [Server thread/INFO]: MR_Ozelot issued server command: /mvtp Arcade
-[18:38:15] [Server thread/INFO]: MR_Ozelot issued server command: /l
-[18:38:15] [Server thread/INFO]: MR_Ozelot issued mycmd (l) command /l
-[18:38:15] [Server thread/INFO]: MR_Ozelot issued server command: /mvtp lobby
-[18:38:23] [Server thread/INFO]: MR_Ozelot issued server command: /wrp
-[18:38:23] [Server thread/ERROR]: null
-org.bukkit.command.CommandException: Cannot execute command 'wrp' in plugin WorldResourcepacks v1.9.0-SNAPSHOT (build 557) - plugin is disabled.
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:987) ~[paper-1.20.4.jar:git-Paper-408]
-	at org.bukkit.craftbukkit.v1_20_R3.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64) ~[paper-1.20.4.jar:git-Paper-408]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.2.9.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:32) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.commands.execution.CommandQueueEntry.a(CommandQueueEntry.java:5) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:101) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:434) ~[?:?]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:336) ~[?:?]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:323) ~[?:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performChatCommand(ServerGamePacketListenerImpl.java:2215) ~[?:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$16(ServerGamePacketListenerImpl.java:2175) ~[?:?]
-	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1455) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:194) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1432) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1355) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1333) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1222) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-408]
-	at java.lang.Thread.run(Thread.java:1570) ~[?:?]
-[18:38:37] [Server thread/INFO]: MR_Ozelot issued server command: /worldresourcepacks:resetpack lobby
-[18:38:37] [Server thread/ERROR]: null
-org.bukkit.command.CommandException: Cannot execute command 'worldresourcepacks:resetpack' in plugin WorldResourcepacks v1.9.0-SNAPSHOT (build 557) - plugin is disabled.
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:987) ~[paper-1.20.4.jar:git-Paper-408]
-	at org.bukkit.craftbukkit.v1_20_R3.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64) ~[paper-1.20.4.jar:git-Paper-408]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.2.9.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:32) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.commands.execution.CommandQueueEntry.a(CommandQueueEntry.java:5) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:101) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:434) ~[?:?]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:336) ~[?:?]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:323) ~[?:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performChatCommand(ServerGamePacketListenerImpl.java:2215) ~[?:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$16(ServerGamePacketListenerImpl.java:2175) ~[?:?]
-	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1455) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:194) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1432) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1355) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1333) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1222) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-408]
-	at java.lang.Thread.run(Thread.java:1570) ~[?:?]
-[18:38:38] [Server thread/INFO]: TheProPlayer639 issued server command: //replace stone 30%stone,15%chiseled_stone_bricks,5%stone_brick_wall,5%mossy_stone_bricks,10%stone_bricks,25%tuff
-[18:38:42] [Server thread/INFO]: MR_Ozelot issued server command: /worldresourcepacks:resetpack Lobby
-[18:38:42] [Server thread/ERROR]: null
-org.bukkit.command.CommandException: Cannot execute command 'worldresourcepacks:resetpack' in plugin WorldResourcepacks v1.9.0-SNAPSHOT (build 557) - plugin is disabled.
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:987) ~[paper-1.20.4.jar:git-Paper-408]
-	at org.bukkit.craftbukkit.v1_20_R3.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64) ~[paper-1.20.4.jar:git-Paper-408]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.2.9.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:32) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.commands.execution.CommandQueueEntry.a(CommandQueueEntry.java:5) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:101) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:434) ~[?:?]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:336) ~[?:?]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:323) ~[?:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performChatCommand(ServerGamePacketListenerImpl.java:2215) ~[?:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$16(ServerGamePacketListenerImpl.java:2175) ~[?:?]
-	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1455) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:194) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1432) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1355) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1333) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1222) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-408]
-	at java.lang.Thread.run(Thread.java:1570) ~[?:?]
-[18:38:50] [Server thread/INFO]: MR_Ozelot issued server command: /wrp resetpack lobby
-[18:38:50] [Server thread/ERROR]: null
-org.bukkit.command.CommandException: Cannot execute command 'wrp' in plugin WorldResourcepacks v1.9.0-SNAPSHOT (build 557) - plugin is disabled.
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:987) ~[paper-1.20.4.jar:git-Paper-408]
-	at org.bukkit.craftbukkit.v1_20_R3.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64) ~[paper-1.20.4.jar:git-Paper-408]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.2.9.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:32) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.commands.execution.CommandQueueEntry.a(CommandQueueEntry.java:5) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:101) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:434) ~[?:?]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:336) ~[?:?]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:323) ~[?:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performChatCommand(ServerGamePacketListenerImpl.java:2215) ~[?:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$16(ServerGamePacketListenerImpl.java:2175) ~[?:?]
-	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1455) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:194) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1432) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1355) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1333) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1222) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-408]
-	at java.lang.Thread.run(Thread.java:1570) ~[?:?]
-[18:38:54] [Server thread/INFO]: MR_Ozelot issued server command: /wrp resetpack "lobby"
-[18:38:54] [Server thread/ERROR]: null
-org.bukkit.command.CommandException: Cannot execute command 'wrp' in plugin WorldResourcepacks v1.9.0-SNAPSHOT (build 557) - plugin is disabled.
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:987) ~[paper-1.20.4.jar:git-Paper-408]
-	at org.bukkit.craftbukkit.v1_20_R3.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64) ~[paper-1.20.4.jar:git-Paper-408]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.2.9.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:32) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.commands.execution.CommandQueueEntry.a(CommandQueueEntry.java:5) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:101) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:434) ~[?:?]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:336) ~[?:?]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:323) ~[?:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performChatCommand(ServerGamePacketListenerImpl.java:2215) ~[?:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$16(ServerGamePacketListenerImpl.java:2175) ~[?:?]
-	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1455) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:194) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1432) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1355) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1333) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1222) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-408]
-	at java.lang.Thread.run(Thread.java:1570) ~[?:?]
-[18:39:00] [Server thread/INFO]: MR_Ozelot issued server command: /wrp resetpack Lobby
-[18:39:00] [Server thread/ERROR]: null
-org.bukkit.command.CommandException: Cannot execute command 'wrp' in plugin WorldResourcepacks v1.9.0-SNAPSHOT (build 557) - plugin is disabled.
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:987) ~[paper-1.20.4.jar:git-Paper-408]
-	at org.bukkit.craftbukkit.v1_20_R3.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64) ~[paper-1.20.4.jar:git-Paper-408]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.2.9.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:32) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.commands.execution.CommandQueueEntry.a(CommandQueueEntry.java:5) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:101) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:434) ~[?:?]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:336) ~[?:?]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:323) ~[?:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performChatCommand(ServerGamePacketListenerImpl.java:2215) ~[?:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$16(ServerGamePacketListenerImpl.java:2175) ~[?:?]
-	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1455) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:194) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1432) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1355) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1333) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1222) ~[paper-1.20.4.jar:git-Paper-408]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-408]
-	at java.lang.Thread.run(Thread.java:1570) ~[?:?]
-[18:39:27] [Server thread/INFO]: Removed tag 'JumpNrun1' from MR_Ozelot
-[18:39:34] [Server thread/INFO]: MR_Ozelot issued server command: /parkour
-[18:39:34] [Server thread/INFO]: MR_Ozelot issued mycmd (Parkour) command /parkour
-[18:39:34] [Server thread/INFO]: MR_Ozelot issued server command: /mvtp parkour
-[18:39:42] [Server thread/INFO]: MR_Ozelot issued server command: /parkour/mv confirm
-[18:39:47] [Server thread/INFO]: MR_Ozelot issued server command: /mv confirm
-[18:39:50] [Server thread/INFO]: MR_Ozelot issued server command: /gamemode adventure
-[18:39:50] [Server thread/INFO]: [MR_Ozelot: Set own game mode to Adventure Mode]
-[18:39:52] [Server thread/INFO]: MR_Ozelot issued server command: /gamemode creative
-[18:39:52] [Server thread/INFO]: [MR_Ozelot: Set own game mode to Creative Mode]
-[18:39:53] [Server thread/INFO]: MR_Ozelot fell out of the world
-[18:39:56] [Server thread/INFO]: TheProPlayer639 issued server command: //pos1
-[18:40:02] [Server thread/INFO]: LX84 issued server command: /gamemode adventure
-[18:40:02] [Server thread/INFO]: [LX84: Set own game mode to Adventure Mode]
-[18:40:02] [Server thread/INFO]: LX84 issued server command: /gamemode creative
-[18:40:02] [Server thread/INFO]: [LX84: Set own game mode to Creative Mode]
-[18:40:04] [Server thread/INFO]: LX84 issued server command: /gamemode adventure
-[18:40:04] [Server thread/INFO]: [LX84: Set own game mode to Adventure Mode]
-[18:40:04] [Server thread/INFO]: LX84 issued server command: /gamemode creative
-[18:40:04] [Server thread/INFO]: [LX84: Set own game mode to Creative Mode]
-[18:40:05] [Server thread/INFO]: LX84 issued server command: /gamemode adventure
-[18:40:05] [Server thread/INFO]: [LX84: Set own game mode to Adventure Mode]
-[18:40:05] [Server thread/INFO]: LX84 issued server command: /gamemode creative
-[18:40:05] [Server thread/INFO]: [LX84: Set own game mode to Creative Mode]
-[18:40:17] [Server thread/INFO]: LX84 issued server command: /gamemode adventure
-[18:40:17] [Server thread/INFO]: [LX84: Set own game mode to Adventure Mode]
-[18:40:17] [Server thread/INFO]: LX84 issued server command: /gamemode creative
-[18:40:17] [Server thread/INFO]: [LX84: Set own game mode to Creative Mode]
-[18:40:17] [Server thread/INFO]: LX84 issued server command: /gamemode adventure
-[18:40:17] [Server thread/INFO]: [LX84: Set own game mode to Adventure Mode]
-[18:40:23] [Server thread/INFO]: TheProPlayer639 issued server command: //pos2
-[18:40:23] [Server thread/INFO]: LX84 issued server command: /gamemode creative
-[18:40:23] [Server thread/INFO]: [LX84: Set own game mode to Creative Mode]
-[18:40:28] [Server thread/INFO]: TheProPlayer639 issued server command: //replace stone 30%stone,15%chiseled_stone_bricks,5%stone_brick_wall,5%mossy_stone_bricks,10%stone_bricks,25%tuff
-[18:40:29] [Server thread/INFO]: MR_Ozelot issued server command: /tp MR_Ozelot 0 1 0 0 0
-[18:40:29] [Server thread/INFO]: [MR_Ozelot: Teleported MR_Ozelot to 0.500000, 1.000000, 0.500000]
-[18:40:32] [Server thread/INFO]: LX84 issued server command: /gamemode spectator
-[18:40:32] [Server thread/INFO]: [LX84: Set own game mode to Spectator Mode]
-[18:40:35] [Server thread/INFO]: TheProPlayer639 issued server command: /undo
-[18:40:37] [Server thread/INFO]: MR_Ozelot issued server command: /mvsetspawn
-[18:40:44] [Server thread/INFO]: TheProPlayer639 issued server command: //replace stone 30%stone,15%chiseled_stone_bricks,5%mossy_stone_bricks,10%stone_bricks,25%tuff
-[18:40:53] [Server thread/INFO]: LX84 issued server command: /gamemode creative
-[18:40:53] [Server thread/INFO]: [LX84: Set own game mode to Creative Mode]
-[18:40:59] [Server thread/INFO]: LX84 issued server command: /gamemode spectator
-[18:40:59] [Server thread/INFO]: [LX84: Set own game mode to Spectator Mode]
-[18:41:05] [Server thread/INFO]: LX84 issued server command: /gamemode creative
-[18:41:05] [Server thread/INFO]: [LX84: Set own game mode to Creative Mode]
-[18:41:06] [Server thread/INFO]: LX84 issued server command: /gamemode spectator
-[18:41:06] [Server thread/INFO]: [LX84: Set own game mode to Spectator Mode]
-[18:41:08] [Server thread/INFO]: LX84 issued server command: /gamemode creative
-[18:41:08] [Server thread/INFO]: [LX84: Set own game mode to Creative Mode]
-[18:41:09] [Server thread/INFO]: MR_Ozelot issued server command: /hex
-[18:41:09] [Server thread/INFO]: MR_Ozelot issued mycmd (Hex) command /hex
-[18:41:09] [Server thread/INFO]: MR_Ozelot issued server command: /mvtp Hexheat
-[18:41:31] [Server thread/INFO]: MR_Ozelot issued server command: /gamemode creative
-[18:41:31] [Server thread/INFO]: [MR_Ozelot: Set own game mode to Creative Mode]
-[18:41:34] [Server thread/INFO]: MR_Ozelot issued server command: /gamemode spectator
-[18:41:34] [Server thread/INFO]: [MR_Ozelot: Set own game mode to Spectator Mode]
-[18:41:39] [Server thread/INFO]: MR_Ozelot issued server command: /gamemode creative
-[18:41:39] [Server thread/INFO]: [MR_Ozelot: Set own game mode to Creative Mode]
-[18:41:41] [Server thread/INFO]: MR_Ozelot issued server command: /gamemode spectator
-[18:41:41] [Server thread/INFO]: [MR_Ozelot: Set own game mode to Spectator Mode]
-[18:41:44] [Server thread/INFO]: MR_Ozelot issued server command: /gamemode creative
-[18:41:44] [Server thread/INFO]: [MR_Ozelot: Set own game mode to Creative Mode]
-[18:42:04] [Server thread/INFO]: MR_Ozelot issued server command: /team join Hex
-[18:42:04] [Server thread/INFO]: [MR_Ozelot: Added MR_Ozelot to team [Hexagon Heat]]
-[18:42:29] [Server thread/INFO]: MR_Ozelot issued server command: /scoreboard objectives list
-[18:43:06] [Server thread/INFO]: LX84 issued server command: /gamemode spectator
-[18:43:06] [Server thread/INFO]: [LX84: Set own game mode to Spectator Mode]
-[18:43:10] [Server thread/INFO]: LX84 issued server command: /gamemode creative
-[18:43:10] [Server thread/INFO]: [LX84: Set own game mode to Creative Mode]
-[18:43:12] [Server thread/INFO]: LX84 issued server command: /gamemode spectator
-[18:43:12] [Server thread/INFO]: [LX84: Set own game mode to Spectator Mode]
-[18:43:49] [Server thread/INFO]: LX84 issued server command: /gamemode creative
-[18:43:49] [Server thread/INFO]: [LX84: Set own game mode to Creative Mode]
-[18:43:55] [Server thread/INFO]: LX84 issued server command: /gamemode spectator
-[18:43:55] [Server thread/INFO]: [LX84: Set own game mode to Spectator Mode]
-[18:43:56] [Server thread/INFO]: TheProPlayer639 issued server command: //replace stone polished_tuff_slab,tuff_brick_slab,dark_prismarine_slab
-[18:43:59] [Server thread/INFO]: MR_Ozelot issued server command: /team modify Hex color aqua
-[18:43:59] [Server thread/INFO]: [MR_Ozelot: Updated the color for team [Hexagon Heat] to aqua]
-[18:44:03] [Server thread/INFO]: TheProPlayer639 issued server command: /undoa
-[18:44:05] [Server thread/INFO]: TheProPlayer639 issued server command: /undo
-[18:44:08] [Server thread/INFO]: LX84 issued server command: /gamemode creative
-[18:44:08] [Server thread/INFO]: [LX84: Set own game mode to Creative Mode]
-[18:44:33] [Server thread/INFO]: MR_Ozelot issued server command: /team list Hex
-[18:44:40] [Async Chat Thread - #2/INFO]: <MR_Ozelot> jan geh mal HEX
-[18:44:44] [Server thread/INFO]: MR_Ozelot issued server command: /gamemode spectator
-[18:44:44] [Server thread/INFO]: [MR_Ozelot: Set own game mode to Spectator Mode]
-[18:44:48] [Async Chat Thread - #1/INFO]: [Not Secure] <LX84> ja warte
-[18:44:51] [Server thread/INFO]: MR_Ozelot issued server command: /gamemode creative
-[18:44:51] [Server thread/INFO]: [MR_Ozelot: Set own game mode to Creative Mode]
-[18:44:58] [Server thread/INFO]: LX84 issued server command: /mvtp Hexheat
-[18:45:02] [Server thread/INFO]: MR_Ozelot issued server command: /team list Hex
-[18:45:12] [Async Chat Thread - #2/INFO]: <MR_Ozelot> siehst du Score?
-[18:45:20] [Async Chat Thread - #1/INFO]: [Not Secure] <LX84> rechts?
-[18:45:23] [Async Chat Thread - #2/INFO]: <MR_Ozelot> ja
-[18:45:26] [Async Chat Thread - #1/INFO]: [Not Secure] <LX84> ja
-[18:45:28] [Server thread/INFO]: MR_Ozelot issued server command: /gamemode adventure
-[18:45:28] [Server thread/INFO]: [MR_Ozelot: Set own game mode to Adventure Mode]
-[18:45:31] [Async Chat Thread - #2/INFO]: <MR_Ozelot> nice
-[18:45:44] [Server thread/INFO]: TheProPlayer639 issued server command: //replace stone polished_tuff_slab,tuff_brick_slab,dark_prismarine_slab,prismarine_slap,oxidized_cut_copper_slab,oxidized_weathered_cut_copper_stairs
-[18:45:49] [Server thread/INFO]: MR_Ozelot issued server command: /scoreboard objectives modify HexHeatScore displayautoupdate true
-[18:46:17] [Server thread/INFO]: MR_Ozelot issued server command: /scoreboard players remove @a
-[18:46:25] [Server thread/INFO]: MR_Ozelot issued server command: /scoreboard players remove @a HexHeatScore
-[18:46:29] [Server thread/INFO]: MR_Ozelot issued server command: /scoreboard players remove @a HexHeatScore 0
-[18:46:29] [Server thread/INFO]: [MR_Ozelot: Removed 0 from [Score] for 3 entities]
-[18:46:38] [Server thread/INFO]: TheProPlayer639 issued server command: //replace stone polished_tuff_slab,tuff_brick_slab,dark_prismarine_slab,prismarine_slap,waxed_oxidized_cut_copper_slab,waxed_weathered_cut_copper_stairs,waxed_oxidized_copper_trapdoor
-[18:46:54] [Server thread/INFO]: TheProPlayer639 issued server command: //replace stone polished_tuff_slab,tuff_brick_slab,dark_prismarine_slab,waxed_oxidized_cut_copper_slab,waxed_weathered_cut_copper_stairs,waxed_oxidized_copper_trapdoor
-[18:47:11] [Server thread/INFO]: TheProPlayer639 issued server command: /undo
-[18:47:27] [Server thread/INFO]: TheProPlayer639 issued server command: //replace diamond_block polished_tuff_slab,tuff_brick_slab,dark_prismarine_slab,waxed_oxidized_cut_copper_slab,waxed_weathered_cut_copper_stairs,waxed_oxidized_copper_trapdoor
-[18:47:47] [Server thread/INFO]: TheProPlayer639 issued server command: /undo
-[18:47:56] [Server thread/INFO]: TheProPlayer639 issued server command: //replace diamond_block polished_tuff_slab,tuff_brick_slab,dark_prismarine_slab,waxed_oxidized_cut_copper_slab,waxed_weathered_cut_copper_slab,waxed_oxidized_copper_trapdoor
-[18:48:24] [Server thread/INFO]: MR_Ozelot issued server command: /l
-[18:48:24] [Server thread/INFO]: MR_Ozelot issued mycmd (l) command /l
-[18:48:24] [Server thread/INFO]: MR_Ozelot issued server command: /mvtp lobby
-[18:48:38] [Server thread/INFO]: MR_Ozelot issued server command: /parkour
-[18:48:38] [Server thread/INFO]: MR_Ozelot issued mycmd (Parkour) command /parkour
-[18:48:38] [Server thread/INFO]: MR_Ozelot issued server command: /mvtp parkour
-[18:48:52] [Server thread/INFO]: MR_Ozelot issued server command: /gamemode adventure
-[18:48:52] [Server thread/INFO]: [MR_Ozelot: Set own game mode to Adventure Mode]
-[18:48:54] [Server thread/INFO]: MR_Ozelot issued server command: /gamemode creative
-[18:48:54] [Server thread/INFO]: [MR_Ozelot: Set own game mode to Creative Mode]
-[18:49:16] [Server thread/INFO]: TheProPlayer639 issued server command: //replace diamond_block polished_tuff_slab,tuff_brick_slab,dark_prismarine_slab,waxed_oxidized_cut_copper_slab,waxed_weathered_cut_copper_slab,waxed_oxidized_copper_trapdoor
-[18:49:17] [Server thread/INFO]: LX84 issued server command: /mvtp Lobby
-[18:49:20] [Server thread/INFO]: LX84 issued server command: /gamemode creative
-[18:49:20] [Server thread/INFO]: [LX84: Set own game mode to Creative Mode]
-[18:49:37] [Server thread/INFO]: TheProPlayer639 issued server command: //replace diamond_block polished_tuff_slab,tuff_brick_slab,dark_prismarine_slab,waxed_oxidized_cut_copper_slab,waxed_weathered_cut_copper_slab,waxed_oxidized_copper_trapdoor
-[18:49:41] [Server thread/INFO]: MR_Ozelot issued server command: /mvmset gamemode adventure
-[18:49:45] [Server thread/INFO]: TheProPlayer639 issued server command: /gamemode creative
-[18:49:45] [Server thread/INFO]: [TheProPlayer639: Set own game mode to Creative Mode]
-[18:49:47] [Server thread/INFO]: MR_Ozelot issued server command: /gamemode creative
-[18:49:47] [Server thread/INFO]: [MR_Ozelot: Set own game mode to Creative Mode]
-[18:49:49] [Server thread/INFO]: LX84 issued server command: /tp LX84 MR_Ozelot
-[18:49:49] [Server thread/INFO]: [LX84: Teleported LX84 to MR_Ozelot]
-[18:49:54] [Server thread/INFO]: LX84 issued server command: /gamemode creative
-[18:49:54] [Server thread/INFO]: [LX84: Set own game mode to Creative Mode]
-[18:49:59] [Server thread/INFO]: MR_Ozelot issued server command: /survival
-[18:49:59] [Server thread/INFO]: MR_Ozelot issued mycmd (Survival) command /survival
-[18:49:59] [Server thread/INFO]: MR_Ozelot issued server command: /mvtp world
-[18:49:59] [Server thread/INFO]: TheProPlayer639 issued server command: //replace diamond_block polished_tuff_slab,tuff_brick_slab,dark_prismarine_slab,waxed_oxidized_cut_copper_slab,waxed_weathered_cut_copper_slab,waxed_oxidized_copper_trapdoor
-[18:50:00] [Server thread/INFO]: LX84 issued server command: /l
-[18:50:00] [Server thread/INFO]: LX84 issued mycmd (l) command /l
-[18:50:00] [Server thread/INFO]: LX84 issued server command: /mvtp lobby
-[18:50:03] [Server thread/INFO]: LX84 issued server command: /gamemode creative
-[18:50:03] [Server thread/INFO]: [LX84: Set own game mode to Creative Mode]
-[18:50:14] [Server thread/INFO]: TheProPlayer639 issued server command: //replace diamond_block polished_tuff_slab,tuff_brick_slab,dark_prismarine_slab,waxed_oxidized_cut_copper_slab,waxed_weathered_cut_copper_slab,waxed_oxidized_copper_trapdoor
-[18:50:14] [Server thread/INFO]: MR_Ozelot issued server command: /gamemode creative
-[18:50:14] [Server thread/INFO]: [MR_Ozelot: Set own game mode to Creative Mode]
-[18:50:54] [Server thread/INFO]: MR_Ozelot issued server command: /survival
-[18:50:54] [Server thread/INFO]: MR_Ozelot issued mycmd (Survival) command /survival
-[18:50:54] [Server thread/INFO]: MR_Ozelot issued server command: /mvtp world
-[18:50:55] [Server thread/INFO]: MR_Ozelot issued server command: /gamemode adventure
-[18:50:55] [Server thread/INFO]: [MR_Ozelot: Set own game mode to Adventure Mode]
-[18:50:57] [Server thread/INFO]: MR_Ozelot issued server command: /gamemode creative
-[18:50:57] [Server thread/INFO]: [MR_Ozelot: Set own game mode to Creative Mode]
-[18:50:57] [Server thread/INFO]: LX84 issued server command: /gamemode spectator
-[18:50:57] [Server thread/INFO]: [LX84: Set own game mode to Spectator Mode]
-[18:51:07] [Server thread/INFO]: LX84 issued server command: /gamemode creative
-[18:51:07] [Server thread/INFO]: [LX84: Set own game mode to Creative Mode]
-[18:51:07] [Server thread/INFO]: MR_Ozelot issued server command: /gamemode spectator
-[18:51:07] [Server thread/INFO]: [MR_Ozelot: Set own game mode to Spectator Mode]
-[18:51:13] [Server thread/INFO]: MR_Ozelot issued server command: /gamemode creative
-[18:51:13] [Server thread/INFO]: [MR_Ozelot: Set own game mode to Creative Mode]
-[18:52:06] [Server thread/INFO]: MR_Ozelot issued server command: /tag MR_Ozelot list
-[18:52:12] [Server thread/INFO]: MR_Ozelot issued server command: /arcade
-[18:52:12] [Server thread/INFO]: MR_Ozelot issued mycmd (Arcade) command /arcade
-[18:52:12] [Server thread/INFO]: MR_Ozelot issued server command: /mvtp Arcade
-[18:52:16] [Server thread/INFO]: MR_Ozelot issued server command: /survival
-[18:52:16] [Server thread/INFO]: MR_Ozelot issued mycmd (Survival) command /survival
-[18:52:16] [Server thread/INFO]: MR_Ozelot issued server command: /mvtp world
-[18:52:19] [Server thread/INFO]: MR_Ozelot issued server command: /tag MR_Ozelot list
-[18:53:36] [Server thread/INFO]: TheProPlayer639 issued server command: /br s gold_block 5
-[18:53:40] [Server thread/INFO]: TheProPlayer639 issued server command: /br s gold_block 3
-[18:54:09] [Server thread/INFO]: MR_Ozelot issued server command: /restart
-[18:54:09] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
-[18:54:09] [Server thread/INFO]: TheProPlayer639 lost connection: Server is restarting
-[18:54:09] [Server thread/INFO]: [voicechat] Disconnecting client TheProPlayer639
-[18:54:09] [Server thread/INFO]: TheProPlayer639 left the game
-[18:54:09] [Server thread/INFO]: LX84 lost connection: Server is restarting
-[18:54:09] [Server thread/INFO]: [voicechat] Disconnecting client LX84
-[18:54:09] [Server thread/INFO]: LX84 left the game
-[18:54:09] [Server thread/INFO]: MR_Ozelot lost connection: Server is restarting
-[18:54:09] [Server thread/INFO]: [voicechat] Disconnecting client MR_Ozelot
-[18:54:09] [Server thread/INFO]: MR_Ozelot left the game
-[18:54:09] [Server thread/INFO]: Stopping server
-[18:54:09] [Server thread/INFO]: [AntiXRay] Disabling AntiXRay v1.9.0
-[18:54:09] [Server thread/INFO]: [BlueMap] Disabling BlueMap v3.20
-[18:54:09] [Server thread/INFO]: [BlueMap] Stopping...
-[18:54:09] [Server thread/INFO]: [BlueMap] Saved and stopped!
-[18:54:09] [Server thread/INFO]: [CraftAttackSpawnBoost] Disabling CraftAttackSpawnBoost v1.1
-[18:54:09] [Server thread/INFO]: [FancyNpcs] Disabling FancyNpcs v2.0.7
-[18:54:09] [Server thread/INFO]: [GCore] Disabling GCore v8.48.0
-[18:54:09] [Server thread/INFO]: [KillCounter] Disabling KillCounter v1.3
-[18:54:09] [Server thread/INFO]: [KillCounter] [STDOUT] [KillCounter] Alle KillCounter wurden deaktiviert!
-[18:54:09] [Server thread/WARN]: Nag author(s): '[Stuppsman]' of 'KillCounter v1.3' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
-[18:54:09] [Server thread/INFO]: [KillCounter] [STDOUT] [KillCounter] Die KillCounter wurden erfolgreich gespeichert!
-[18:54:09] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.117
-[18:54:09] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[18:54:09] [Server thread/INFO]: [LuckPerms] Closing storage...
-[18:54:09] [Server thread/INFO]: [LuckPerms] Goodbye!
-[18:54:09] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v4.2.6
-[18:54:09] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.2.3
-[18:54:09] [Server thread/INFO]: [MyCommand] Disabling MyCommand v5.7.4
-[18:54:09] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-* MyCommand v.5.7.4*-=-=-=-=-=-=-=-=-=-*
-[18:54:09] [Server thread/INFO]: | Tasks : Stopped all tasks.
-[18:54:09] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-*    Bye!   *-=-=-=-=-=-=-=-=-=-=-*
-[18:54:09] [Server thread/INFO]: [OpenInv] Disabling OpenInv v4.4.2
-[18:54:09] [Server thread/INFO]: [tpLogin] Disabling tpLogin v1.5.1
-[18:54:09] [Server thread/INFO]: tpLogin v1.5.1 has been disabled.
-[18:54:09] [Server thread/INFO]: [voicechat] Disabling voicechat v2.5.2
-[18:54:09] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.19+6642-415ef95
-[18:54:09] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[18:54:09] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
-[18:54:09] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.2.2-SNAPSHOT
-[18:54:09] [Server thread/INFO]: [Geyser-Spigot] Geyser wird beendet.
-[18:54:09] [Server thread/INFO]: [Geyser-Spigot] Geyser erfolgreich beendet.
-[18:54:09] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
-[18:54:09] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[18:54:09] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.2-SNAPSHOT (b90-2886a71)
-[18:54:09] [Server thread/INFO]: Saving players
-[18:54:09] [WebSocketConnectReadThread-139/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[18:54:09] [Server thread/INFO]: Saving worlds
-[18:54:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18:54:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[18:54:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[18:54:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Saved 207 block chunks, 253 entity chunks, 0 poi chunks in world 'world' in 0,25s
-[18:54:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:54:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 48 entity chunks, 0 poi chunks in world 'world_nether' in 0,01s
-[18:54:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:54:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0,00s
-[18:54:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:54:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[PvP_S]'/minecraft:pvp_s
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'PvP_S'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'PvP_S'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'PvP_S'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'PvP_S' in 0,00s
-[18:54:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (PvP_S): All chunks are saved
-[18:54:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Bed_Wars]'/minecraft:bed_wars
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Bed_Wars'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Bed_Wars'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Bed_Wars'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 3 entity chunks, 0 poi chunks in world 'Bed_Wars' in 0,00s
-[18:54:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (Bed_Wars): All chunks are saved
-[18:54:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[shop]'/minecraft:shop
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'shop'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'shop'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'shop'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 10 entity chunks, 0 poi chunks in world 'shop' in 0,00s
-[18:54:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (shop): All chunks are saved
-[18:54:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Spleef]'/minecraft:spleef
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Spleef'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Spleef'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Spleef'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'Spleef' in 0,00s
-[18:54:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (Spleef): All chunks are saved
-[18:54:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[PvP]'/minecraft:pvp
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'PvP'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'PvP'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'PvP'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 0 entity chunks, 0 poi chunks in world 'PvP' in 0,00s
-[18:54:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (PvP): All chunks are saved
-[18:54:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[PvP_J]'/minecraft:pvp_j
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'PvP_J'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'PvP_J'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'PvP_J'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'PvP_J' in 0,00s
-[18:54:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (PvP_J): All chunks are saved
-[18:54:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Hexheat]'/minecraft:hexheat
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Hexheat'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Hexheat'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Hexheat'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Saved 2 block chunks, 0 entity chunks, 0 poi chunks in world 'Hexheat' in 0,00s
-[18:54:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (Hexheat): All chunks are saved
-[18:54:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Arcade]'/minecraft:arcade
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Arcade'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Arcade'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Arcade'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Saved 28 block chunks, 27 entity chunks, 0 poi chunks in world 'Arcade' in 0,01s
-[18:54:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (Arcade): All chunks are saved
-[18:54:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[BW_1v1_M1]'/minecraft:bw_1v1_m1
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'BW_1v1_M1'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'BW_1v1_M1'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'BW_1v1_M1'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'BW_1v1_M1' in 0,00s
-[18:54:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (BW_1v1_M1): All chunks are saved
-[18:54:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[PvP_F]'/minecraft:pvp_f
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'PvP_F'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'PvP_F'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'PvP_F'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'PvP_F' in 0,00s
-[18:54:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (PvP_F): All chunks are saved
-[18:54:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[lobby]'/minecraft:lobby
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'lobby'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'lobby'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'lobby'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Saved 30 block chunks, 28 entity chunks, 0 poi chunks in world 'lobby' in 0,01s
-[18:54:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (lobby): All chunks are saved
-[18:54:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Pit]'/minecraft:pit
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Pit'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Pit'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Pit'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Saved 2 block chunks, 1 entity chunks, 0 poi chunks in world 'Pit' in 0,00s
-[18:54:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (Pit): All chunks are saved
-[18:54:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[parkour]'/minecraft:parkour
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'parkour'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'parkour'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'parkour'
-[18:54:10] [Server thread/INFO]: [ChunkHolderManager] Saved 17 block chunks, 4 entity chunks, 0 poi chunks in world 'parkour' in 0,01s
-[18:54:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (parkour): All chunks are saved
-[18:54:10] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[18:54:10] [Server thread/INFO]: Flushing Chunk IO
-[18:54:10] [Server thread/INFO]: Closing Thread Pool
-[18:54:10] [Server thread/INFO]: Closing Server
+[19:16:18] [Server thread/INFO]: [tpLogin] Enabling tpLogin v1.5.1*
+[19:16:18] [Server thread/INFO]: 
+[19:16:18] [Server thread/INFO]: tpLogin v1.5.1 has been enabled!
+[19:16:18] [Server thread/INFO]: [ProJumpPads] Enabling ProJumpPads v4.0
+[19:16:18] [Server thread/INFO]: [ProJumpPads] Jump pads will load after 10 seconds...
+[19:16:18] [Server thread/INFO]: [OpenInv] Enabling OpenInv v4.4.2
+[19:16:18] [Server thread/INFO]: [MyCommand] Enabling MyCommand v5.7.4
+[19:16:18] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-* MyCommand v.5.7.4*-=-=-=-=-=-=-=-=-=-*
+[19:16:18] [Server thread/INFO]: | Vault plugin not found. Using BukkitPermissions
+[19:16:18] [Server thread/INFO]: | No Economy support without Vault!
+[19:16:18] [Server thread/INFO]: | Command file(s) found : 12
+[19:16:18] [Server thread/INFO]: | Config : Ready.
+[19:16:18] [Server thread/INFO]: | ProtocolLib not found.
+[19:16:18] [Server thread/INFO]: | PlaceholderAPI: Not Found
+[19:16:19] [Server thread/INFO]: | Duplicated command found. shortcut in examples.yml
+[19:16:19] [Server thread/INFO]: | Custom commands loaded : 55
+[19:16:19] [Server thread/INFO]: | You're running the latest version of MyCommand.
+[19:16:19] [Server thread/INFO]: |          by emmerrei a.k.a. ivanfromitaly.           
+[19:16:19] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-*   Done!   *-=-=-=-=-=-=-=-=-=-=-*
+[19:16:19] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v4.2.3
+[19:16:19] [Server thread/INFO]: [Multiverse-Portals] 2 - Portals(s) loaded
+[19:16:19] [Server thread/INFO]: [Multiverse-Portals] Found WorldEdit. Using it for selections.
+[19:16:19] [Server thread/INFO]: [Multiverse-Portals 4.2.3]  Enabled - By Rigby and fernferret
+[19:16:19] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v4.2.6
+[19:16:19] [Server thread/INFO]: [Multiverse-Inventories 4.2.6] enabled.
+[19:16:19] [Server thread/INFO]: [KillCounter] Enabling KillCounter v1.3*
+[19:16:19] [Server thread/INFO]: [KillCounter] [STDOUT] [KillCounter] KillCounter v1.3 wurde aktiviert!
+[19:16:19] [Server thread/WARN]: Nag author(s): '[Stuppsman]' of 'KillCounter v1.3' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[19:16:19] [Server thread/INFO]: [KillCounter] [STDOUT] [KillCounter]Die KillCounter wurden erfolgreich geladen!
+[19:16:19] [Server thread/INFO]: [GCore] Enabling GCore v8.48.0
+[19:16:19] [Server thread/INFO]: [GCore-migration] Already processed v7 -> v8 (config)
+[19:16:19] [Server thread/INFO]: [GCore-migration] Already processed v7 -> v8 (data)
+[19:16:19] [Server thread/INFO]: [GCore-migration] Already processed v8.4 -> v8.5
+[19:16:19] [Server thread/INFO]: [GCore-migration] Already processed v8.8 -> v8.9
+[19:16:19] [Server thread/INFO]: [GCore-migration] Already processed v8.23 -> v8.24
+[19:16:19] [Server thread/INFO]: [GCore-migration] Already processed v8.24 -> v8.25
+[19:16:19] [Server thread/INFO]: [GCore-migration] Already processed v8.29 -> v8.30
+[19:16:19] [Server thread/INFO]: [GCore-8.48.0] Found server version MC_1_20_R1
+[19:16:19] [Server thread/INFO]: [GCore-8.48.0] Loading materials...
+[19:16:19] [WorldResourcepacks Thread - 1/ERROR]: [WorldResourcepacks] Could not load examplepack! FileNotFoundException: http://example.com/lobbyresourcepack.zip
+[19:16:19] [WorldResourcepacks Thread - 1/WARN]: [WorldResourcepacks] IO error while trying to generate hash of pack examplepack from url http://example.com/lobbyresourcepack.zip
+[19:16:19] [WorldResourcepacks Thread - 1/INFO]: [WorldResourcepacks] Downloading gamepack-variant-1...
+[19:16:19] [Server thread/INFO]: [GCore-8.48.0] Loading sounds...
+[19:16:19] [Server thread/INFO]: [GCore-8.48.0] Loading particles...
+[19:16:19] [Server thread/INFO]: [GCore-8.48.0] Enabled currency XP_LEVEL
+[19:16:19] [Server thread/INFO]: [GCore-8.48.0] Enabled currency XP
+[19:16:19] [Server thread/INFO]: [GCore-8.48.0] Loading texts...
+[19:16:19] [Server thread/INFO]: [GCore-8.48.0] Text durationformatdays doesn't exist in default files (not even in en_US)
+[19:16:19] [Server thread/INFO]: [GCore-8.48.0] Loaded 1 missing text from default lang for generic.yml : durationFormatDays
+[19:16:19] [Server thread/INFO]: [GCore-8.48.0] Initializing worker and caches
+[19:16:19] [Server thread/INFO]: [GCore-8.48.0] Registering integrations
+[19:16:19] [Server thread/INFO]: [GCore-8.48.0] Initializing tasks and listeners
+[19:16:19] [Server thread/INFO]: [GCore-8.48.0] Successfully enabled
+[19:16:19] [Server thread/INFO]: [FancyNpcs] Enabling FancyNpcs v2.0.7
+[19:16:19] [Server thread/INFO]: [CraftAttackSpawnBoost] Enabling CraftAttackSpawnBoost v1.1
+[19:16:19] [Server thread/INFO]: [BlueMap] Enabling BlueMap v3.20
+[19:16:19] [BlueMap-Load/INFO]: [BlueMap] Loading...
+[19:16:19] [Server thread/INFO]: [AntiXRay] Enabling AntiXRay v1.9.0
+[19:16:20] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[19:16:20] [Server thread/INFO]: [Geyser-Spigot] 
+[19:16:20] [Server thread/INFO]: [Geyser-Spigot] Geyser Version 2.2.2-SNAPSHOT (git-master-19c6648) wird geladen
+[19:16:20] [Server thread/INFO]: [Geyser-Spigot] 
+[19:16:20] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[19:16:20] [Thread-14/WARN]: [FancyNpcs] -------------------------------------------------------
+[19:16:20] [Thread-14/WARN]: [FancyNpcs] You are not using the latest version the FancyNpcs plugin.
+[19:16:20] [Thread-14/WARN]: [FancyNpcs] Please update to the newest version (2.4.1).
+[19:16:20] [Thread-14/WARN]: [FancyNpcs] https://modrinth.com/plugin/FancyNpcs
+[19:16:20] [Thread-14/WARN]: [FancyNpcs] -------------------------------------------------------
+[19:16:20] [WorldResourcepacks Thread - 1/ERROR]: [WorldResourcepacks] Could not load gamepack-variant-1! FileNotFoundException: http://example.com/minigameresourcepack_1_15.zip
+[19:16:20] [WorldResourcepacks Thread - 1/WARN]: [WorldResourcepacks] IO error while trying to generate hash of pack gamepack-variant-1 from url http://example.com/minigameresourcepack_1_15.zip
+[19:16:20] [WorldResourcepacks Thread - 1/INFO]: [WorldResourcepacks] Downloading gamepack-variant-2...
+[19:16:20] [BlueMap-Load/INFO]: [BlueMap] Loading resources...
+[19:16:20] [BlueMap-Load/INFO]: [BlueMap] Loading textures...
+[19:16:20] [WorldResourcepacks Thread - 1/ERROR]: [WorldResourcepacks] Could not load gamepack-variant-2! FileNotFoundException: http://example.com/minigameresourcepack_1_12.zip
+[19:16:20] [WorldResourcepacks Thread - 1/WARN]: [WorldResourcepacks] IO error while trying to generate hash of pack gamepack-variant-2 from url http://example.com/minigameresourcepack_1_12.zip
+[19:16:20] [WorldResourcepacks Thread - 1/INFO]: [WorldResourcepacks] Downloading lobby...
+[19:16:21] [WorldResourcepacks Thread - 1/ERROR]: [WorldResourcepacks] Could not load lobby! FileNotFoundException: https://github.com/SkullGamer727/shloppatMCServer/raw/refs/heads/main/Texture%20packs/Lobby.zip
+[19:16:21] [WorldResourcepacks Thread - 1/WARN]: [WorldResourcepacks] IO error while trying to generate hash of pack lobby from url https://github.com/SkullGamer727/shloppatMCServer/raw/refs/heads/main/Texture%20packs/Lobby.zip
+[19:16:21] [WorldResourcepacks Thread - 1/INFO]: [WorldResourcepacks] Downloading arcade...
+[19:16:21] [WorldResourcepacks Thread - 1/ERROR]: [WorldResourcepacks] Could not load arcade! FileNotFoundException: https://github.com/SkullGamer727/shloppatMCServer/raw/refs/heads/main/Texture%20packs/Arcade.zip
+[19:16:21] [WorldResourcepacks Thread - 1/WARN]: [WorldResourcepacks] IO error while trying to generate hash of pack arcade from url https://github.com/SkullGamer727/shloppatMCServer/raw/refs/heads/main/Texture%20packs/Arcade.zip
+[19:16:21] [WorldResourcepacks Thread - 1/INFO]: [WorldResourcepacks] Downloading empty...
+[19:16:22] [WorldResourcepacks Thread - 1/INFO]: [WorldResourcepacks] SHA 1 hash of empty: 01517226212d27586ea0c5d6aff1aa5492dd2484
+[19:16:22] [WorldResourcepacks Thread - 1/INFO]: [WorldResourcepacks] No hash changed!
+[19:16:22] [Server thread/INFO]: [Geyser-Spigot] Geyser wurde unter 0.0.0.0:19132 gestartet
+[19:16:22] [Server thread/INFO]: [Geyser-Spigot] Fertig (2,7s)! Verwende /geyser help für Hilfe!
+[19:16:22] [Server thread/INFO]: Starting GS4 status listener
+[19:16:22] [Server thread/INFO]: Thread Query Listener started
+[19:16:22] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[19:16:22] [Server thread/INFO]: Running delayed init tasks
+[19:16:22] [Craft Scheduler Thread - 1 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[19:16:22] [Server thread/INFO]: [Multiverse-Inventories] First run!
+[19:16:22] [Server thread/INFO]: Done (14.172s)! For help, type "help"
+[19:16:22] [Server thread/INFO]: Timings Reset
+[19:16:22] [Server thread/INFO]: [voicechat] Loading plugins
+[19:16:22] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[19:16:22] [Server thread/INFO]: [voicechat] Initializing plugins
+[19:16:22] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[19:16:22] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[19:16:22] [ForkJoinPool.commonPool-worker-2/INFO]: [Geyser-Spigot] Es steht ein neues Geyser Update zur Unterstützung von Bedrock Version 1.21.51 zur Verfügung. Laden Sie es hier herunter: https://geysermc.org/download
+[19:16:23] [Server thread/INFO]: TheProPlayer639 (/87.159.157.58:62888) lost connection: Disconnected
+[19:16:23] [BlueMap-Load/INFO]: [BlueMap] Baking resources...
+[19:16:23] [BlueMap-Load/INFO]: [BlueMap] Resources loaded.
+[19:16:23] [BlueMap-Load/INFO]: [BlueMap] Loading world 'b701cb03-9aaa-4e61-b721-425144b35dc8' (C:\Users\Niklas\Documents\MC server\shloppat\world)...
+[19:16:23] [BlueMap-Load/INFO]: [BlueMap] Initializing Storage: 'file' (Type: FILE)
+[19:16:23] [BlueMap-Load/INFO]: [BlueMap] Loading map 'Survival overworld'...
+[19:16:23] [BlueMap-Load/INFO]: [BlueMap] Loading world 'a785135a-3dda-4552-a192-5c9e4a4b86e9' (C:\Users\Niklas\Documents\MC server\shloppat\world_the_end\DIM1)...
+[19:16:23] [BlueMap-Load/INFO]: [BlueMap] Loading map 'Survival End'...
+[19:16:23] [BlueMap-Load/INFO]: [BlueMap] Loading world 'dfd05576-1755-4dbb-bafc-13d65b84ea3b' (C:\Users\Niklas\Documents\MC server\shloppat\Lobby)...
+[19:16:23] [BlueMap-Load/INFO]: [BlueMap] Loading map 'Lobby'...
+[19:16:23] [BlueMap-Load/INFO]: [BlueMap] Loading world 'b74cbd5d-5996-4d29-9db8-b19e51def239' (C:\Users\Niklas\Documents\MC server\shloppat\world_nether\DIM-1)...
+[19:16:23] [BlueMap-Load/INFO]: [BlueMap] Loading map 'Survival Nether'...
+[19:16:23] [BlueMap-Load/INFO]: [BlueMap] Loading world 'fc99b05d-fb9f-45c6-b65f-1372e5c82c81' (C:\Users\Niklas\Documents\MC server\shloppat\Pit)...
+[19:16:23] [BlueMap-Load/INFO]: [BlueMap] Loading map 'Pit'...
+[19:16:23] [BlueMap-Load/INFO]: [BlueMap] WebServer bound to all network interfaces on port 8100
+[19:16:23] [Thread-20/INFO]: [BlueMap] WebServer started.
+[19:16:23] [BlueMap-Load/INFO]: [BlueMap] Loaded!
+[19:16:26] [User Authenticator #0/INFO]: UUID of player MR_Ozelot is 762e430d-c0a7-4ffc-a39c-4e76a3ff2241
+[19:16:26] [Server thread/INFO]: Detected the PlayerJoinEvent of player MR_Ozelot
+[19:16:26] [Server thread/INFO]: Forced MR_Ozelot to defined location.
+[19:16:26] [Server thread/INFO]: MR_Ozelot joined the game
+[19:16:26] [Server thread/INFO]: MR_Ozelot[/93.131.253.73:53887] logged in with entity id 229 at ([lobby]192.94374600682713, 26.0, 943.982833298634)
+[19:16:27] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] MR_Ozelot matched assignment Lobby due to main packs
+[19:16:27] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Send pack lobby (https://github.com/SkullGamer727/shloppatMCServer/raw/refs/heads/main/Texture%20packs/Lobby.zip) to MR_Ozelot
+[19:16:27] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Not sending message to CraftPlayer{name=MR_Ozelot} on packsChange as we are not in an environment where we should (key is empty in key.yml)
+[19:16:27] [Craft Scheduler Thread - 3 - FancyNpcs/INFO]: [ChatColorHandler] Found MiniMessage in Server. MiniMessage support enabled.
+[19:16:32] [Craft Scheduler Thread - 14 - ProJumpPads/INFO]: [ProJumpPads] Loaded 0 jump pad successfully!
+[19:16:32] [Craft Scheduler Thread - 14 - ProJumpPads/INFO]: [ProJumpPads] Plugin is up to date!
+[19:16:39] [Server thread/INFO]: MR_Ozelot issued server command: /mvtp Arcade
+[19:16:39] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] MR_Ozelot matched assignment Arcade due to main packs
+[19:16:39] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Removed pack lobby (0d4c3d1b-3f0c-34e4-aae9-e9598ed745db) from MR_Ozelot
+[19:16:39] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Send pack arcade (https://github.com/SkullGamer727/shloppatMCServer/raw/refs/heads/main/Texture%20packs/Arcade.zip) to MR_Ozelot
+[19:16:39] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Not sending message to CraftPlayer{name=MR_Ozelot} on packsChange as we are not in an environment where we should (key is empty in key.yml)
+[19:16:43] [User Authenticator #0/INFO]: UUID of player TheProPlayer639 is ac44621c-00d6-45a0-b025-850eb3db4aee
+[19:16:44] [Server thread/INFO]: Detected the PlayerJoinEvent of player TheProPlayer639
+[19:16:44] [Server thread/INFO]: Forced TheProPlayer639 to defined location.
+[19:16:44] [Server thread/INFO]: TheProPlayer639 joined the game
+[19:16:44] [Server thread/INFO]: TheProPlayer639[/87.159.157.58:63011] logged in with entity id 266 at ([lobby]192.94374600682713, 26.0, 943.982833298634)
+[19:16:44] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] TheProPlayer639 matched assignment Lobby due to main packs
+[19:16:44] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Send pack lobby (https://github.com/SkullGamer727/shloppatMCServer/raw/refs/heads/main/Texture%20packs/Lobby.zip) to TheProPlayer639
+[19:16:44] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Not sending message to CraftPlayer{name=TheProPlayer639} on packsChange as we are not in an environment where we should (key is empty in key.yml)
+[19:16:44] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] TheProPlayer639 matched assignment Lobby due to main packs
+[19:16:44] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Not sending message to CraftPlayer{name=TheProPlayer639} on packsChange as we are not in an environment where we should (key is empty in key.yml)
+[19:16:56] [Server thread/INFO]: MR_Ozelot issued server command: /mvtp spleef
+[19:16:57] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] MR_Ozelot ResourcePackSelectEvent Status: UNKNOWN
+[19:16:57] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Removed pack arcade (2ececd0e-63e4-38b6-b751-4044265f451c) from MR_Ozelot
+[19:16:57] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Not sending message to CraftPlayer{name=MR_Ozelot} on clearPack as we are not in an environment where we should (key is empty in key.yml)
+[19:17:05] [Server thread/INFO]: MR_Ozelot issued server command: /l
+[19:17:05] [Server thread/INFO]: MR_Ozelot issued mycmd (l) command /l
+[19:17:05] [Server thread/INFO]: MR_Ozelot issued server command: /mvtp lobby
+[19:17:05] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] MR_Ozelot matched assignment Lobby due to main packs
+[19:17:05] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Send pack lobby (https://github.com/SkullGamer727/shloppatMCServer/raw/refs/heads/main/Texture%20packs/Lobby.zip) to MR_Ozelot
+[19:17:05] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Not sending message to CraftPlayer{name=MR_Ozelot} on packsChange as we are not in an environment where we should (key is empty in key.yml)
+[19:17:15] [Server thread/INFO]: TheProPlayer639 lost connection: Disconnected
+[19:17:15] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Not sending message to CraftPlayer{name=TheProPlayer639} on clearPack as we are not in an environment where we should (key is empty in key.yml)
+[19:17:15] [Server thread/INFO]: [voicechat] Disconnecting client TheProPlayer639
+[19:17:15] [Server thread/INFO]: TheProPlayer639 left the game
+[19:17:17] [User Authenticator #0/INFO]: UUID of player TheProPlayer639 is ac44621c-00d6-45a0-b025-850eb3db4aee
+[19:17:17] [Server thread/INFO]: Detected the PlayerJoinEvent of player TheProPlayer639
+[19:17:17] [Server thread/INFO]: Forced TheProPlayer639 to defined location.
+[19:17:17] [Server thread/INFO]: TheProPlayer639 joined the game
+[19:17:17] [Server thread/INFO]: TheProPlayer639[/87.159.157.58:63072] logged in with entity id 268 at ([lobby]192.94374600682713, 26.0, 943.982833298634)
+[19:17:18] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] TheProPlayer639 matched assignment Lobby due to main packs
+[19:17:18] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Send pack lobby (https://github.com/SkullGamer727/shloppatMCServer/raw/refs/heads/main/Texture%20packs/Lobby.zip) to TheProPlayer639
+[19:17:18] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Not sending message to CraftPlayer{name=TheProPlayer639} on packsChange as we are not in an environment where we should (key is empty in key.yml)
+[19:18:12] [Server thread/INFO]: TheProPlayer639 issued server command: /npc displayName BW LOLOLOLOL
+[19:18:43] [Server thread/INFO]: TheProPlayer639 issued server command: /npc playerCommand BW mvtp parkour
+[19:18:44] [Server thread/INFO]: TheProPlayer639 issued server command: /mvtp parkour
+[19:18:45] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] TheProPlayer639 ResourcePackSelectEvent Status: UNKNOWN
+[19:18:45] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Removed pack lobby (0d4c3d1b-3f0c-34e4-aae9-e9598ed745db) from TheProPlayer639
+[19:18:45] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Not sending message to CraftPlayer{name=TheProPlayer639} on clearPack as we are not in an environment where we should (key is empty in key.yml)
+[19:18:49] [Server thread/INFO]: [@: Set TheProPlayer639's game mode to Creative Mode]
+[19:19:06] [User Authenticator #1/INFO]: UUID of player LX84 is 3962a548-62ac-4a90-94b9-07aad1e2df32
+[19:19:06] [Server thread/INFO]: Detected the PlayerJoinEvent of player LX84
+[19:19:06] [Server thread/INFO]: Forced LX84 to defined location.
+[19:19:06] [Server thread/INFO]: LX84 joined the game
+[19:19:06] [Server thread/INFO]: LX84[/93.131.253.73:63791] logged in with entity id 269 at ([lobby]192.94374600682713, 26.0, 943.982833298634)
+[19:19:06] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] LX84 matched assignment Lobby due to main packs
+[19:19:06] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Send pack lobby (https://github.com/SkullGamer727/shloppatMCServer/raw/refs/heads/main/Texture%20packs/Lobby.zip) to LX84
+[19:19:06] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Not sending message to CraftPlayer{name=LX84} on packsChange as we are not in an environment where we should (key is empty in key.yml)
+[19:19:08] [Server thread/INFO]: TheProPlayer639 issued server command: /br s gold_block 3
+[19:19:10] [Server thread/INFO]: Removed tag 'JumpNrun1' from MR_Ozelot
+[19:19:16] [Server thread/INFO]: MR_Ozelot issued server command: /l
+[19:19:16] [Server thread/INFO]: MR_Ozelot issued mycmd (l) command /l
+[19:19:16] [Server thread/INFO]: MR_Ozelot issued server command: /mvtp lobby
+[19:19:16] [Server thread/INFO]: LX84 issued server command: /gamemode creative
+[19:19:16] [Server thread/INFO]: [LX84: Set own game mode to Creative Mode]
+[19:19:16] [Server thread/INFO]: TheProPlayer639 issued server command: /undo
+[19:19:45] [Server thread/INFO]: MR_Ozelot issued server command: /mvtp Arcade
+[19:19:46] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] MR_Ozelot matched assignment Arcade due to main packs
+[19:19:46] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Removed pack lobby (0d4c3d1b-3f0c-34e4-aae9-e9598ed745db) from MR_Ozelot
+[19:19:46] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Send pack arcade (https://github.com/SkullGamer727/shloppatMCServer/raw/refs/heads/main/Texture%20packs/Arcade.zip) to MR_Ozelot
+[19:19:46] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Not sending message to CraftPlayer{name=MR_Ozelot} on packsChange as we are not in an environment where we should (key is empty in key.yml)
+[19:19:55] [Server thread/INFO]: MR_Ozelot issued server command: /l
+[19:19:55] [Server thread/INFO]: MR_Ozelot issued mycmd (l) command /l
+[19:19:55] [Server thread/INFO]: MR_Ozelot issued server command: /mvtp lobby
+[19:19:55] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] MR_Ozelot matched assignment Lobby due to main packs
+[19:19:55] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Removed pack arcade (2ececd0e-63e4-38b6-b751-4044265f451c) from MR_Ozelot
+[19:19:55] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Send pack lobby (https://github.com/SkullGamer727/shloppatMCServer/raw/refs/heads/main/Texture%20packs/Lobby.zip) to MR_Ozelot
+[19:19:55] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Not sending message to CraftPlayer{name=MR_Ozelot} on packsChange as we are not in an environment where we should (key is empty in key.yml)
+[19:20:03] [Server thread/INFO]: TheProPlayer639 issued server command: //pos1
+[19:20:11] [Server thread/INFO]: TheProPlayer639 issued server command: //pos2
+[19:20:13] [Async Chat Thread - #2/INFO]: <MR_Ozelot> jan funktionieren resource packs bei dir?
+[19:20:20] [Server thread/INFO]: TheProPlayer639 issued server command: //smooth gold_block
+[19:20:25] [Server thread/INFO]: MR_Ozelot issued server command: /gamemode creative
+[19:20:25] [Server thread/INFO]: [MR_Ozelot: Set own game mode to Creative Mode]
+[19:20:48] [Async Chat Thread - #1/INFO]: [Not Secure] <LX84> stand resource packs werden geladen sehe aber immernoch die knöpfe
+[19:20:59] [Async Chat Thread - #2/INFO]: [Not Secure] <TheProPlayer639> same
+[19:21:02] [Async Chat Thread - #1/INFO]: <MR_Ozelot> welche version bit du?
+[19:21:12] [Async Chat Thread - #2/INFO]: [Not Secure] <LX84> 1.21.4
+[19:21:19] [Async Chat Thread - #1/INFO]: <MR_Ozelot> ok
+[19:21:57] [Server thread/INFO]: TheProPlayer639 issued server command: //cyl -h emerald_block 65 15
+[19:22:39] [Server thread/INFO]: TheProPlayer639 issued server command: /l
+[19:22:39] [Server thread/INFO]: TheProPlayer639 issued mycmd (l) command /l
+[19:22:39] [Server thread/INFO]: TheProPlayer639 issued server command: /mvtp lobby
+[19:22:39] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] TheProPlayer639 matched assignment Lobby due to main packs
+[19:22:39] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Send pack lobby (https://github.com/SkullGamer727/shloppatMCServer/raw/refs/heads/main/Texture%20packs/Lobby.zip) to TheProPlayer639
+[19:22:39] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Not sending message to CraftPlayer{name=TheProPlayer639} on packsChange as we are not in an environment where we should (key is empty in key.yml)
+[19:23:32] [Server thread/INFO]: TheProPlayer639 issued server command: /mvtp parkour
+[19:23:32] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] TheProPlayer639 ResourcePackSelectEvent Status: UNKNOWN
+[19:23:32] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Removed pack lobby (0d4c3d1b-3f0c-34e4-aae9-e9598ed745db) from TheProPlayer639
+[19:23:32] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Not sending message to CraftPlayer{name=TheProPlayer639} on clearPack as we are not in an environment where we should (key is empty in key.yml)
+[19:23:42] [Server thread/INFO]: TheProPlayer639 issued server command: /gamemode creative
+[19:23:42] [Server thread/INFO]: [TheProPlayer639: Set own game mode to Creative Mode]
+[19:23:52] [Server thread/INFO]: TheProPlayer639 issued server command: /l
+[19:23:52] [Server thread/INFO]: TheProPlayer639 issued mycmd (l) command /l
+[19:23:52] [Server thread/INFO]: TheProPlayer639 issued server command: /mvtp lobby
+[19:23:52] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] TheProPlayer639 matched assignment Lobby due to main packs
+[19:23:52] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Send pack lobby (https://github.com/SkullGamer727/shloppatMCServer/raw/refs/heads/main/Texture%20packs/Lobby.zip) to TheProPlayer639
+[19:23:52] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Not sending message to CraftPlayer{name=TheProPlayer639} on packsChange as we are not in an environment where we should (key is empty in key.yml)
+[19:24:15] [Server thread/INFO]: LX84 issued server command: /mvtp parkour
+[19:24:16] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] LX84 ResourcePackSelectEvent Status: UNKNOWN
+[19:24:16] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Removed pack lobby (0d4c3d1b-3f0c-34e4-aae9-e9598ed745db) from LX84
+[19:24:16] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Not sending message to CraftPlayer{name=LX84} on clearPack as we are not in an environment where we should (key is empty in key.yml)
+[19:24:19] [Server thread/INFO]: [@: Set LX84's game mode to Creative Mode]
+[19:24:27] [Server thread/INFO]: TheProPlayer639 issued server command: /mvtp survival
+[19:24:31] [Server thread/INFO]: TheProPlayer639 issued server command: /mvtp world
+[19:24:32] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] TheProPlayer639 ResourcePackSelectEvent Status: UNKNOWN
+[19:24:32] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Removed pack lobby (0d4c3d1b-3f0c-34e4-aae9-e9598ed745db) from TheProPlayer639
+[19:24:32] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Not sending message to CraftPlayer{name=TheProPlayer639} on clearPack as we are not in an environment where we should (key is empty in key.yml)
+[19:24:40] [Async Chat Thread - #3/INFO]: [Not Secure] <LX84> (l
+[19:24:40] [Server thread/INFO]: TheProPlayer639 issued server command: /gamemode creative
+[19:24:40] [Server thread/INFO]: [TheProPlayer639: Set own game mode to Creative Mode]
+[19:24:43] [Server thread/INFO]: LX84 issued server command: /l
+[19:24:43] [Server thread/INFO]: LX84 issued mycmd (l) command /l
+[19:24:43] [Server thread/INFO]: LX84 issued server command: /mvtp lobby
+[19:24:43] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] LX84 matched assignment Lobby due to main packs
+[19:24:43] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Send pack lobby (https://github.com/SkullGamer727/shloppatMCServer/raw/refs/heads/main/Texture%20packs/Lobby.zip) to LX84
+[19:24:43] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Not sending message to CraftPlayer{name=LX84} on packsChange as we are not in an environment where we should (key is empty in key.yml)
+[19:24:50] [Async Chat Thread - #4/INFO]: [Not Secure] <LX84> ne
+[19:24:58] [Async Chat Thread - #3/INFO]: [Not Secure] <LX84> immernoch nd
+[19:25:01] [Server thread/INFO]: LX84 issued server command: /gamemode creative
+[19:25:01] [Server thread/INFO]: [LX84: Set own game mode to Creative Mode]
+[19:25:15] [Server thread/INFO]: TheProPlayer639 issued server command: /locate biome minecraft:badlands
+[19:25:18] [Server thread/INFO]: Locating element minecraft:badlands took 3164 ms
+[19:25:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3158ms or 63 ticks behind
+[19:25:18] [Server thread/WARN]: LX84 moved too quickly! -16.38943850064294,-0.7639527321506456,-0.35395227667765994
+[19:25:18] [Server thread/WARN]: LX84 moved too quickly! -15.857823339626577,-0.7639527321506456,-0.3283282320908256
+[19:25:18] [Server thread/WARN]: LX84 moved too quickly! -15.857823339626577,-0.7639527321506456,-0.3283282320908256
+[19:25:18] [Server thread/WARN]: LX84 moved too quickly! -15.857823339626577,-0.7639527321506456,-0.3283282320908256
+[19:25:18] [Server thread/WARN]: LX84 moved too quickly! -15.857823339626577,-0.7639527321506456,-0.3283282320908256
+[19:25:18] [Server thread/WARN]: LX84 moved too quickly! -15.857823339626577,-0.7639527321506456,-0.3283282320908256
+[19:25:18] [Server thread/WARN]: LX84 moved too quickly! -15.857823339626577,-0.7639527321506456,-0.3283282320908256
+[19:25:18] [Server thread/WARN]: LX84 moved too quickly! -15.857823339626577,-0.7639527321506456,-0.3283282320908256
+[19:25:18] [Server thread/WARN]: LX84 moved too quickly! -15.857823339626577,-0.7639527321506456,-0.3283282320908256
+[19:25:18] [Server thread/WARN]: LX84 moved too quickly! -15.857823339626577,-0.7639527321506456,-0.3283282320908256
+[19:25:18] [Server thread/WARN]: LX84 moved too quickly! -15.857823339626577,-0.7639527321506456,-0.3283282320908256
+[19:25:18] [Server thread/WARN]: LX84 moved too quickly! -15.857823339626577,-0.7639527321506456,-0.3283282320908256
+[19:25:18] [Server thread/WARN]: LX84 moved too quickly! -15.857823339626577,-0.7639527321506456,-0.3283282320908256
+[19:25:18] [Server thread/WARN]: LX84 moved too quickly! -15.857823339626577,-0.7639527321506456,-0.3283282320908256
+[19:25:18] [Server thread/WARN]: LX84 moved too quickly! -15.857823339626577,-0.7639527321506456,-0.3283282320908256
+[19:25:18] [Server thread/WARN]: LX84 moved too quickly! -15.857823339626577,-0.7639527321506456,-0.3283282320908256
+[19:25:18] [Server thread/WARN]: LX84 moved too quickly! -15.857823339626577,-0.7639527321506456,-0.3283282320908256
+[19:25:18] [Server thread/WARN]: LX84 moved too quickly! -15.857823339626577,-0.7639527321506456,-0.3283282320908256
+[19:25:18] [Server thread/WARN]: LX84 moved too quickly! -15.857823339626577,-0.7639527321506456,-0.3283282320908256
+[19:25:18] [Server thread/WARN]: LX84 moved too quickly! -15.857823339626577,-0.7639527321506456,-0.3283282320908256
+[19:25:18] [Server thread/WARN]: LX84 moved too quickly! -15.857823339626577,-0.7639527321506456,-0.3283282320908256
+[19:25:18] [Server thread/WARN]: LX84 moved too quickly! -15.857823339626577,-0.7639527321506456,-0.3283282320908256
+[19:25:18] [Server thread/WARN]: LX84 moved too quickly! -15.857823339626577,-0.7639527321506456,-0.3283282320908256
+[19:25:18] [Server thread/WARN]: LX84 moved too quickly! -15.857823339626577,-0.7639527321506456,-0.3283282320908256
+[19:25:18] [Server thread/WARN]: LX84 moved too quickly! -15.857823339626577,-0.7639527321506456,-0.3283282320908256
+[19:25:18] [Server thread/WARN]: LX84 moved too quickly! -15.857823339626577,-0.7639527321506456,-0.3283282320908256
+[19:25:18] [Server thread/WARN]: LX84 moved too quickly! -15.857823339626577,-0.7639527321506456,-0.3283282320908256
+[19:25:18] [Server thread/WARN]: LX84 moved too quickly! -15.857823339626577,-0.7639527321506456,-0.3283282320908256
+[19:25:18] [Server thread/WARN]: LX84 moved too quickly! -15.857823339626577,-0.7639527321506456,-0.3283282320908256
+[19:25:18] [Server thread/WARN]: LX84 moved too quickly! -15.857823339626577,-0.7639527321506456,-0.3283282320908256
+[19:25:18] [Server thread/WARN]: LX84 moved too quickly! -15.857823339626577,-0.7639527321506456,-0.3283282320908256
+[19:25:18] [Server thread/WARN]: LX84 moved too quickly! -15.857823339626577,-0.7639527321506456,-0.3283282320908256
+[19:25:25] [Server thread/INFO]: TheProPlayer639 issued server command: /tp @s -3491 157 -3963
+[19:25:25] [Server thread/INFO]: [TheProPlayer639: Teleported TheProPlayer639 to -3490.500000, 157.000000, -3962.500000]
+[19:25:25] [Server thread/WARN]: TheProPlayer639 moved too quickly! -3488.9743545325678,0.0,-3967.0436752141304
+[19:25:41] [Server thread/INFO]: TheProPlayer639 issued server command: //pos1
+[19:25:47] [Server thread/INFO]: TheProPlayer639 issued server command: //pos2
+[19:25:51] [Server thread/INFO]: TheProPlayer639 issued server command: /l
+[19:25:51] [Server thread/INFO]: TheProPlayer639 issued mycmd (l) command /l
+[19:25:51] [Server thread/INFO]: TheProPlayer639 issued server command: /mvtp lobby
+[19:25:51] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] TheProPlayer639 matched assignment Lobby due to main packs
+[19:25:51] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Send pack lobby (https://github.com/SkullGamer727/shloppatMCServer/raw/refs/heads/main/Texture%20packs/Lobby.zip) to TheProPlayer639
+[19:25:51] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Not sending message to CraftPlayer{name=TheProPlayer639} on packsChange as we are not in an environment where we should (key is empty in key.yml)
+[19:25:58] [Server thread/INFO]: TheProPlayer639 issued server command: /mvtp world
+[19:25:59] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] TheProPlayer639 ResourcePackSelectEvent Status: UNKNOWN
+[19:25:59] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Removed pack lobby (0d4c3d1b-3f0c-34e4-aae9-e9598ed745db) from TheProPlayer639
+[19:25:59] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Not sending message to CraftPlayer{name=TheProPlayer639} on clearPack as we are not in an environment where we should (key is empty in key.yml)
+[19:26:03] [Server thread/INFO]: TheProPlayer639 issued server command: /tp @s -3491 157 -3963
+[19:26:03] [Server thread/INFO]: [TheProPlayer639: Teleported TheProPlayer639 to -3490.500000, 157.000000, -3962.500000]
+[19:26:06] [Server thread/INFO]: TheProPlayer639 issued server command: /gamemode adventure
+[19:26:06] [Server thread/INFO]: [TheProPlayer639: Set own game mode to Adventure Mode]
+[19:26:06] [Server thread/INFO]: TheProPlayer639 fell from a high place
+[19:26:10] [Server thread/INFO]: TheProPlayer639 issued server command: /tp @s -3491 157 -3963
+[19:26:10] [Server thread/INFO]: [TheProPlayer639: Teleported TheProPlayer639 to -3490.500000, 157.000000, -3962.500000]
+[19:26:10] [Server thread/WARN]: TheProPlayer639 moved too quickly! -3493.5673891255324,1.0,-3966.857918884055
+[19:26:12] [Server thread/INFO]: TheProPlayer639 issued server command: /gamemode spectator
+[19:26:12] [Server thread/INFO]: [TheProPlayer639: Set own game mode to Spectator Mode]
+[19:26:16] [Server thread/INFO]: TheProPlayer639 issued server command: /gamemode creative
+[19:26:16] [Server thread/INFO]: [TheProPlayer639: Set own game mode to Creative Mode]
+[19:26:33] [Server thread/INFO]: TheProPlayer639 issued server command: //copy
+[19:26:39] [Server thread/INFO]: TheProPlayer639 issued server command: /l
+[19:26:39] [Server thread/INFO]: TheProPlayer639 issued mycmd (l) command /l
+[19:26:39] [Server thread/INFO]: TheProPlayer639 issued server command: /mvtp lobby
+[19:26:40] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] TheProPlayer639 matched assignment Lobby due to main packs
+[19:26:40] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Send pack lobby (https://github.com/SkullGamer727/shloppatMCServer/raw/refs/heads/main/Texture%20packs/Lobby.zip) to TheProPlayer639
+[19:26:40] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Not sending message to CraftPlayer{name=TheProPlayer639} on packsChange as we are not in an environment where we should (key is empty in key.yml)
+[19:26:44] [Server thread/INFO]: TheProPlayer639 issued server command: /mvtp parkour
+[19:26:45] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] TheProPlayer639 ResourcePackSelectEvent Status: UNKNOWN
+[19:26:45] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Removed pack lobby (0d4c3d1b-3f0c-34e4-aae9-e9598ed745db) from TheProPlayer639
+[19:26:45] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Not sending message to CraftPlayer{name=TheProPlayer639} on clearPack as we are not in an environment where we should (key is empty in key.yml)
+[19:26:48] [Server thread/INFO]: TheProPlayer639 issued server command: /gamemode creative
+[19:26:48] [Server thread/INFO]: [TheProPlayer639: Set own game mode to Creative Mode]
+[19:26:56] [Server thread/INFO]: TheProPlayer639 issued server command: //paste
+[19:27:06] [Server thread/INFO]: LX84 lost connection: Disconnected
+[19:27:06] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Not sending message to CraftPlayer{name=LX84} on clearPack as we are not in an environment where we should (key is empty in key.yml)
+[19:27:06] [Server thread/INFO]: [voicechat] Disconnecting client LX84
+[19:27:06] [Server thread/INFO]: LX84 left the game
+[19:27:08] [Server thread/INFO]: TheProPlayer639 issued server command: //pos1
+[19:27:15] [Server thread/INFO]: TheProPlayer639 issued server command: //pos2
+[19:27:28] [Server thread/INFO]: TheProPlayer639 issued server command: //replace red_sand air
+[19:27:40] [Server thread/INFO]: TheProPlayer639 issued server command: //replace grass_block air
+[19:27:46] [Server thread/INFO]: TheProPlayer639 issued server command: //replace dirt air
+[19:27:59] [Server thread/INFO]: TheProPlayer639 issued server command: //pos1
+[19:28:02] [Server thread/INFO]: TheProPlayer639 issued server command: //pos2
+[19:28:04] [Server thread/INFO]: TheProPlayer639 issued server command: //copy
+[19:28:22] [Server thread/INFO]: TheProPlayer639 issued server command: //copy
+[19:28:28] [Server thread/INFO]: TheProPlayer639 issued server command: //paste
+[19:28:51] [Server thread/INFO]: TheProPlayer639 issued server command: //cyl -h emerald_block 65 15
+[19:30:26] [Server thread/INFO]: TheProPlayer639 issued server command: /br s air 2
+[19:31:06] [Server thread/INFO]: TheProPlayer639 issued server command: /mask !emerald_block
+[19:31:08] [Server thread/INFO]: TheProPlayer639 issued server command: /mask !emerald_block
+[19:31:59] [Server thread/INFO]: TheProPlayer639 issued server command: /br s gold 2
+[19:32:02] [Server thread/INFO]: TheProPlayer639 issued server command: /br s gold 2
+[19:32:09] [Server thread/INFO]: TheProPlayer639 issued server command: /br s gold 2
+[19:32:46] [Server thread/INFO]: TheProPlayer639 issued server command: /undo
+[19:33:06] [Server thread/INFO]: TheProPlayer639 issued server command: /undo
+[19:35:48] [Server thread/INFO]: MR_Ozelot issued server command: /restart
+[19:35:48] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
+[19:35:48] [Server thread/INFO]: MR_Ozelot lost connection: Server is restarting
+[19:35:48] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Not sending message to CraftPlayer{name=MR_Ozelot} on clearPack as we are not in an environment where we should (key is empty in key.yml)
+[19:35:48] [Server thread/INFO]: [voicechat] Disconnecting client MR_Ozelot
+[19:35:48] [Server thread/INFO]: MR_Ozelot left the game
+[19:35:48] [Server thread/INFO]: TheProPlayer639 lost connection: Server is restarting
+[19:35:48] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Not sending message to CraftPlayer{name=TheProPlayer639} on clearPack as we are not in an environment where we should (key is empty in key.yml)
+[19:35:48] [Server thread/INFO]: [voicechat] Disconnecting client TheProPlayer639
+[19:35:48] [Server thread/INFO]: TheProPlayer639 left the game
+[19:35:48] [Server thread/INFO]: Stopping server
+[19:35:48] [Server thread/INFO]: [AntiXRay] Disabling AntiXRay v1.9.0
+[19:35:48] [Server thread/INFO]: [BlueMap] Disabling BlueMap v3.20
+[19:35:48] [Server thread/INFO]: [BlueMap] Stopping...
+[19:35:48] [Server thread/INFO]: [BlueMap] Saved and stopped!
+[19:35:48] [Server thread/INFO]: [CraftAttackSpawnBoost] Disabling CraftAttackSpawnBoost v1.1
+[19:35:48] [Server thread/INFO]: [FancyNpcs] Disabling FancyNpcs v2.0.7
+[19:35:48] [Server thread/INFO]: [GCore] Disabling GCore v8.48.0
+[19:35:48] [Server thread/INFO]: [KillCounter] Disabling KillCounter v1.3
+[19:35:48] [Server thread/INFO]: [KillCounter] [STDOUT] [KillCounter] Alle KillCounter wurden deaktiviert!
+[19:35:48] [Server thread/WARN]: Nag author(s): '[Stuppsman]' of 'KillCounter v1.3' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[19:35:48] [Server thread/INFO]: [KillCounter] [STDOUT] [KillCounter] Die KillCounter wurden erfolgreich gespeichert!
+[19:35:48] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.117
+[19:35:48] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[19:35:48] [Server thread/INFO]: [LuckPerms] Closing storage...
+[19:35:48] [Server thread/INFO]: [LuckPerms] Goodbye!
+[19:35:48] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v4.2.6
+[19:35:48] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.2.3
+[19:35:48] [Server thread/INFO]: [MyCommand] Disabling MyCommand v5.7.4
+[19:35:48] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-* MyCommand v.5.7.4*-=-=-=-=-=-=-=-=-=-*
+[19:35:48] [Server thread/INFO]: | Tasks : Stopped all tasks.
+[19:35:48] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-*    Bye!   *-=-=-=-=-=-=-=-=-=-=-*
+[19:35:48] [Server thread/INFO]: [OpenInv] Disabling OpenInv v4.4.2
+[19:35:48] [Server thread/INFO]: [ProJumpPads] Disabling ProJumpPads v4.0
+[19:35:48] [Server thread/INFO]: [ProJumpPads] Plugin is disabled & saved jump pads to data!
+[19:35:48] [Server thread/INFO]: [tpLogin] Disabling tpLogin v1.5.1
+[19:35:48] [Server thread/INFO]: tpLogin v1.5.1 has been disabled.
+[19:35:48] [Server thread/INFO]: [voicechat] Disabling voicechat v2.5.2
+[19:35:48] [Server thread/INFO]: [WorldResourcepacks] Disabling WorldResourcepacks v1.9.0-SNAPSHOT (build 610)
+[19:35:50] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.19+6642-415ef95
+[19:35:50] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[19:35:50] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
+[19:35:50] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.2.2-SNAPSHOT
+[19:35:50] [Server thread/INFO]: [Geyser-Spigot] Geyser wird beendet.
+[19:35:50] [Server thread/INFO]: [Geyser-Spigot] Geyser erfolgreich beendet.
+[19:35:50] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
+[19:35:50] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[19:35:50] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.2-SNAPSHOT (b90-2886a71)
+[19:35:50] [Server thread/INFO]: Saving players
+[19:35:50] [WebSocketConnectReadThread-144/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[19:35:51] [Server thread/INFO]: Saving worlds
+[19:35:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Saved 2 block chunks, 33 entity chunks, 0 poi chunks in world 'world' in 0,01s
+[19:35:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:35:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 48 entity chunks, 0 poi chunks in world 'world_nether' in 0,01s
+[19:35:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:35:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0,00s
+[19:35:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:35:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[PvP_S]'/minecraft:pvp_s
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'PvP_S'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'PvP_S'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'PvP_S'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'PvP_S' in 0,00s
+[19:35:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (PvP_S): All chunks are saved
+[19:35:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Bed_Wars]'/minecraft:bed_wars
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Bed_Wars'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Bed_Wars'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Bed_Wars'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 3 entity chunks, 0 poi chunks in world 'Bed_Wars' in 0,00s
+[19:35:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (Bed_Wars): All chunks are saved
+[19:35:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[shop]'/minecraft:shop
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'shop'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'shop'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'shop'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 10 entity chunks, 0 poi chunks in world 'shop' in 0,00s
+[19:35:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (shop): All chunks are saved
+[19:35:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Spleef]'/minecraft:spleef
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Spleef'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Spleef'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Spleef'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'Spleef' in 0,00s
+[19:35:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (Spleef): All chunks are saved
+[19:35:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[PvP]'/minecraft:pvp
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'PvP'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'PvP'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'PvP'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 0 entity chunks, 0 poi chunks in world 'PvP' in 0,00s
+[19:35:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (PvP): All chunks are saved
+[19:35:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[PvP_J]'/minecraft:pvp_j
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'PvP_J'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'PvP_J'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'PvP_J'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'PvP_J' in 0,00s
+[19:35:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (PvP_J): All chunks are saved
+[19:35:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Hexheat]'/minecraft:hexheat
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Hexheat'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Hexheat'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Hexheat'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Saved 2 block chunks, 0 entity chunks, 0 poi chunks in world 'Hexheat' in 0,00s
+[19:35:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (Hexheat): All chunks are saved
+[19:35:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Arcade]'/minecraft:arcade
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Arcade'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Arcade'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Arcade'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Saved 2 block chunks, 2 entity chunks, 0 poi chunks in world 'Arcade' in 0,00s
+[19:35:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (Arcade): All chunks are saved
+[19:35:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[BW_1v1_M1]'/minecraft:bw_1v1_m1
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'BW_1v1_M1'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'BW_1v1_M1'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'BW_1v1_M1'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'BW_1v1_M1' in 0,00s
+[19:35:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (BW_1v1_M1): All chunks are saved
+[19:35:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[PvP_F]'/minecraft:pvp_f
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'PvP_F'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'PvP_F'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'PvP_F'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'PvP_F' in 0,00s
+[19:35:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (PvP_F): All chunks are saved
+[19:35:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[lobby]'/minecraft:lobby
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'lobby'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'lobby'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'lobby'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Saved 2 block chunks, 2 entity chunks, 0 poi chunks in world 'lobby' in 0,00s
+[19:35:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (lobby): All chunks are saved
+[19:35:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Pit]'/minecraft:pit
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Pit'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Pit'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Pit'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Saved 2 block chunks, 1 entity chunks, 0 poi chunks in world 'Pit' in 0,00s
+[19:35:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (Pit): All chunks are saved
+[19:35:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[parkour]'/minecraft:parkour
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'parkour'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'parkour'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'parkour'
+[19:35:51] [Server thread/INFO]: [ChunkHolderManager] Saved 253 block chunks, 26 entity chunks, 0 poi chunks in world 'parkour' in 0,05s
+[19:35:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (parkour): All chunks are saved
+[19:35:51] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:35:51] [Server thread/INFO]: Flushing Chunk IO
+[19:35:51] [Server thread/INFO]: Closing Thread Pool
+[19:35:51] [Server thread/INFO]: Closing Server
