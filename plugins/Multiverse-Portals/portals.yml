@@ -1,0 +1,21 @@
+portals:
+  world:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: MR_Ozelot
+    location: -1.0,157.0,11.0:0.0,159.0,11.0
+    world: world
+    destination: lobby
+  Survival_welt:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: MR_Ozelot
+    location: 216.0,23.0,944.0:216.0,25.0,945.0
+    world: lobby
+    destination: world

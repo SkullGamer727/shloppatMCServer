@@ -1,0 +1,17 @@
+CustomCommands v4.3.0
+GCore v8.48.0
+
+Added :
+
+	- (GCore) Support for 1.20.2.
+
+
+Improved :
+
+	- (GCore) Migrated the repository to gradle. [COLOR=#ff00ff]- Some dependencies might be temporarily affected by this change due to outdated jar files, please report it on Discord
+
+
+That's it! Please consider leaving a constructive review to the plugin.
+Make it a 5-star one if you're satisfied with the plugin and my work ! :D
+
+To get support, report bugs or suggest features : http://guillaumevdn.com/plugins/discord/

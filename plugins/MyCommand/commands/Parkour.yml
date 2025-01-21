@@ -1,0 +1,5 @@
+Parkour:
+  command: /parkour
+  type: RUN_COMMAND
+  runcmd:
+  - '/mvtp parkour'

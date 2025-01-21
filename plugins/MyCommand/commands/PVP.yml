@@ -1,0 +1,5 @@
+pvp:
+  command: /pvp
+  type: RUN_COMMAND
+  runcmd:
+  - '/mvtp pvp'

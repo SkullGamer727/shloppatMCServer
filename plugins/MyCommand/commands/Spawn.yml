@@ -1,0 +1,5 @@
+spawn:
+  command: /spawn
+  type: RUN_COMMAND
+  runcmd:
+  - '/mvtp lobby'

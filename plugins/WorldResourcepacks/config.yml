@@ -1,0 +1,91 @@
+debug: true
+# Default language
+default-language: en
+# Disable all metrics included in this plugin.
+disable-metrics: false
+# Whether or not resourcepack file hashes should be generated on startup:
+autogeneratehashes: true
+# Whether to append the pack hash to the end of the URL of the pack like url#hash.
+# This is necessary to work around a Vanilla bug which prevents changed packs from being downloaded
+# properly again: https://bugs.mojang.com/browse/MC-164316
+append-hash-to-url: true
+# Whether /usepack should apply packs temporary or permanent when run without any argument:
+usepack-is-temporary: true
+# Whether packs that a player has stored will override a matched assignments
+stored-packs-override-assignments: false
+# When manually setting a permanent pack then it will be reset if the user disconnects in under x amount of seconds.
+# 0 or anything below will disable this functionality
+permanent-pack-remove-time: 30
+# Whether to hook into authentication plugins
+# Currently supported: AuthMe, OpeNLogin and nLogin
+use-auth-plugin: true
+# Empty pack to reset the pack to the default one
+empty:
+  url: http://cdn.moep.tv/files/Empty.zip
+  hash: 01517226212d27586ea0c5d6aff1aa5492dd2484
+  uuid: 90a7e280-0c24-36e2-b39b-327abf49c261
+global:
+  # List of packs to not replace if the user already has them
+  # If no main pack is set the first one also gets used to reset 
+  # the pack if the user has a non-optional one
+  # Also this list will be used to select a pack if a user does not have the permission
+  # or the right version to use that pack. (From top to bottom)
+  # optional-packs:
+  # - examplepack2
+  # Delay in ticks before sending the pack to a player after he logs in/switches to the world
+  send-delay: 10
+# Different worlds with different packs can be defined here
+worlds:
+  # Config for a world named "your_example_world"
+  your_example_world:
+    pack: examplepack
+  Lobby:
+    pack: lobby
+  Pit:
+    pack: lobby
+  HexHeat:
+    pack: lobby
+  Arcade:
+    pack: arcade
+  # optional-packs:
+  # - examplepack2
+  your_example_nether:
+    # Use a regex to target all worlds with a certain name
+    regex: example_nether_.*
+packs:
+  examplepack:
+    url: http://example.com/lobbyresourcepack.zip
+    uuid: 51d028e6-c675-3df9-a344-9049add5fda6
+    hash: abcdef012345678abcdef012345678abcdef0123
+    format: 1
+    version: '1.8'
+    restricted: false
+    permission: worldresourcepacks.pack.examplepack
+  gamepack:
+    restricted: false
+    permission: worldresourcepacks.pack.gamepack
+    variants:
+    - url: http://example.com/minigameresourcepack_1_15.zip
+      uuid: c8928dd9-ab47-385a-b0c4-b0adc844d911
+      hash: 012345678abcdef012345678abcdef012345678a
+      version: '1.15'
+      restricted: false
+      permission: worldresourcepacks.pack.gamepack-variant-1
+    - url: http://example.com/minigameresourcepack_1_12.zip
+      uuid: d700594a-c620-3a4a-b92c-b982494837b7
+      hash: 012345678abcdef01234567dddcdef012345678a
+      version: '1.12'
+      restricted: false
+      permission: worldresourcepacks.pack.gamepack-variant-2
+  lobby:
+    url: https://cdn.discordapp.com/attachments/950782769854816337/1305191554746548345/Lobby.zip?ex=673221db&is=6730d05b&hm=6ce03834bead913e0536dbb4a196665e150036ae48a48b85f72d4e931ed853b0&
+    uuid: 0d4c3d1b-3f0c-34e4-aae9-e9598ed745db
+    hash: 415c82ef5d4f523db403ab4b797a626ab773ea00
+    restricted: false
+    permission: resourcepacksplugin.pack.lobby
+  arcade:
+    url: https://cdn.discordapp.com/attachments/950782769854816337/1305191757063127230/Arcade.zip?ex=6732220c&is=6730d08c&hm=ede80f854dfa3a2f7a5207aa2e6ce9546cf7a06178b346a92136251290ee4e69&
+    uuid: 2ececd0e-63e4-38b6-b751-4044265f451c
+    hash: ff71e7bb82bf0e393250fa58c5cffd638f6ca037
+    restricted: false
+    permission: resourcepacksplugin.pack.arcade

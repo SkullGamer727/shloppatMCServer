@@ -1,0 +1,5 @@
+Hex:
+  command: /Hex
+  type: RUN_COMMAND
+  runcmd:
+  - '/mvtp Hexheat'

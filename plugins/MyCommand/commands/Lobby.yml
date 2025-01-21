@@ -1,0 +1,5 @@
+lobby:
+  command: /lobby
+  type: RUN_COMMAND
+  runcmd:
+  - '/mvtp lobby'

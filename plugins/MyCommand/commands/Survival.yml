@@ -1,0 +1,5 @@
+Survival:
+  command: /Survival
+  type: RUN_COMMAND
+  runcmd:
+  - '/mvtp world'

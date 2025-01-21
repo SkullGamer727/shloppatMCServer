@@ -1,0 +1,9 @@
+ { "pack": {
+  "supported_formats":{
+    "min_inclusive": 7,
+    "max_inclusive": 24
+    },
+  "pack_format": 22,
+  "description": "Shloppat Lobby resources"
+  }
+ }

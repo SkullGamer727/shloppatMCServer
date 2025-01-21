@@ -1,0 +1,11 @@
+updateChecking:
+  onEnable: true
+  periodicChecks: true
+enableBypassPermission: false
+location:
+  world: lobby
+  X: 192.94374600682713
+  Y: 26.0
+  Z: 943.982833298634
+  Pitch: 2.0775013
+  Yaw: -90.11825

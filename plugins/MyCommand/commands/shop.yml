@@ -1,0 +1,5 @@
+shop:
+  command: /shop
+  type: RUN_COMMAND
+  runcmd:
+  - '/mvtp shop'

@@ -1,0 +1,814 @@
+npcs:
+  e867dc37-c6d2-420a-8577-0f48afc8e52c:
+    name: Pit
+    creator: ac44621c-00d6-45a0-b025-850eb3db4aee
+    displayName: Pit
+    type: PLAYER
+    location:
+      world: lobby
+      x: 188.5
+      y: 27.0
+      z: 939.5
+      yaw: -46.453613
+      pitch: 13.59292
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: true
+    messages: []
+    interactionCooldown: 0.0
+    playerCommand: mvtp Pit
+    skin:
+      identifier: http://novask.in/6182593051.png
+      value: ewogICJ0aW1lc3RhbXAiIDogMTcwNTA4ODg2NzU2OCwKICAicHJvZmlsZUlkIiA6ICJiZDIwNjA5NzFkYTg0ZWEzYWNkZTE1M2Q2MmEzOTI4OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJMT1dfU05PVzAyMDQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjQ3M2NkMGU3MzQ1ZWVlYTRlMzRmZDQ5MDk0MTc0NDE5YjBmMWJkYmUwN2I3OTJiNTlkZmExNzE2MTRjY2E2ZSIKICAgIH0KICB9Cn0=
+      signature: DlgpexwnbI2+dzjQnp+W6molJGXxhDqm3JnEcESXtW1mybSZJXUTzgU98/D/heCNwSG64BVPd0nMaspYSM9SlRckCNJuyVkCVOoYHNoFkL3rgKfFZD2NP0vlr0giXkZcfl28AhMJCLbeTSNbWMcsxG+2QATa8HpWDkBS9kaPp+jO0Hb0OAQZNaNnis2UWpsQA9k7cAfH1bj3x/OPOzoq3x+64ygCplhIcqqFAxmSy4Y6d/ChtKsCfmU65YhDMu6Ai+F8muX3GOYCxnCp+fsn9c+QUBFrzQSlAj1IfIh8QPyk9iyAZLKo/47vDZ5BYCRWLmeVmk89mgjZhdnM9r9rbfbSFJUiX0q+6LpLwTJpDlnHSjxExL9WLs0Ox2zJcngSLdf7XSoDQ18hIH+t72a4nEXkHFGZTciwFazFVc5pOJuXl6FjWuZy8P2wXpWvHXf4vkqFCcv2tP1g6AhD5+pfWdmFNIXQY1O9ON/2mdsrvrO5nR9QznjYTUqHxbvsL3JKlrUzI6Thj/vglavAqF3hYyERaIKabrYVKD8SrGuUBLjlud0G0+MPQDvLlSCz0ME9qzFd+nil8MOl9CZW7o0pioScTzR7VBxPHIhIU/GvKFf5FG7WZVpKCJM+VHJc9hW4YCOvR1nWvRfNPd/0kuwLzKMfEG0I3hmL8khj33NwLCE=
+    serverCommand: ''
+  24f4b90b-84ad-4316-97d8-aa4501c96ffa:
+    name: PIT_Leave
+    creator: ac44621c-00d6-45a0-b025-850eb3db4aee
+    displayName: Lobby
+    type: PLAYER
+    location:
+      world: Pit
+      x: -5.5
+      y: 2.0
+      z: 0.5
+      yaw: -90.0
+      pitch: 0.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: red
+    turnToPlayer: true
+    messages: []
+    interactionCooldown: 0.0
+    serverCommand: ''
+    playerCommand: mvtp Lobby
+    skin:
+      identifier: http://novask.in/6182593051.png
+      value: ewogICJ0aW1lc3RhbXAiIDogMTcwNTA4ODg2NzU2OCwKICAicHJvZmlsZUlkIiA6ICJiZDIwNjA5NzFkYTg0ZWEzYWNkZTE1M2Q2MmEzOTI4OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJMT1dfU05PVzAyMDQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjQ3M2NkMGU3MzQ1ZWVlYTRlMzRmZDQ5MDk0MTc0NDE5YjBmMWJkYmUwN2I3OTJiNTlkZmExNzE2MTRjY2E2ZSIKICAgIH0KICB9Cn0=
+      signature: DlgpexwnbI2+dzjQnp+W6molJGXxhDqm3JnEcESXtW1mybSZJXUTzgU98/D/heCNwSG64BVPd0nMaspYSM9SlRckCNJuyVkCVOoYHNoFkL3rgKfFZD2NP0vlr0giXkZcfl28AhMJCLbeTSNbWMcsxG+2QATa8HpWDkBS9kaPp+jO0Hb0OAQZNaNnis2UWpsQA9k7cAfH1bj3x/OPOzoq3x+64ygCplhIcqqFAxmSy4Y6d/ChtKsCfmU65YhDMu6Ai+F8muX3GOYCxnCp+fsn9c+QUBFrzQSlAj1IfIh8QPyk9iyAZLKo/47vDZ5BYCRWLmeVmk89mgjZhdnM9r9rbfbSFJUiX0q+6LpLwTJpDlnHSjxExL9WLs0Ox2zJcngSLdf7XSoDQ18hIH+t72a4nEXkHFGZTciwFazFVc5pOJuXl6FjWuZy8P2wXpWvHXf4vkqFCcv2tP1g6AhD5+pfWdmFNIXQY1O9ON/2mdsrvrO5nR9QznjYTUqHxbvsL3JKlrUzI6Thj/vglavAqF3hYyERaIKabrYVKD8SrGuUBLjlud0G0+MPQDvLlSCz0ME9qzFd+nil8MOl9CZW7o0pioScTzR7VBxPHIhIU/GvKFf5FG7WZVpKCJM+VHJc9hW4YCOvR1nWvRfNPd/0kuwLzKMfEG0I3hmL8khj33NwLCE=
+  2f078051-48e6-4c4f-adfb-70ce4eb42dee:
+    name: CP1
+    creator: 762e430d-c0a7-4ffc-a39c-4e76a3ff2241
+    displayName: Quit Parcour
+    type: PLAYER
+    location:
+      world: lobby
+      x: 202.30000001192093
+      y: 21.0
+      z: 921.6999999880791
+      yaw: -92.349365
+      pitch: 11.850237
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: true
+    messages:
+    - The parcour has been quit.
+    interactionCooldown: 0.0
+    serverCommand: execute positioned 203 21 921 run tag @p remove JumpNrun1
+    playerCommand: ''
+    skin:
+      identifier: http://novask.in/6525913361.png
+      value: ewogICJ0aW1lc3RhbXAiIDogMTY5NzQ2NTYwMTgwOSwKICAicHJvZmlsZUlkIiA6ICJmZDIwMGYwMDE4OTI0NzgxODI5OWIzZjE5Yzc4Y2E3MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0dXNnIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2UyOTViZDdmMjBhMmI2MGJiMDM0ODcxNTI0OTkyMTM0MDUxOGY4M2ZiZGVhNWVlYTUwODY5YzE3MGM3OTA5ZDciCiAgICB9CiAgfQp9
+      signature: A7zNr6KGJgH+lZWIk767X2DFw5bP3RmlHW5vaGUGGV2RgIqr3RhzcNVmMzNd/pP/P6rsef60nV7N5A25GER0cM/ovxUgFbjeZtUHDR1UZe4XMT/BzipZXu/qDxnUFDphZbUueAffOw1UYjcy0oKZl+0M2DmrYvya4ehg8/homYEGrQ2/koY3SM67OFxNfeichhwt8l4tjXIAqcHTBDjZ0e44YLOv3yr0ZGWvDfsVg4werggv9obzYzn77Z9X6jQ7VIzhp2SufNY4CoxIZ5IywbBuwaTHusPdr3nK8BdDK3OQw4eQOA59MHnWTpKZS4ggiRWFdlmV1L1ld6A9Kd0mtaXPLn0OqlAQLctu5JSX1VG2cokU0z93jBY18RFvVW1ve3HP4SVyZBEXNee5n78e6WdxkGneej2I79LbPAA+hVR0uJJ8yS4/cIvE99G0Rfjwla9Srts4LDvpYifIRTWIkLp+2STM/3aS25OhOl+5I2hOZkOIXou63PFRYd0oRVDGGU0Z+ihOS6VJibBWqhMCwFqw8hcmC6q3daRPOaApYZEp6yApIInWpcvmJ3x6XAHXnFXnYqsc9nnXlHyz8tzim/pOctvKNRTYnFuSVYDhsGe5QYq7Ze3vnOjAAO2gOHi3crVhYrPejKdScEveD1CCDxQEbwYbj7G6GCmc5Xg+g54=
+  22064aa1-9d02-4b8c-ab32-9d71c64634e8:
+    name: '~'
+    creator: 762e430d-c0a7-4ffc-a39c-4e76a3ff2241
+    displayName: Quit Parcour
+    type: PLAYER
+    location:
+      world: lobby
+      x: 149.58808905598855
+      y: 27.0
+      z: 929.4036040473002
+      yaw: -146.50005
+      pitch: -3.6000473
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: true
+    messages:
+    - The parcour has been quit.
+    interactionCooldown: 0.0
+    serverCommand: execute positioned 149 27 928 run tag @p remove JumpNrun2
+    playerCommand: ''
+    skin:
+      identifier: http://novask.in/6525913361.png
+      value: ewogICJ0aW1lc3RhbXAiIDogMTY5NzQ2NTYwMTgwOSwKICAicHJvZmlsZUlkIiA6ICJmZDIwMGYwMDE4OTI0NzgxODI5OWIzZjE5Yzc4Y2E3MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0dXNnIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2UyOTViZDdmMjBhMmI2MGJiMDM0ODcxNTI0OTkyMTM0MDUxOGY4M2ZiZGVhNWVlYTUwODY5YzE3MGM3OTA5ZDciCiAgICB9CiAgfQp9
+      signature: A7zNr6KGJgH+lZWIk767X2DFw5bP3RmlHW5vaGUGGV2RgIqr3RhzcNVmMzNd/pP/P6rsef60nV7N5A25GER0cM/ovxUgFbjeZtUHDR1UZe4XMT/BzipZXu/qDxnUFDphZbUueAffOw1UYjcy0oKZl+0M2DmrYvya4ehg8/homYEGrQ2/koY3SM67OFxNfeichhwt8l4tjXIAqcHTBDjZ0e44YLOv3yr0ZGWvDfsVg4werggv9obzYzn77Z9X6jQ7VIzhp2SufNY4CoxIZ5IywbBuwaTHusPdr3nK8BdDK3OQw4eQOA59MHnWTpKZS4ggiRWFdlmV1L1ld6A9Kd0mtaXPLn0OqlAQLctu5JSX1VG2cokU0z93jBY18RFvVW1ve3HP4SVyZBEXNee5n78e6WdxkGneej2I79LbPAA+hVR0uJJ8yS4/cIvE99G0Rfjwla9Srts4LDvpYifIRTWIkLp+2STM/3aS25OhOl+5I2hOZkOIXou63PFRYd0oRVDGGU0Z+ihOS6VJibBWqhMCwFqw8hcmC6q3daRPOaApYZEp6yApIInWpcvmJ3x6XAHXnFXnYqsc9nnXlHyz8tzim/pOctvKNRTYnFuSVYDhsGe5QYq7Ze3vnOjAAO2gOHi3crVhYrPejKdScEveD1CCDxQEbwYbj7G6GCmc5Xg+g54=
+  a40329e6-9c7a-468a-abb8-20f861f385b3:
+    name: PvP
+    creator: ac44621c-00d6-45a0-b025-850eb3db4aee
+    displayName: PvP
+    type: PLAYER
+    location:
+      world: lobby
+      x: 186.5
+      y: 27.0
+      z: 942.5
+      yaw: -76.438965
+      pitch: 13.592777
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: true
+    messages: []
+    interactionCooldown: 0.0
+    playerCommand: mvtp PvP
+    skin:
+      identifier: http://novask.in/5222463189.png
+      value: ewogICJ0aW1lc3RhbXAiIDogMTY0MDcxNDU0ODU0NiwKICAicHJvZmlsZUlkIiA6ICI5NTE3OTkxNjljYzE0MGY1OGM2MmRjOGZmZTU3NjBiZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJPcmRpbmFsQ2FyZGluYWwiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQ1NTM4MjZmMWYzYTM4ZWM0MjJlYThjN2MxMzZlMjNhMmVhODU3NGNiM2Q2ODJmY2Q2OTRkYzdkYmEzN2VjMSIKICAgIH0KICB9Cn0=
+      signature: rJppEYYv/EJ7rhrd8tDC0aSUg/VqYorfvu+3IlxiNUOeQUH+aslRh6OnbY4zHTKQwbCl0gkZ0PQwWOvOjD9oce19Fj3qgw0js8/+byuT9OlkttNElIa+Fl7zDbNE5x/2+jy5htaxeMmTs9BRDkb01eV+rVG9lgj/LDxnajkG93b1ypIC87Nmp18HGyd+dtQ9+RysIauBJiqkFp97NGcAnH75pDXRIcVoUh9MNg6x00mOi8ppuDZzMbhuhuOtvEoyTxmXeY399yuJAqe3VfHnmDDdR4AVtLS8/eY08En0SWzaogxmrb0YNv/jtASPgpedGWWVvZ/KpWED3igqJoj2g/+lXY6lzSJvn5N8ajteSJjn7PY3TTmv0+CKBAo8nYkQw3pfkcsD2HArIlHf0iHI2xFWSAfFttdgAuYr2xtDLsEbeUkW6+btMqbQPZI67yzikX/SHMy0136ftkZWl4McW91EYGQOHjts/KU2PDmfRa9QV6M+5rQ1/8iKnxTMSu/zJa8yXac1bbIZtZP193rI5IFSuP8ztAUWoYDpPjbyFnxifY6SXxiYmN1+ZZ9Tipl+MT3lBZMts7s9Q6mYbfuA0i7rIXk+2rUryRVLo5HXcQZSGCOsdYi/pW19nsUd19ayJscLT381KbgEvI88y8EkWu7G+UNi8OWSmr6K7cJp4CA=
+    serverCommand: ''
+  bfa089a5-d33c-4121-bd57-12fc54fc6c46:
+    name: PvP_Leave
+    creator: ac44621c-00d6-45a0-b025-850eb3db4aee
+    displayName: Lobby
+    type: PLAYER
+    location:
+      world: PvP
+      x: -4.5
+      y: 41.0
+      z: 0.5
+      yaw: -90.0
+      pitch: 0.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: red
+    turnToPlayer: false
+    messages: []
+    interactionCooldown: 0.0
+    playerCommand: mvtp Lobby
+    skin:
+      identifier: http://novask.in/5222463189.png
+      value: ewogICJ0aW1lc3RhbXAiIDogMTY0MDcxNDU0ODU0NiwKICAicHJvZmlsZUlkIiA6ICI5NTE3OTkxNjljYzE0MGY1OGM2MmRjOGZmZTU3NjBiZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJPcmRpbmFsQ2FyZGluYWwiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQ1NTM4MjZmMWYzYTM4ZWM0MjJlYThjN2MxMzZlMjNhMmVhODU3NGNiM2Q2ODJmY2Q2OTRkYzdkYmEzN2VjMSIKICAgIH0KICB9Cn0=
+      signature: rJppEYYv/EJ7rhrd8tDC0aSUg/VqYorfvu+3IlxiNUOeQUH+aslRh6OnbY4zHTKQwbCl0gkZ0PQwWOvOjD9oce19Fj3qgw0js8/+byuT9OlkttNElIa+Fl7zDbNE5x/2+jy5htaxeMmTs9BRDkb01eV+rVG9lgj/LDxnajkG93b1ypIC87Nmp18HGyd+dtQ9+RysIauBJiqkFp97NGcAnH75pDXRIcVoUh9MNg6x00mOi8ppuDZzMbhuhuOtvEoyTxmXeY399yuJAqe3VfHnmDDdR4AVtLS8/eY08En0SWzaogxmrb0YNv/jtASPgpedGWWVvZ/KpWED3igqJoj2g/+lXY6lzSJvn5N8ajteSJjn7PY3TTmv0+CKBAo8nYkQw3pfkcsD2HArIlHf0iHI2xFWSAfFttdgAuYr2xtDLsEbeUkW6+btMqbQPZI67yzikX/SHMy0136ftkZWl4McW91EYGQOHjts/KU2PDmfRa9QV6M+5rQ1/8iKnxTMSu/zJa8yXac1bbIZtZP193rI5IFSuP8ztAUWoYDpPjbyFnxifY6SXxiYmN1+ZZ9Tipl+MT3lBZMts7s9Q6mYbfuA0i7rIXk+2rUryRVLo5HXcQZSGCOsdYi/pW19nsUd19ayJscLT381KbgEvI88y8EkWu7G+UNi8OWSmr6K7cJp4CA=
+    serverCommand: ''
+  8256f4d0-ff74-495c-a236-8afab80c54ea:
+    name: shop
+    creator: 762e430d-c0a7-4ffc-a39c-4e76a3ff2241
+    displayName: Coming Soon
+    type: PLAYER
+    location:
+      world: lobby
+      x: 195.5
+      y: 26.0
+      z: 941.5
+      yaw: 45.0
+      pitch: 0.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: red
+    turnToPlayer: true
+    messages: []
+    interactionCooldown: 0.0
+    serverCommand: ''
+    playerCommand: mvtp shop
+    skin:
+      identifier: http://novask.in/6459223219.png
+      value: ewogICJ0aW1lc3RhbXAiIDogMTY4NjE2NzIyMDk0MCwKICAicHJvZmlsZUlkIiA6ICJmZDIwMGYwMDE4OTI0NzgxODI5OWIzZjE5Yzc4Y2E3MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0dXNnIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQyMWI5OTIyNTMxNzJmZDYxMTIzZTUxYTAzMDA4Yzc3ZDQ0YjJkOTc4NDFmZGE5ZTdhN2M2ZjExMjUzMjJjZTAiCiAgICB9CiAgfQp9
+      signature: onJ5tMw5SaaIMotpgBRSZP5U6Mlr6XoNL0Q2Y+7fKULO35X1EXMdErWlNi7hE1x2Qi5bZk4QeTdEH607MikH3/r0+Cvy1NTQZnbtgV+nLBEhik2AlTXbMquDYAzVlRfBI1izNkGv3Agdt93Uo+6X3o7CnDZp5VpDzEBGGM4C3tvozytNYzgUBQDAs6RrN/gAm+ekPdnwIBetVTGXdgivIwxeWoA2sqG434jdu/Yrx5uIzxycWlq7fJQLlh1beaJ80UrQkTYDYd86GGCcz5z56j8+h7oM+7k68OhCd1V1sf2hve5tbJMYFp/NJPtFs6yrdA3cdZR5Ul4aBSTWlDnlPm9ynzRvdsbzImiBPv+nE1wSa9HjpE1NqeeNFfk89tsDCH8h0xJZ463Gi2hw54JLxtZKk5iLse/+V09DwV0TGcWmg9pDa82Hq8O+i7MuefSD/rHvQmTdJuOXsD81BKHlypSSndotiCVtE80ukJkieDd/mfi98RVqIbBryR3FESIao4q3p5RTKY35Xe/mUP12xPWz4KhEiJfpyAnhfAw0tttlWo2rkhP3u09qzrza4blWe5hiqIGmIGYyV/NgllYkyJYcQ3a1qa63gu1EjRTqbojpWXM+U1NbfEd7jwF5nvy23ibowRin+f2FWEo4i7F5IuUkdW27fK/p6Ba/r56W0RM=
+  ce23f739-17f7-45fe-82c3-15e828c4963c:
+    name: Hex
+    creator: ac44621c-00d6-45a0-b025-850eb3db4aee
+    displayName: Hexagon Heat
+    type: PLAYER
+    location:
+      world: lobby
+      x: 186.5
+      y: 27.0
+      z: 945.5
+      yaw: -102.25049
+      pitch: 10.406428
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: true
+    messages: []
+    interactionCooldown: 0.0
+    playerCommand: mvtp Hexheat
+    skin:
+      identifier: http://novask.in/4307803168.png
+      value: ewogICJ0aW1lc3RhbXAiIDogMTYwNTkyODQxOTA4NCwKICAicHJvZmlsZUlkIiA6ICIxOTI1MjFiNGVmZGI0MjVjODkzMWYwMmE4NDk2ZTExYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTZXJpYWxpemFibGUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWZmNmNkYmQyN2Q2YTk1YTE5M2YwNDI5YWVkYmRiNWM1MzE2NGMzZWQ2ODdiNmZkYWI1MmMwN2E0N2VhMDFlYSIKICAgIH0KICB9Cn0=
+      signature: YY4KH3EG490smnaq2OsoYfYndkF5hsrDkIQS7YhJbkjyan2FCeTRaPJGluryV5vVTRQTdZ8rJ9sEE184QH5C5kQb4yqz66UbDBTcnXihgFaqhx1hIb5k9Nm5L3LTZ7fA6XETI+MaUaYSgKh22hRoS+PDACAO4Cb3g96yHLdfG3+GMJ5MOOW+Yy0WZJDSjVFOPV2aP2ZxvCeZmVITCbCTJZjxrFprc+vRJH9AOFanJMQcyinyx5ZpponEnswof+Jf0M/ZYKLqmvh+OlaE7Ra+EwQDzIyL7pD+WtY9Gr5/Ru3hv/QMNSMoeDyOy/FqEORFal6t9d6AB+bjZJV+p5uximrddnVpxh1AiYhwM0HKYicomIWSCxpeAClM2MmZni3ePT/uluGkehWdEGPUgQzzuKZm0qCxEJQf9NEJgSFIZjOVqwMRUl8s9zujwD3YgNWzYC7DZZfupmM72ftWU73LuVXdY3V3jUfcllMBInXW7OobK/At7Dx7vahMq7BtQqKMWJVtRXacZGqzGLgQ5afdO2KsAedtlKkjEG5H+0q+msGHtyWrBxtun500FT3mtDl9y+O6tNSo1LGkJoAetFXusQMq5WN6qKUQU3laTD3rtheuRbpOJOGjPQr687NIdAUXgtQi+lmklQI+UGuTmE0zbYIrMAjDhqpyAY0muPjAlFo=
+    serverCommand: ''
+  6dd20b6e-a7cf-4651-a70e-1a32cdc75624:
+    name: Hex_Leave
+    creator: ac44621c-00d6-45a0-b025-850eb3db4aee
+    displayName: Lobby
+    type: PLAYER
+    location:
+      world: Hexheat
+      x: -45.5
+      y: 29.0
+      z: -17.5
+      yaw: 90.0
+      pitch: 0.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: red
+    turnToPlayer: true
+    messages: []
+    interactionCooldown: 0.0
+    skin:
+      identifier: http://novask.in/4307803168.png
+      value: ewogICJ0aW1lc3RhbXAiIDogMTYwNTkyODQxOTA4NCwKICAicHJvZmlsZUlkIiA6ICIxOTI1MjFiNGVmZGI0MjVjODkzMWYwMmE4NDk2ZTExYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTZXJpYWxpemFibGUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWZmNmNkYmQyN2Q2YTk1YTE5M2YwNDI5YWVkYmRiNWM1MzE2NGMzZWQ2ODdiNmZkYWI1MmMwN2E0N2VhMDFlYSIKICAgIH0KICB9Cn0=
+      signature: YY4KH3EG490smnaq2OsoYfYndkF5hsrDkIQS7YhJbkjyan2FCeTRaPJGluryV5vVTRQTdZ8rJ9sEE184QH5C5kQb4yqz66UbDBTcnXihgFaqhx1hIb5k9Nm5L3LTZ7fA6XETI+MaUaYSgKh22hRoS+PDACAO4Cb3g96yHLdfG3+GMJ5MOOW+Yy0WZJDSjVFOPV2aP2ZxvCeZmVITCbCTJZjxrFprc+vRJH9AOFanJMQcyinyx5ZpponEnswof+Jf0M/ZYKLqmvh+OlaE7Ra+EwQDzIyL7pD+WtY9Gr5/Ru3hv/QMNSMoeDyOy/FqEORFal6t9d6AB+bjZJV+p5uximrddnVpxh1AiYhwM0HKYicomIWSCxpeAClM2MmZni3ePT/uluGkehWdEGPUgQzzuKZm0qCxEJQf9NEJgSFIZjOVqwMRUl8s9zujwD3YgNWzYC7DZZfupmM72ftWU73LuVXdY3V3jUfcllMBInXW7OobK/At7Dx7vahMq7BtQqKMWJVtRXacZGqzGLgQ5afdO2KsAedtlKkjEG5H+0q+msGHtyWrBxtun500FT3mtDl9y+O6tNSo1LGkJoAetFXusQMq5WN6qKUQU3laTD3rtheuRbpOJOGjPQr687NIdAUXgtQi+lmklQI+UGuTmE0zbYIrMAjDhqpyAY0muPjAlFo=
+    playerCommand: mvtp Lobby
+    serverCommand: ''
+  93640a38-643a-4727-880c-e2428f8a7d2f:
+    name: shop_leave
+    creator: 762e430d-c0a7-4ffc-a39c-4e76a3ff2241
+    displayName: Lobby
+    type: PLAYER
+    location:
+      world: shop
+      x: -60.46487059487675
+      y: 31.0
+      z: -9.506119153153438
+      yaw: -1.0219216E-4
+      pitch: -2.0999954
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: true
+    messages: []
+    interactionCooldown: 0.0
+    skin:
+      identifier: http://novask.in/6459223219.png
+      value: ewogICJ0aW1lc3RhbXAiIDogMTY4NjE2NzIyMDk0MCwKICAicHJvZmlsZUlkIiA6ICJmZDIwMGYwMDE4OTI0NzgxODI5OWIzZjE5Yzc4Y2E3MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0dXNnIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQyMWI5OTIyNTMxNzJmZDYxMTIzZTUxYTAzMDA4Yzc3ZDQ0YjJkOTc4NDFmZGE5ZTdhN2M2ZjExMjUzMjJjZTAiCiAgICB9CiAgfQp9
+      signature: onJ5tMw5SaaIMotpgBRSZP5U6Mlr6XoNL0Q2Y+7fKULO35X1EXMdErWlNi7hE1x2Qi5bZk4QeTdEH607MikH3/r0+Cvy1NTQZnbtgV+nLBEhik2AlTXbMquDYAzVlRfBI1izNkGv3Agdt93Uo+6X3o7CnDZp5VpDzEBGGM4C3tvozytNYzgUBQDAs6RrN/gAm+ekPdnwIBetVTGXdgivIwxeWoA2sqG434jdu/Yrx5uIzxycWlq7fJQLlh1beaJ80UrQkTYDYd86GGCcz5z56j8+h7oM+7k68OhCd1V1sf2hve5tbJMYFp/NJPtFs6yrdA3cdZR5Ul4aBSTWlDnlPm9ynzRvdsbzImiBPv+nE1wSa9HjpE1NqeeNFfk89tsDCH8h0xJZ463Gi2hw54JLxtZKk5iLse/+V09DwV0TGcWmg9pDa82Hq8O+i7MuefSD/rHvQmTdJuOXsD81BKHlypSSndotiCVtE80ukJkieDd/mfi98RVqIbBryR3FESIao4q3p5RTKY35Xe/mUP12xPWz4KhEiJfpyAnhfAw0tttlWo2rkhP3u09qzrza4blWe5hiqIGmIGYyV/NgllYkyJYcQ3a1qa63gu1EjRTqbojpWXM+U1NbfEd7jwF5nvy23ibowRin+f2FWEo4i7F5IuUkdW27fK/p6Ba/r56W0RM=
+    playerCommand: mvtp lobby
+    serverCommand: ''
+  14626456-c313-42f8-ac19-4a1a13a70a46:
+    name: Hide_and_Seek
+    creator: ac44621c-00d6-45a0-b025-850eb3db4aee
+    displayName: Coming Soon
+    type: PLAYER
+    location:
+      world: lobby
+      x: 188.5
+      y: 27.0
+      z: 948.5
+      yaw: -134.83618
+      pitch: 15.2590065
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: red
+    turnToPlayer: true
+    messages: []
+    interactionCooldown: 0.0
+  89b4320e-f9eb-40cd-99f5-7b1bf0346f57:
+    name: Survial
+    creator: ac44621c-00d6-45a0-b025-850eb3db4aee
+    displayName: Coming Soon
+    type: PLAYER
+    location:
+      world: lobby
+      x: 195.5
+      y: 26.0
+      z: 946.5
+      yaw: 135.0
+      pitch: 0.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: red
+    turnToPlayer: true
+    messages: []
+    interactionCooldown: 0.0
+  7ad1d969-4a74-48d3-9700-c9a4cfde6406:
+    name: BW
+    creator: ac44621c-00d6-45a0-b025-850eb3db4aee
+    displayName: BW
+    type: PLAYER
+    location:
+      world: lobby
+      x: 190.5
+      y: 26.0
+      z: 941.5
+      yaw: -45.0
+      pitch: 0.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: true
+    messages: []
+    interactionCooldown: 0.0
+    playerCommand: mvtp Bed_Wars
+  6fd3b5d8-a561-468c-b27c-e542604307f4:
+    name: pit_g3
+    creator: ac44621c-00d6-45a0-b025-850eb3db4aee
+    displayName: Bar Hopping
+    type: PLAYER
+    location:
+      world: Pit
+      x: -0.5
+      y: 2.0
+      z: -4.5
+      yaw: 0.0
+      pitch: 0.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: red
+    turnToPlayer: false
+    messages: []
+    interactionCooldown: 0.0
+    serverCommand: execute in minecraft:pit run tp @p -1 2 -255
+    skin:
+      identifier: https://drive.usercontent.google.com/download?id=1zhHpYghN9ircLa7wxL_diUUVvviBnHde&export=download&authuser=0
+      value: ewogICJ0aW1lc3RhbXAiIDogMTcwODEwNDIxODg5NCwKICAicHJvZmlsZUlkIiA6ICIyNmYxZmI4NTgwMjM0ZGQ0Yjg2MWIwNGNmNDk1ZGU3MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJCZXN0T2ZIYWl0aSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZTcwMjYwZDdiNjZhYjliZjhkOTY2YzY4ZjM3Y2FlZjZiY2YwYzViZjBmNmUxMWMyNGM4ZTI4ZTI4ZmQ2NWVkIgogICAgfQogIH0KfQ==
+      signature: N6y2Yx2D43w5UUmUkIMNtAt7/M9kFqERNqv6BRzFhkNTLnkAozHLfrUgxdFx2tcR0ocEgxjlm9LOV7MOmzdO2Avteqq5sAAvx9moxQYKXZdKnuqZhi+oUGB1ndMJiYcvrQ2bkj8Uz4cp1xyXABHaB2K4jYG4qhOVtBh11afPy+zMeXcYzNENOHdt4JpZzsc7jV2ABoznPwB1tUKRTRQKgcxYiwbL+Hbf2fBZ4EdXE3w6e5stTyat+WtGAZHGp42aJtU3lwYoMhlr5kY7F+tqpxHNGCc2sxmWkb73cqeH8UV5WqNiPsM+mFsWkLli+ARHHHicUaYaZxtepCz72izRvmI/bTe9A1UB64isVHNIExcMu/ndOcOvmKIXJZv6GaQkxmGoBRw5mtIJNHhBVC8x7Q8yjVwH+Shy0huYfU4FdOp6K8S2d/VeUlTBeGpB9UQIOBLfQqLTEQ0S69gtrNgGeygnMurhvTQchawyDkXF6O0w0dAAURGBZD/BAzventvmeCnGBSO9KQ5INOF9kBJHhjdhgwuuZkNxJcgEaor5puTUfFV8SLlfCzh+g6TTLQm80pqL3E2o6wlKux1onY8PJuD67I5aPPfH/DUMfSVQ0GFyY/V93XS1iBq4dmPHihX6YenWaSoc/QvHWR6KkwVjNYvoCLDbcr4webZaDweJY4o=
+  53949eec-e028-40ae-8090-c6d9aaacccc9:
+    name: pit_g2
+    creator: ac44621c-00d6-45a0-b025-850eb3db4aee
+    displayName: Levetating Spaces
+    type: PLAYER
+    location:
+      world: Pit
+      x: 4.5
+      y: 2.0
+      z: 0.5
+      yaw: 90.0
+      pitch: 0.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: yellow
+    turnToPlayer: false
+    messages: []
+    interactionCooldown: 0.0
+    serverCommand: execute in minecraft:pit positioned 4 1 0 run tp @p 254 2 0
+    skin:
+      identifier: https://drive.usercontent.google.com/download?id=1W-Qgx17Z7xkL2A5wb3v9XfC6e8e6GdUQ&export=download&authuser=0
+      value: ewogICJ0aW1lc3RhbXAiIDogMTcwODEwNDE3ODg3OSwKICAicHJvZmlsZUlkIiA6ICJiMTRiMjY2NzgxOTU0ZGM1OTUzYTRkYWQ5MjRiZGRjNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHbm92ZV8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGMzMGU2ZjgzYjUxNmI1NzJiZmU5MWM5YTYzMTg3ZjIzMTFkMzJjNzc5ZTEzMjljOTk2YmRiYjZkMThiN2Y0ZSIKICAgIH0KICB9Cn0=
+      signature: NktYicH6ReQ3POU0k2DLe1LdpyYMrirr4Ov5F3Sqs8sibSwG75mA4UdXpM3hhkFOUjDZ0+SRWSjBn1AajzdHGZcoM8oCELQdclexk/5ieYqOmHcfy3fHVcylM8cFI3/o0B6wpcc1CHYiF8rC3g3T1wSOcMaX2dInGXwBGcpUMqSdoqJRHbCcDq60pHa67K7JPgCJ5E/xLXSepfD5hh61zPQNPvJHdaDdfp3El6KsHegSxRKun6bNez2IFvRq3U8cDF+kq9jUT00jSJbbqq69VaTycZQvmvGFcSqKERgFOkx0bg+hcK8dzFMmxH4JkGbwfe/mivbGlL8ZJc3gAz6FOqvv5CDrGPJZXDXj99dXbMCAUZBQq9s/y/uf4hMayQsdv1jkzrfjEih2TZcs3O1ZO76jF2oAHDgkX47Ek2G7Z/CstBkep3qQIpHXpo7BwE9eptT0vb8EJnDUa+Ex80xjsmBHQ0Ys3M65lt1ompXMEwa8U8eQUVfc8nrdvHqO1Q9NNLUBzEyjYh0EZZRLLmBA0iUB7SrJAsDPk+BTmXPI6KuJf8I2L0s72q+by+0ZwqxpECL3fv3J+0PgViSx6j5XcZV2LoypRpTOHQrOn+2tRWQ32O1oXw5Oqsbb2afj9ahwgG7m6qOIkRhO9yx5HZXdyuFO2M2k7kU3DMiTamEux7c=
+  4a28c397-75b5-43f3-b3ef-3b8fb1f38e4f:
+    name: pit_g1
+    creator: ac44621c-00d6-45a0-b025-850eb3db4aee
+    displayName: Outer World
+    type: PLAYER
+    location:
+      world: Pit
+      x: -0.5
+      y: 2.0
+      z: 5.5
+      yaw: -180.0
+      pitch: 0.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: green
+    turnToPlayer: false
+    messages: []
+    interactionCooldown: 0.0
+    serverCommand: execute in minecraft:pit positioned -1 1 5 run tp @p -1 2 255
+    skin:
+      identifier: https://drive.usercontent.google.com/download?id=1FWrfOJHri9OOJY32vB5tOCI2NYY8taCn&export=download&authuser=0
+      value: ewogICJ0aW1lc3RhbXAiIDogMTcwODEwNDI2NjQ3OSwKICAicHJvZmlsZUlkIiA6ICJlZjVjZjkzYWFhMTY0ZTMyODQ4NDYxYjIzNGQ1YWJhNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJfXzciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWJiNzA3NTdmOTZjYzhjNDhjZjNlZTBmZTFjYWJhZWMwMGY2MTJiZWI4NzdhYjdmYjBmNTNkZTY2MjczOTQ5OCIKICAgIH0KICB9Cn0=
+      signature: CZ8F0Scp5eBhVyBE2gqc9Hy8afkHrBeK36V0utI4F10WUPOxQiqhPNil2EeXJ54Yz8mBpcu5EYRjOelbWAo8dMKPoHtXTME8/qYREvEAE3HIZPSVFdarmRykdwG6zIgxgLAxM2i2IyisW+kIIKI4J5yx421r48bB31jsnhsv4c2Jn9lzEf+yfpdYRLg+mZKJKDL5vZBQXYZO6MmPz9B3Q0Uv5WSYy1MlVLLydTZcP2AddhO2kMjZxIbR1Zn3agB+v2sVhTOHRwRaGdQeQCG7bJ2V7asZ+bSIFCDDJLJ/Ye58eIIncIGL1i15na9P5KjsBHapEJ6flP/uBydlfIK4A3HoMh8WV4tp2rnKzkIGxPv/O5/2VzhlreUZTb3NBrA9JRItuT7/sRWDFI6fkQMNgjNfG7xzWNf8wFDu+8OU65icMwijkSHILDTk7csWUQ7aWxlOAl5hxEs05U96EQEBk5g6oRBoISQBkoVb3NxQdzaWhc0wUtc8P/JysAvnzn7uaufMl6Orb7X59kYyhXgKOcWCafoc3IsVkEvKi+o3Wlay4hni5ejctjJymBvqu0UJcynNEoooBeRX6JT4qQDITeh8UeaODb3/bxCLPHBVRn8DB/L4I/niRcAKFX3EkDRHzLHbXZrLCqmkUVFV4mL5bl5pHFSG2xJ4KAJ/biyJfKQ=
+  5dc15177-3033-428a-a4da-d2ef508f5185:
+    name: Pit_lobby
+    creator: ac44621c-00d6-45a0-b025-850eb3db4aee
+    displayName: Pit Lobby
+    type: PLAYER
+    location:
+      world: Pit
+      x: -5.5
+      y: 2.0
+      z: 255.5
+      yaw: -90.0
+      pitch: 0.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: red
+    turnToPlayer: false
+    messages: []
+    interactionCooldown: 0.0
+    serverCommand: execute in minecraft:pit positioned -6 1 255 run tp @p -1 2 0 90
+      0
+    skin:
+      identifier: https://drive.usercontent.google.com/download?id=1FWrfOJHri9OOJY32vB5tOCI2NYY8taCn&export=download&authuser=0
+      value: ewogICJ0aW1lc3RhbXAiIDogMTcwODEwNDI2NjQ3OSwKICAicHJvZmlsZUlkIiA6ICJlZjVjZjkzYWFhMTY0ZTMyODQ4NDYxYjIzNGQ1YWJhNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJfXzciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWJiNzA3NTdmOTZjYzhjNDhjZjNlZTBmZTFjYWJhZWMwMGY2MTJiZWI4NzdhYjdmYjBmNTNkZTY2MjczOTQ5OCIKICAgIH0KICB9Cn0=
+      signature: CZ8F0Scp5eBhVyBE2gqc9Hy8afkHrBeK36V0utI4F10WUPOxQiqhPNil2EeXJ54Yz8mBpcu5EYRjOelbWAo8dMKPoHtXTME8/qYREvEAE3HIZPSVFdarmRykdwG6zIgxgLAxM2i2IyisW+kIIKI4J5yx421r48bB31jsnhsv4c2Jn9lzEf+yfpdYRLg+mZKJKDL5vZBQXYZO6MmPz9B3Q0Uv5WSYy1MlVLLydTZcP2AddhO2kMjZxIbR1Zn3agB+v2sVhTOHRwRaGdQeQCG7bJ2V7asZ+bSIFCDDJLJ/Ye58eIIncIGL1i15na9P5KjsBHapEJ6flP/uBydlfIK4A3HoMh8WV4tp2rnKzkIGxPv/O5/2VzhlreUZTb3NBrA9JRItuT7/sRWDFI6fkQMNgjNfG7xzWNf8wFDu+8OU65icMwijkSHILDTk7csWUQ7aWxlOAl5hxEs05U96EQEBk5g6oRBoISQBkoVb3NxQdzaWhc0wUtc8P/JysAvnzn7uaufMl6Orb7X59kYyhXgKOcWCafoc3IsVkEvKi+o3Wlay4hni5ejctjJymBvqu0UJcynNEoooBeRX6JT4qQDITeh8UeaODb3/bxCLPHBVRn8DB/L4I/niRcAKFX3EkDRHzLHbXZrLCqmkUVFV4mL5bl5pHFSG2xJ4KAJ/biyJfKQ=
+  bbfcaa45-ac4d-49f3-b5c9-268a66fb6b68:
+    name: Pit_Lobby3
+    creator: ac44621c-00d6-45a0-b025-850eb3db4aee
+    displayName: Pit Lobby
+    type: PLAYER
+    location:
+      world: Pit
+      x: -5.5
+      y: 2.0
+      z: -254.5
+      yaw: -90.0
+      pitch: 0.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: red
+    turnToPlayer: false
+    messages: []
+    interactionCooldown: 0.0
+    serverCommand: execute in minecraft:pit positioned -6 1 -255 run tp @p -1 2 0
+      90 0
+    skin:
+      identifier: https://drive.usercontent.google.com/download?id=1zhHpYghN9ircLa7wxL_diUUVvviBnHde&export=download&authuser=0
+      value: ewogICJ0aW1lc3RhbXAiIDogMTcwODEwNDIxODg5NCwKICAicHJvZmlsZUlkIiA6ICIyNmYxZmI4NTgwMjM0ZGQ0Yjg2MWIwNGNmNDk1ZGU3MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJCZXN0T2ZIYWl0aSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZTcwMjYwZDdiNjZhYjliZjhkOTY2YzY4ZjM3Y2FlZjZiY2YwYzViZjBmNmUxMWMyNGM4ZTI4ZTI4ZmQ2NWVkIgogICAgfQogIH0KfQ==
+      signature: N6y2Yx2D43w5UUmUkIMNtAt7/M9kFqERNqv6BRzFhkNTLnkAozHLfrUgxdFx2tcR0ocEgxjlm9LOV7MOmzdO2Avteqq5sAAvx9moxQYKXZdKnuqZhi+oUGB1ndMJiYcvrQ2bkj8Uz4cp1xyXABHaB2K4jYG4qhOVtBh11afPy+zMeXcYzNENOHdt4JpZzsc7jV2ABoznPwB1tUKRTRQKgcxYiwbL+Hbf2fBZ4EdXE3w6e5stTyat+WtGAZHGp42aJtU3lwYoMhlr5kY7F+tqpxHNGCc2sxmWkb73cqeH8UV5WqNiPsM+mFsWkLli+ARHHHicUaYaZxtepCz72izRvmI/bTe9A1UB64isVHNIExcMu/ndOcOvmKIXJZv6GaQkxmGoBRw5mtIJNHhBVC8x7Q8yjVwH+Shy0huYfU4FdOp6K8S2d/VeUlTBeGpB9UQIOBLfQqLTEQ0S69gtrNgGeygnMurhvTQchawyDkXF6O0w0dAAURGBZD/BAzventvmeCnGBSO9KQ5INOF9kBJHhjdhgwuuZkNxJcgEaor5puTUfFV8SLlfCzh+g6TTLQm80pqL3E2o6wlKux1onY8PJuD67I5aPPfH/DUMfSVQ0GFyY/V93XS1iBq4dmPHihX6YenWaSoc/QvHWR6KkwVjNYvoCLDbcr4webZaDweJY4o=
+  accbeca8-c40c-49f3-b8ac-e993cd69628c:
+    name: Pit_lobby2
+    creator: ac44621c-00d6-45a0-b025-850eb3db4aee
+    displayName: Pit Lobby
+    type: PLAYER
+    location:
+      world: Pit
+      x: 249.5
+      y: 2.0
+      z: 0.5
+      yaw: -90.0
+      pitch: 0.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: red
+    turnToPlayer: false
+    messages: []
+    interactionCooldown: 0.0
+    serverCommand: execute in minecraft:pit positioned 249 2 0 run tp @p -1 2 0 90
+      0
+    skin:
+      identifier: https://drive.usercontent.google.com/download?id=1W-Qgx17Z7xkL2A5wb3v9XfC6e8e6GdUQ&export=download&authuser=0
+      value: ewogICJ0aW1lc3RhbXAiIDogMTcwODEwNDE3ODg3OSwKICAicHJvZmlsZUlkIiA6ICJiMTRiMjY2NzgxOTU0ZGM1OTUzYTRkYWQ5MjRiZGRjNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHbm92ZV8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGMzMGU2ZjgzYjUxNmI1NzJiZmU5MWM5YTYzMTg3ZjIzMTFkMzJjNzc5ZTEzMjljOTk2YmRiYjZkMThiN2Y0ZSIKICAgIH0KICB9Cn0=
+      signature: NktYicH6ReQ3POU0k2DLe1LdpyYMrirr4Ov5F3Sqs8sibSwG75mA4UdXpM3hhkFOUjDZ0+SRWSjBn1AajzdHGZcoM8oCELQdclexk/5ieYqOmHcfy3fHVcylM8cFI3/o0B6wpcc1CHYiF8rC3g3T1wSOcMaX2dInGXwBGcpUMqSdoqJRHbCcDq60pHa67K7JPgCJ5E/xLXSepfD5hh61zPQNPvJHdaDdfp3El6KsHegSxRKun6bNez2IFvRq3U8cDF+kq9jUT00jSJbbqq69VaTycZQvmvGFcSqKERgFOkx0bg+hcK8dzFMmxH4JkGbwfe/mivbGlL8ZJc3gAz6FOqvv5CDrGPJZXDXj99dXbMCAUZBQq9s/y/uf4hMayQsdv1jkzrfjEih2TZcs3O1ZO76jF2oAHDgkX47Ek2G7Z/CstBkep3qQIpHXpo7BwE9eptT0vb8EJnDUa+Ex80xjsmBHQ0Ys3M65lt1ompXMEwa8U8eQUVfc8nrdvHqO1Q9NNLUBzEyjYh0EZZRLLmBA0iUB7SrJAsDPk+BTmXPI6KuJf8I2L0s72q+by+0ZwqxpECL3fv3J+0PgViSx6j5XcZV2LoypRpTOHQrOn+2tRWQ32O1oXw5Oqsbb2afj9ahwgG7m6qOIkRhO9yx5HZXdyuFO2M2k7kU3DMiTamEux7c=
+  c06e32b1-ff3b-48f5-a1a2-743385e63f6f:
+    name: Arcade
+    creator: 762e430d-c0a7-4ffc-a39c-4e76a3ff2241
+    displayName: Arcade
+    type: PLAYER
+    location:
+      world: lobby
+      x: 190.5
+      y: 26.0
+      z: 946.5
+      yaw: -135.0
+      pitch: 0.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: true
+    messages: []
+    interactionCooldown: 0.0
+    playerCommand: mvtp Arcade
+  e2621301-acaa-48c7-95ef-d0d1a5fd1e3e:
+    name: BW_1v1_G2
+    creator: ac44621c-00d6-45a0-b025-850eb3db4aee
+    displayName: BW_1v1_G2
+    type: PLAYER
+    location:
+      world: Bed_Wars
+      x: 9.5
+      y: 1.0
+      z: 0.5
+      yaw: 90.0
+      pitch: 0.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    messages:
+    - Coming Soon
+    interactionCooldown: 0.0
+  73391b95-ead6-4788-9a61-5aaf8ab808f6:
+    name: Spleef
+    creator: 762e430d-c0a7-4ffc-a39c-4e76a3ff2241
+    displayName: Spleef
+    type: PLAYER
+    location:
+      world: Arcade
+      x: 77.46630564927075
+      y: 26.0
+      z: 222.43075047010552
+      yaw: 136.35004
+      pitch: -1.7999747
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: aqua
+    turnToPlayer: true
+    messages: []
+    interactionCooldown: 0.0
+    playerCommand: mvtp spleef
+  a84e6d6e-f61f-49e6-837e-16fb3bd7952f:
+    name: BW_1v1_G1
+    creator: ac44621c-00d6-45a0-b025-850eb3db4aee
+    displayName: BW_1v1_G1
+    type: PLAYER
+    location:
+      world: Bed_Wars
+      x: 8.5
+      y: 1.0
+      z: 4.5
+      yaw: 116.0
+      pitch: 0.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    messages: []
+    interactionCooldown: 0.0
+  134d0914-866d-4867-a82f-80105d450d1e:
+    name: BW_1v1_G3
+    creator: ac44621c-00d6-45a0-b025-850eb3db4aee
+    displayName: BW_1v1_G3
+    type: PLAYER
+    location:
+      world: Bed_Wars
+      x: 8.5
+      y: 1.0
+      z: -3.5
+      yaw: 64.0
+      pitch: 0.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    messages:
+    - Coming Soon
+    interactionCooldown: 0.0
+  8375e2fd-c99e-4d2c-9d2a-87b80090efc8:
+    name: BW_Duo_G3
+    creator: ac44621c-00d6-45a0-b025-850eb3db4aee
+    displayName: BW_Duo_G3
+    type: PLAYER
+    location:
+      world: Bed_Wars
+      x: 4.5
+      y: 1.0
+      z: 8.5
+      yaw: 153.89542
+      pitch: 0.20915239
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    messages:
+    - Coming Soon
+    interactionCooldown: 0.0
+  74cb8e52-910a-4a7c-aa3c-71a3990d1236:
+    name: BW_Trio_G3
+    creator: ac44621c-00d6-45a0-b025-850eb3db4aee
+    displayName: BW_Trio_G3
+    type: PLAYER
+    location:
+      world: Bed_Wars
+      x: -7.5
+      y: 1.0
+      z: 4.5
+      yaw: -116.0
+      pitch: 0.41830477
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    messages:
+    - Coming Soon
+    interactionCooldown: 0.0
+  51fc4e88-dcb9-4b18-a97e-14f9704266bb:
+    name: BW_Squad_G2
+    creator: ac44621c-00d6-45a0-b025-850eb3db4aee
+    displayName: BW_Squad_G2
+    type: PLAYER
+    location:
+      world: Bed_Wars
+      x: 0.5
+      y: 1.0
+      z: -8.5
+      yaw: 0.0
+      pitch: 0.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    messages:
+    - Coming Soon
+    interactionCooldown: 0.0
+  baaaba3f-1c58-4ebc-a1e4-266af3c1868f:
+    name: BW_Squad_G1
+    creator: ac44621c-00d6-45a0-b025-850eb3db4aee
+    displayName: BW_Squad_G1
+    type: PLAYER
+    location:
+      world: Bed_Wars
+      x: 4.5
+      y: 1.0
+      z: -7.5
+      yaw: 26.0
+      pitch: 0.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    messages: []
+    interactionCooldown: 0.0
+  268fc4f6-9098-4386-81a5-7425af873c2d:
+    name: BW_Trio_G1
+    creator: ac44621c-00d6-45a0-b025-850eb3db4aee
+    displayName: BW_Trio_G1
+    type: PLAYER
+    location:
+      world: Bed_Wars
+      x: -7.5
+      y: 1.0
+      z: -3.5
+      yaw: -66.09152
+      pitch: 4.601352
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    messages: []
+    interactionCooldown: 0.0
+  fbe83209-3b15-4dc9-bc35-8280eec49286:
+    name: BW_Duo_G1
+    creator: ac44621c-00d6-45a0-b025-850eb3db4aee
+    displayName: BW_Duo_G1
+    type: PLAYER
+    location:
+      world: Bed_Wars
+      x: -3.5
+      y: 1.0
+      z: 8.5
+      yaw: -154.0
+      pitch: 0.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    messages: []
+    interactionCooldown: 0.0
+  7c4c1279-a7c5-4a64-9276-3333e0993131:
+    name: BW_Trio_G2
+    creator: ac44621c-00d6-45a0-b025-850eb3db4aee
+    displayName: BW_Trio_G2
+    type: PLAYER
+    location:
+      world: Bed_Wars
+      x: -8.5
+      y: 1.0
+      z: 0.5
+      yaw: -90.0
+      pitch: 0.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    messages:
+    - Coming Soon
+    interactionCooldown: 0.0
+  0197ffc4-1f96-4725-85fa-cfd4b3b083b6:
+    name: BW_Squad_G3
+    creator: ac44621c-00d6-45a0-b025-850eb3db4aee
+    displayName: BW_Squad_G3
+    type: PLAYER
+    location:
+      world: Bed_Wars
+      x: -3.5
+      y: 1.0
+      z: -7.5
+      yaw: -26.313728
+      pitch: 0.41830477
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    messages:
+    - Coming Soon
+    interactionCooldown: 0.0
+  40636a4d-d783-415a-8d85-16ab951e8c61:
+    name: BW_Duo_G2
+    creator: ac44621c-00d6-45a0-b025-850eb3db4aee
+    displayName: BW_Duo_G2
+    type: PLAYER
+    location:
+      world: Bed_Wars
+      x: 0.5
+      y: 1.0
+      z: 9.5
+      yaw: -180.0
+      pitch: 0.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    messages:
+    - Coming Soon
+    interactionCooldown: 0.0
+  aa5fc390-3d35-4086-8f74-dacc79de3201:
+    name: Spleef_leave
+    creator: 762e430d-c0a7-4ffc-a39c-4e76a3ff2241
+    displayName: Spleef_leave
+    type: PLAYER
+    location:
+      world: Spleef
+      x: -30.5
+      y: -48.0
+      z: 67.5
+      yaw: -180.0
+      pitch: 0.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    messages: []
+    interactionCooldown: 0.0
+  d1ed4cdf-1614-4463-870a-d9a870a93173:
+    name: Caveman
+    creator: 762e430d-c0a7-4ffc-a39c-4e76a3ff2241
+    displayName: Fred
+    type: PLAYER
+    location:
+      world: lobby
+      x: 191.2487273441948
+      y: 24.0
+      z: 928.847896053471
+      yaw: -35.073425
+      pitch: 28.199982
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: true
+    messages:
+    - LOL
+    interactionCooldown: 0.0
+    skin:
+      identifier: https://t.novaskin.me/4b3c4793827d612171262e7bfd5d214bb6b5772ddcfc9b4ca920a24e6c27250d
+      value: ewogICJ0aW1lc3RhbXAiIDogMTY2NzE0MTY0MzkxNywKICAicHJvZmlsZUlkIiA6ICJlZTZiNDJmN2Y2NjM0NjhhODgyNTdjNmQ3ZjgwNWE4ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICI1Njk1IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzlkODFmOGVjMDA0MDJjZmM1M2ViOGM3NzE3ODZiZTgwZTliNjkwM2QzZTU1NWFiZjJlZTQyMDFiOGE3ZTg0ZDgiCiAgICB9CiAgfQp9
+      signature: g5BOJBjN+jrzaJ4qm0IMB1dw+ZimBRZhkU2uld8dg1zI7j0gEJje7LzojgfLNa6oFb19cnH4NEkBE12lSFDGEZgInCZJT0CAPZVU9f6c3AJAkRjCnaJw+OXK/5V4BL4Ii5sephLk3JPX1WG8bYR1eKuvf41vLRITOsIUQeGgs+dpy1ZeuU0MS9RWEmIOa/7gBRdnmIiHM7RVGIKbIbEtzbNf5NxibX2fIXjWNq/iHNHiIFk8RdACN4jLayJaPGe3zcsy0kc4sWo1qPTBu7s3w1FlRFQgJ5DaJzIALgVNu2OPnJ28tNRMEOYbosWogAFK+KYh1TsUKEDLswTyXGDAmUb14X88I2doU/GgG6GUsZZiIRcdk9M5RC7+vneJAEIrJWda85nX62s0RwQgCOFiqshJnSviZyvwVhLiOqij8gtVMuYbD0Ey/nI/XVHdBkO5cjnQiFyJ3/QFOC9SN8TxDopiZQodXh5w9Gvia+6viUN//8SxehmYP59BCKUGvP4TZnD/8XdZKhbA33iO5AV0acXeRCKisXzaY9n77J3MLNhlTzz/HgalhymuWEORPzAlb2yhGOsYlpOV4n3839yBxiGFpKXzICzCZ/XzUCA/towvVY/QW5D2N16VjMFm8n1YCbspfPFMkvLuZ/XgF/u+eArX6oX5lWLk/rdLSQQpEoc=
+    attributes:
+      pose: sitting

@@ -1,0 +1,5 @@
+HexHeat:
+  command: /HexHeat
+  type: RUN_COMMAND
+  runcmd:
+  - '/mvtp Hexheat'
