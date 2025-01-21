@@ -78,13 +78,13 @@ packs:
       restricted: false
       permission: worldresourcepacks.pack.gamepack-variant-2
   lobby:
-    url: https://github.com/SkullGamer727/shloppatMCServer/blob/main/Texture%20packs/Lobby.zip
+    url: https://github.com/SkullGamer727/shloppatMCServer/raw/refs/heads/main/Texture%20packs/Lobby.zip
     uuid: 0d4c3d1b-3f0c-34e4-aae9-e9598ed745db
     hash: 415c82ef5d4f523db403ab4b797a626ab773ea00
     restricted: false
     permission: resourcepacksplugin.pack.lobby
   arcade:
-    url: https://github.com/SkullGamer727/shloppatMCServer/blob/main/Texture%20packs/Arcade.zip
+    url: https://github.com/SkullGamer727/shloppatMCServer/raw/refs/heads/main/Texture%20packs/Arcade.zip
     uuid: 2ececd0e-63e4-38b6-b751-4044265f451c
     hash: ff71e7bb82bf0e393250fa58c5cffd638f6ca037
     restricted: false
