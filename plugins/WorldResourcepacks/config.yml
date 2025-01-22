@@ -76,10 +76,12 @@ packs:
   Lobby:
     url: https://github.com/SkullGamer727/shloppatMCServer/raw/refs/heads/main/Texture%20packs/Lobby.zip
     uuid: 0d4c3d1b-3f0c-34e4-aae9-e9598ed745db
+    hash: dbe58aa44665ece9c67511b75ffa224709fb65c5
     restricted: false
     permission: resourcepacksplugin.pack.lobby
   arcade:
     url: https://github.com/SkullGamer727/shloppatMCServer/raw/refs/heads/main/Texture%20packs/Arcade.zip
     uuid: 2ececd0e-63e4-38b6-b751-4044265f451c
+    hash: fc85747a043059239fc0599e632ebdfdb92aca4c
     restricted: false
     permission: resourcepacksplugin.pack.arcade
