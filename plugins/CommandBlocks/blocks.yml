@@ -1,0 +1,53 @@
+#  _______                                  _ ______  _             _          
+# (_______)                                | (____  \| |           | |  v1.4.0
+#  _       ___  ____  ____  _____ ____   __| |____)  ) | ___   ____| |  _  ___ 
+# | |     / _ \|    \|    \(____ |  _ \ / _  |  __  (| |/ _ \ / ___) |_/ )/___)
+# | |____| |_| | | | | | | / ___ | | | ( (_| | |__)  ) | |_| ( (___|  _ (|___ |
+#  \______)___/|_|_|_|_|_|_\_____|_| |_|\____|______/ \_)___/ \____)_| \_|___/ 
+#
+# Executing your commands since 2018! By Geitenijs
+# Information & Support: https://www.spigotmc.org/resources/62720
+#
+# block:
+#   location: The location of the CommandBlock. Don't change this unless you know what you're doing!
+#   success:
+#     commands:
+#       console:
+#       - A list of commands to be executed by the console. Variables: {player}, {cost}.
+#       player:
+#       - A list of commands to be executed by the player. Variables: {player}, {cost}.
+#     messages:
+#     - A list of messages to be displayed to the player. Variables: {player}, {cost}.
+#   permission:
+#     value: The required permission to use this CommandBlock. Remove to disable.
+#     commands:
+#       console:
+#       - A list of commands to be executed by the console. Variables: {player}, {permission}.
+#       player:
+#       - A list of commands to be executed by the player. Variables: {player}, {permission}.
+#     messages:
+#     - A list of messages to be displayed to the player. Variables: {player}, {permission}.
+#   cost:
+#     value: The required cost to use the CommandBlock. Set to '0' for no cost.
+#     bypasspermission: Permission to bypass the cost for this CommandBlock. Remove to disable.
+#     commands:
+#       console:
+#       - A list of commands to be executed by the console. Variables: {player}, {cost}.
+#       player:
+#       - A list of commands to be executed by the player. Variables: {player}, {cost}.
+#     messages:
+#     - A list of messages to be displayed to the player. Variables: {player}, {cost}.
+#   timeout:
+#     value: A timeout for the CommandBlock. Set to '0' to disable.
+#     bypasspermission: Permission to bypass the timeout for this CommandBlock. Remove to disable.
+#     commands:
+#       console:
+#       - A list of commands to be executed by the console. Variables: {player}, {time}.
+#       player:
+#       - A list of commands to be executed by the player. Variables: {player}, {time}.
+#     messages:
+#     - A list of messages to be displayed to the player. Variables: {player}, {time}.
+#   delay:
+#     value: A delay for the CommandBlock. Set to '0' to disable.
+
+{}

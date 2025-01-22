@@ -1,0 +1,96 @@
+#  _______                                  _ ______  _             _          
+# (_______)                                | (____  \| |           | |  v1.4.0
+#  _       ___  ____  ____  _____ ____   __| |____)  ) | ___   ____| |  _  ___ 
+# | |     / _ \|    \|    \(____ |  _ \ / _  |  __  (| |/ _ \ / ___) |_/ )/___)
+# | |____| |_| | | | | | | / ___ | | | ( (_| | |__)  ) | |_| ( (___|  _ (|___ |
+#  \______)___/|_|_|_|_|_|_\_____|_| |_|\____|______/ \_)___/ \____)_| \_|___/ 
+#
+# Executing your commands since 2018! By Geitenijs
+# Information & Support: https://www.spigotmc.org/resources/62720
+#
+# general:
+#   pluginbanner: Whether or not to display the fancy banner in your console on server startup.
+#   colourfulconsole: Console messages will be coloured when this is enabled.
+# updates:
+#   check: When enabled, the plugin will check for updates. No automatic downloads, just a subtle notification in the console.
+#   notify: Would you like to get an in-game reminder of a new update? Requires permission 'commandblocks.notify.update'.
+# default:
+#   success:
+#     commands:
+#       console:
+#       - A list of commands to be executed by the console. Variables: {player}, {cost}.
+#       player:
+#       - A list of commands to be executed by the player. Variables: {player}, {cost}.
+#     messages:
+#     - A list of messages to be displayed to the player. Variables: {player}, {cost}.
+#   permission:
+#     value: The required permission to use this CommandBlock. Remove to disable.
+#     commands:
+#       console:
+#       - A list of commands to be executed by the console. Variables: {player}, {permission}.
+#       player:
+#       - A list of commands to be executed by the player. Variables: {player}, {permission}.
+#     messages:
+#     - A list of messages to be displayed to the player. Variables: {player}, {permission}.
+#   cost:
+#     value: The required cost to use the CommandBlock. Set to '0' for no cost.
+#     bypasspermission: Permission to bypass the cost for this CommandBlock. Remove to disable.
+#     commands:
+#       console:
+#       - A list of commands to be executed by the console. Variables: {player}, {cost}.
+#       player:
+#       - A list of commands to be executed by the player. Variables: {player}, {cost}.
+#     messages:
+#     - A list of messages to be displayed to the player. Variables: {player}, {cost}.
+#   timeout:
+#     value: A timeout for the CommandBlock. Set to '0' to disable.
+#     bypasspermission: Permission to bypass the timeout for this CommandBlock. Remove to disable.
+#     commands:
+#       console:
+#       - A list of commands to be executed by the console. Variables: {player}, {time}.
+#       player:
+#       - A list of commands to be executed by the player. Variables: {player}, {time}.
+#     messages:
+#     - A list of messages to be displayed to the player. Variables: {player}, {time}.
+#   delay:
+#     value: A delay for the CommandBlock. Set to '0' to disable.
+
+general:
+  pluginbanner: true
+  colourfulconsole: true
+updates:
+  check: true
+  notify: true
+default:
+  success:
+    commands:
+      console:
+      - say {player} used a CommandBlock!
+      player:
+      - me I used a CommandBlock!
+    messages: []
+  permission:
+    value: commandblocks.use
+    commands:
+      console: []
+      player: []
+    messages:
+    - '&cYou don''t have permission to do that.'
+  cost:
+    value: 0
+    bypasspermission: commandblocks.cost.bypass
+    commands:
+      console: []
+      player: []
+    messages:
+    - '&cYou don''t have sufficient funds to do that.'
+  timeout:
+    value: 5
+    bypasspermission: commandblocks.timeout.bypass
+    commands:
+      console: []
+      player: []
+    messages:
+    - '&cPlease wait {time} seconds before doing that again.'
+  delay:
+    value: 0

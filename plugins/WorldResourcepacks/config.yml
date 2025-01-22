@@ -48,6 +48,8 @@ worlds:
   your_example_nether:
     # Use a regex to target all worlds with a certain name
     regex: example_nether_.*
+  Parkour:
+    pack: lobby
 packs:
   examplepack:
     url: http://example.com/lobbyresourcepack.zip
@@ -82,6 +84,6 @@ packs:
   arcade:
     url: https://github.com/SkullGamer727/shloppatMCServer/raw/refs/heads/main/Texture%20packs/Arcade.zip
     uuid: 2ececd0e-63e4-38b6-b751-4044265f451c
-    hash: fc85747a043059239fc0599e632ebdfdb92aca4c
+    hash: 5074d2ededa767b9b64bbfb8c9b2f75a62c16090
     restricted: false
     permission: resourcepacksplugin.pack.arcade
