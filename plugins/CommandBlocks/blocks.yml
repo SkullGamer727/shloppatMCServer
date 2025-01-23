@@ -50,4 +50,37 @@
 #   delay:
 #     value: A delay for the CommandBlock. Set to '0' to disable.
 
-{}
+C01:
+  location: -7#-15#-53#parkour
+  success:
+    commands:
+      console:
+      - say {player} used a CommandBlock!
+      player:
+      - me I used a CommandBlock!
+    messages: []
+  permission:
+    value: commandblocks.use
+    commands:
+      console: []
+      player: []
+    messages:
+    - '&cYou don''t have permission to do that.'
+  cost:
+    value: 0.0
+    bypasspermission: commandblocks.cost.bypass
+    commands:
+      console: []
+      player: []
+    messages:
+    - '&cYou don''t have sufficient funds to do that.'
+  timeout:
+    value: 5
+    bypasspermission: commandblocks.timeout.bypass
+    commands:
+      console: []
+      player: []
+    messages:
+    - '&cPlease wait {time} seconds before doing that again.'
+  delay:
+    value: 0
