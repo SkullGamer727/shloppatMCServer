@@ -983,3 +983,31 @@ npcs:
       value: ewogICJ0aW1lc3RhbXAiIDogMTczNzU2NjYzODUwNCwKICAicHJvZmlsZUlkIiA6ICI3NjJlNDMwZGMwYTc0ZmZjYTM5YzRlNzZhM2ZmMjI0MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNUl9PemVsb3QiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjNkNTE3ZGQ3MDkzNTEwMDgzNmZjNjEzMTJkY2E3NWRlN2UyNzlhNjljNWYxMTdhYzY4YTA4ODIyODkwNjciCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y5YTc2NTM3NjQ3OTg5ZjlhMGI2ZDAwMWUzMjBkYWM1OTFjMzU5ZTllNjFhMzFmNGNlMTFjODhmMjA3ZjBhZDQiCiAgICB9CiAgfQp9
       signature: iB008sUIYAoAtUJySddaDkE93vSdfqulDO+huo970tulkBWrlsEoKiHFqBahOCLDhjTI8EI/yD2aBKMq9Kajh5/184Mu/Ufop9/MV+nz9UGlq0KcuNARO4GsXqimZxf3LeTYpXAOIpDpd0eFLzI73/BkTfyRUQAZ6wQ6DqjI2OEG3XPZPppX0IEF4CCo5nxkmA0nravGiAI57aH6vp/bJSxVpaglJCK6I9oq7gQpKwvP0oJTDs3HB8pBNSq0c0mVfoVorORV8/ySsJd7btTjOWSGWUR13ov5aEPrg0bI4pyfgCWRTnC/Ry3UnXV2q9SNTU6bM7tZ+paFWesf3/1P7no9jIqbU5S9cUndXg+eXcyka8dtcBnWFY8OeI83xUtZ3oqvslziBlg5TVTttCkJ7bwF6etFP5/00Xojp3Yf8EQTs0OpKOiaiEoCI1WnIiUHSw5Ul6AIpIWTLIliHyfh/aRi8dX5DKfNtMgllZfpGqAaTORqPDQZb0oseYGUZ2O4peNknVjBXD/Sr1nPwhzn1p6F8n6FRqlRj0esEOPLYgIPGflb6vMJKoUYEGzLZ+dZ6ngkxyHxwNFGLk6rggW8RN3Kid86E7qx/yXaDwoPO6RjCrBogkw22q7dhxIEP6umTFODe6gD0UU9JgpC6q50nX3cUi68PCf0pIDvkaEY5QY=
     playerCommand: mvtp lobby
+  2398e858-d59a-4e47-9bd4-98b6745953b0:
+    name: fischer
+    creator: 762e430d-c0a7-4ffc-a39c-4e76a3ff2241
+    displayName: fischer
+    type: PLAYER
+    location:
+      world: lobby
+      x: 99.83035048324798
+      y: 17.5
+      z: 975.4817708902978
+      yaw: -86.785645
+      pitch: 24.749922
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: true
+    messages:
+    - Ich wusst ja gar nicht, dass du so am chillen bist
+    interactionCooldown: 0.0
+    attributes:
+      pose: sitting
+    equipment:
+      MAINHAND:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: FISHING_ROD
