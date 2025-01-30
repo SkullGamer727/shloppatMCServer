@@ -1,0 +1,6 @@
+unafk:
+  command: /unafk
+  type: RUN_COMMAND
+  runcmd:
+  - /tag @s remove afk
+  permission-required: false

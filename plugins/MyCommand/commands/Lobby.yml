@@ -2,4 +2,5 @@ lobby:
   command: /lobby
   type: RUN_COMMAND
   runcmd:
-  - '/mvtp lobby'
+  - /mvtp lobby
+  permission-required: false

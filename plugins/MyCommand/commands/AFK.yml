@@ -1,0 +1,9 @@
+afk:
+  command: /afk
+  type: RUN_COMMAND
+  runcmd:
+  - /tag @s add afk
+  aliases:
+  - AFK
+  - Afk
+  permission-required: false
