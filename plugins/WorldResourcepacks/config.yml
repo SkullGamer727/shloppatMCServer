@@ -43,12 +43,20 @@ worlds:
     pack: lobby
   Arcade:
     pack: arcade
+  PvP:
+    pack: lobby
+  Pit:
+    pack: lobby
+  Spleef:
+    pack: lobby
+  HexHeat:
+    pack: lobby
   # optional-packs:
   # - examplepack2
   your_example_nether:
     # Use a regex to target all worlds with a certain name
     regex: example_nether_.*
-  Parkour:
+  parkour:
     pack: lobby
 packs:
   examplepack:
@@ -78,7 +86,7 @@ packs:
   Lobby:
     url: https://github.com/SkullGamer727/shloppatMCServer/raw/refs/heads/main/Texture%20packs/Lobby.zip
     uuid: 0d4c3d1b-3f0c-34e4-aae9-e9598ed745db
-    hash: dbe58aa44665ece9c67511b75ffa224709fb65c5
+    hash: f5d019c70558180d16a7b8d5c82adb2a6ba2aa8a
     restricted: false
     permission: resourcepacksplugin.pack.lobby
   arcade:

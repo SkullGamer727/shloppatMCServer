@@ -2,7 +2,7 @@ panels:
   Mainmenu:
     perm: default
     rows: '5'
-    title: '&8Main Menu'
+    title: '§l&8Main Menu'
     empty: black_STAINED_GLASS_PANE
     item:
       '4':
@@ -51,7 +51,7 @@ panels:
       '17':
         itemType:
           -noAttributes
-        material: bundle
+        material: clay_ball
         name: §6§lSettings
         commands:
           - cp Settings
@@ -97,7 +97,7 @@ panels:
           - §7Links Klick -> Teleport
           - §7Rechts Klick -> genauere Auswahl
       '33':
-        material: diamond_sword
+        material: slime_ball
         name: §a§lPvP
         commands:
           - playsound minecraft:entity.enderman.teleport player @s

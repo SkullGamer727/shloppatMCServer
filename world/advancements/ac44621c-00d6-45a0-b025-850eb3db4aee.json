@@ -2955,15 +2955,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/red_carpet": {
-    "criteria": {
-      "has_red_wool": "2025-02-17 18:12:33 +0100"
-    },
-    "done": true
-  },
   "minecraft:nether/create_beacon": {
     "criteria": {
       "beacon": "2025-02-17 17:47:13 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_carpet": {
+    "criteria": {
+      "has_red_wool": "2025-02-17 18:12:33 +0100"
     },
     "done": true
   },
@@ -2973,15 +2973,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/sticky_piston": {
+  "minecraft:recipes/decorations/red_bed": {
     "criteria": {
-      "has_slime_ball": "2025-02-17 19:18:00 +0100"
+      "has_red_wool": "2025-02-17 18:12:33 +0100"
     },
     "done": true
   },
   "minecraft:recipes/combat/turtle_helmet": {
     "criteria": {
       "has_scute": "2025-02-17 19:17:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2025-02-17 19:18:00 +0100"
     },
     "done": true
   },
@@ -2997,9 +3003,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/red_bed": {
+  "minecraft:recipes/decorations/end_crystal": {
     "criteria": {
-      "has_red_wool": "2025-02-17 18:12:33 +0100"
+      "has_ender_eye": "2025-02-17 20:26:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2025-02-17 20:26:20 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2025-02-17 20:26:20 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2025-02-17 20:26:17 +0100"
     },
     "done": true
   },
