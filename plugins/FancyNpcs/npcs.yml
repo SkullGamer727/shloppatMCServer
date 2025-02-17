@@ -70,7 +70,7 @@ npcs:
     glowingColor: white
     turnToPlayer: true
     messages:
-    - The parcour has been quit.
+    - Parkour beendet
     interactionCooldown: 0.0
     serverCommand: execute positioned 203 21 921 run tag @p remove JumpNrun1
     playerCommand: ''
@@ -97,7 +97,7 @@ npcs:
     glowingColor: white
     turnToPlayer: true
     messages:
-    - The parcour has been quit.
+    - Parkour beendet
     interactionCooldown: 0.0
     serverCommand: execute positioned 149 27 928 run tag @p remove JumpNrun2
     playerCommand: ''
@@ -189,12 +189,12 @@ npcs:
     displayName: Hexagon Heat
     type: PLAYER
     location:
-      world: lobby
-      x: 186.5
-      y: 27.0
-      z: 945.5
-      yaw: -102.25049
-      pitch: 10.406428
+      world: Arcade
+      x: 51.5
+      y: 25.0
+      z: 221.5
+      yaw: -180.0
+      pitch: 0.0
     showInTab: false
     spawnEntity: true
     collidable: true
@@ -496,6 +496,10 @@ npcs:
     messages: []
     interactionCooldown: 0.0
     playerCommand: mvtp Arcade
+    skin:
+      identifier: https://t.novaskin.me/4757e55a0c1615211d385bc0cc71d2a538aed122768d170c3fc4e746fd6942db
+      value: ewogICJ0aW1lc3RhbXAiIDogMTYyMDMyNDcxMDgyOCwKICAicHJvZmlsZUlkIiA6ICJmNThkZWJkNTlmNTA0MjIyOGY2MDIyMjExZDRjMTQwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJ1bnZlbnRpdmV0YWxlbnQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjgzM2QzYzFmMjE2MmE1NDBhMzJlYTQxZTAyYjYwNjk0N2U0ZWQ3ODBlN2FiYWJkZDJjMGIxYWRhZWExMmE1YiIKICAgIH0KICB9Cn0=
+      signature: F9JouR5+8gvwr0PL4REbS8S2lvS0WJjaXvG9vrJTxFqB0mZrO/5fV+pdrzSj40rA28Mer91KTzcbaGtuziG0j9GGQMlinUOa5JbmGs37/TeHHnOChkBiaGi6vbvtfRijkbBKP9jNZJSkO/HKK4BXAQ7+sZf0QwH6UOwCqmlQmyoK0mkwv+iYGV6G6xmlu9RD/9iDMGAKRQY1QtFNml6bLmPc8p8h/yfeH3/0ZFyw8mGd16jvIq/Je8zWmog/Cj/GDHiU8N2Zv9RqxfLeZ/yQ+Hge6MATMZkZPkXU+1mv2c66M0XYfnvfPkWR1pjP5godd7YYoR8VOoel52HlXXTfUtBcEZ8n0Lxe/LkMPufinB8d3355sFE8qqNGe9ZT0QPlKyWgfWs4Jcl5QQKIRse5/WzvIvmB+Ozo0sieBJDGYFD/b4zAxt6c247rTZZU927lw1htKjELHDuvh1l6rK+SzA/H9iRtL+8Qla71EQUwnuGmNIZTp8Uvp+J1lW1DEJ2L+Ir5teT0HDYVSfA1NZTWPLyQjqmj7DhYqGoFl6UpM3eU0mZ3oTFahyd3wgm7IfyJmPK4URAIydgGjViF9Mlto1+JmZxj3U4WtxDYu4KUZ1sUgGroJzwgVEjP5K1PAPpobZYhYdC5JdsETmIVQPR0T93yxqxwW2LyK/8YP+NSCLs=
   e2621301-acaa-48c7-95ef-d0d1a5fd1e3e:
     name: BW_1v1_G2
     creator: ac44621c-00d6-45a0-b025-850eb3db4aee
@@ -538,6 +542,15 @@ npcs:
     messages: []
     interactionCooldown: 0.0
     playerCommand: mvtp spleef
+    skin:
+      identifier: https://t.novaskin.me/ac4d732789f2fea57060c44358e8b5323ef6294825ac3118a61c382e64d41f0b
+      value: ewogICJ0aW1lc3RhbXAiIDogMTYxNjU2NjU0NDQ5MSwKICAicHJvZmlsZUlkIiA6ICI3NTE0NDQ4MTkxZTY0NTQ2OGM5NzM5YTZlMzk1N2JlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGFua3NNb2phbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWQ2NWExMDA5ODM0MGM0ZTM0MGZhYjMzYzQyODY0MmU1NmU3OGNiMjNmNWFlMDI3OGJiM2I4N2NhYWUwYTcyMCIKICAgIH0KICB9Cn0=
+      signature: HJUh3t2xsssjy3vmlppuzlnZG8xZyrawNnFWQXhXp9fplRpovIr79hJiPYpfuWN1WM4mVvJUmzZ3KwxYCu8MDkYg4jbc9nnaUhUOBbp8pLuo4oOJCLBR+i+51VlDXaU99p35JTrFevRVnfTJIHK+0YB9JvklGumFT4adPKIhlz/PlWMxWo7nYsFKny53pM3ENIsgdkVnnCN2IjWjmC+3TQK4PAJ+o1EUHdPP2QsmZCmiWmmB5IBTgX/qYM/8F3Wir8RNDG2tyK4pjmT7r3bdwXirTuA/6EqML8kqeQ4RK+RYys9zR7fKU+f8OCew2dhFDIkz6fg0WnjelIEWfRm1NZz5COl0jJYxdkmDZgCdYFJYnGjk8lUV7iJ7WNolMwv5ISUlbaOIbfKaNgFzCvN4Db63j9/try01j7MrSSw2N5/t8hmPWQvf0c4I+umwcEjg2SlxjEA5uaJSA1wBJ6T5nFXggLauGT0u23uhHLx3sw/kz4qs2yO9R+qVypXsTln8By2SyPuIOQbZ2rrYFoJurica/Vk58iyjTq/P+3CETidzKpT08Ticd9rfHb1EEywzo+yUsMCUm7Z3pNY/+qwrxrGTh0Fxzks1bJfj4lKtF7D3pUGNjdE/n0RCV5VTyaGZRxVdARmn9716A6xNqTm+pc0SBBKNbgSic1MHapMC1zM=
+    equipment:
+      MAINHAND:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: IRON_SHOVEL
   a84e6d6e-f61f-49e6-837e-16fb3bd7952f:
     name: BW_1v1_G1
     creator: ac44621c-00d6-45a0-b025-850eb3db4aee
@@ -773,7 +786,7 @@ npcs:
     location:
       world: Spleef
       x: -30.5
-      y: -48.0
+      y: -43.0
       z: 63.5
       yaw: 0.0
       pitch: 0.0
@@ -786,6 +799,10 @@ npcs:
     messages: []
     interactionCooldown: 0.0
     playerCommand: mvtp lobby
+    skin:
+      identifier: https://t.novaskin.me/ac4d732789f2fea57060c44358e8b5323ef6294825ac3118a61c382e64d41f0b
+      value: ewogICJ0aW1lc3RhbXAiIDogMTYxNjU2NjU0NDQ5MSwKICAicHJvZmlsZUlkIiA6ICI3NTE0NDQ4MTkxZTY0NTQ2OGM5NzM5YTZlMzk1N2JlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGFua3NNb2phbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWQ2NWExMDA5ODM0MGM0ZTM0MGZhYjMzYzQyODY0MmU1NmU3OGNiMjNmNWFlMDI3OGJiM2I4N2NhYWUwYTcyMCIKICAgIH0KICB9Cn0=
+      signature: HJUh3t2xsssjy3vmlppuzlnZG8xZyrawNnFWQXhXp9fplRpovIr79hJiPYpfuWN1WM4mVvJUmzZ3KwxYCu8MDkYg4jbc9nnaUhUOBbp8pLuo4oOJCLBR+i+51VlDXaU99p35JTrFevRVnfTJIHK+0YB9JvklGumFT4adPKIhlz/PlWMxWo7nYsFKny53pM3ENIsgdkVnnCN2IjWjmC+3TQK4PAJ+o1EUHdPP2QsmZCmiWmmB5IBTgX/qYM/8F3Wir8RNDG2tyK4pjmT7r3bdwXirTuA/6EqML8kqeQ4RK+RYys9zR7fKU+f8OCew2dhFDIkz6fg0WnjelIEWfRm1NZz5COl0jJYxdkmDZgCdYFJYnGjk8lUV7iJ7WNolMwv5ISUlbaOIbfKaNgFzCvN4Db63j9/try01j7MrSSw2N5/t8hmPWQvf0c4I+umwcEjg2SlxjEA5uaJSA1wBJ6T5nFXggLauGT0u23uhHLx3sw/kz4qs2yO9R+qVypXsTln8By2SyPuIOQbZ2rrYFoJurica/Vk58iyjTq/P+3CETidzKpT08Ticd9rfHb1EEywzo+yUsMCUm7Z3pNY/+qwrxrGTh0Fxzks1bJfj4lKtF7D3pUGNjdE/n0RCV5VTyaGZRxVdARmn9716A6xNqTm+pc0SBBKNbgSic1MHapMC1zM=
   d1ed4cdf-1614-4463-870a-d9a870a93173:
     name: Caveman
     creator: 762e430d-c0a7-4ffc-a39c-4e76a3ff2241
@@ -1011,3 +1028,183 @@ npcs:
         ==: org.bukkit.inventory.ItemStack
         v: 3700
         type: FISHING_ROD
+    skin:
+      identifier: https://t.novaskin.me/d373dec5b77288d9aa076ee145e913242530bc210f4f179cd93fa080a0ca4a5a
+      value: ewogICJ0aW1lc3RhbXAiIDogMTYxNzQzNTM0MTg4NSwKICAicHJvZmlsZUlkIiA6ICIyMWUzNjdkNzI1Y2Y0ZTNiYjI2OTJjNGEzMDBhNGRlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHZXlzZXJNQyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hOWExYzZjOThiZjQxMzEyODRiODcyMmQyMmUxZWZlMzkwNzRlM2NiYmUyYzc2OWNiZjVmNDMyY2QyYTg2MDJjIgogICAgfQogIH0KfQ==
+      signature: UolNOq/pSZ1jukUmqmqDz9a9ibBeSqx1mZdCYR+slIZF0oSZFMQUTLdVRXdLp+I70QPq+xQct1ZNV3SO+8EBeRdgokJKgONQxsGPQg96t/zZZelNk7dr7gAlKEsqqxDtSfjFD3JqnL5ukuMUvLHLODR95L48Is/Ur0Qrjxkgw8fBs9yTNeSO18z2R0gU0GfSJKRmtO9/zD/aZrxNLhVfeKq2hGbEGBxSphFF5OA+jL4T4tJb3o5V1Csv+m0qj8JdGeowc+A+uX2aRdLaNfPQxqoX2GHz+vjChSClk/LZlzEHv4QAiuddYambpLnbt+zVxUywFDdCBK0OBS0L1qUg3N7lYEN2eKU6UW0Ij0cSl7Bg61yrOMRzFcjedk5+X7DJRJDgv92wHYucF3R0qrmT4t2N04HFgBPPcgFf4s9+6hLAZCSVNrcUCE83BxxbKjdUZv+Et6RxEfeAy8nDCOzz291L0x6k6kG0JYolbdSDYHk8fU/r2tWfUiY8jAh4cp82u57/PJDTcAwO1qmEEMtnMZizzrccm7Rt7S1l+DtFqA/CdnsgrblrjWxHifjGhlCGOwsOz053ztL2HWdhxb+r6H4qq5pUdfVKio43FN8hXtYltU0hZNQnDN5iW0JTEMZZ244zShuYeof2aBGahWfNa3ly/9UaLdbgx8Mw/0d6o1U=
+  c7fd9fe1-8d26-4613-95b0-a0a300f00f66:
+    name: tnt_leave
+    creator: 762e430d-c0a7-4ffc-a39c-4e76a3ff2241
+    displayName: Lobby
+    type: PLAYER
+    location:
+      world: tnt
+      x: -30.5
+      y: 0.0
+      z: 64.5
+      yaw: 0.0
+      pitch: 0.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: red
+    turnToPlayer: true
+    messages: []
+    interactionCooldown: 0.0
+    playerCommand: mvtp lobby
+    skin:
+      identifier: https://t.novaskin.me/5657d5f2c0fd05b3a29a1cf0f758b55aa3727917f554dd02092687a386c76454
+      value: ewogICJ0aW1lc3RhbXAiIDogMTczOTY1NTgyNDA0NywKICAicHJvZmlsZUlkIiA6ICIzZjZiNjZjNDMwODA0ZTk5OGQwOGRkYThkOGY5NTczYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJUM1g3NyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80OTBiNDRmYTA4ODkyMmYxNDY3OGIyMzE1Nzg1NDE0ODU0ZDgyYWI2ZTkzZmVjOWM2MmRhOGIwMTNhY2U3OWNkIgogICAgfQogIH0KfQ==
+      signature: HPvMWMViFLFNKiJjn5911Y/E0G0wIST8uhMHKahlNlctV7qXpBDu406bZHe2tXVMk4BbvvYO4flw1ojxU09pQqE+2hLClH1IKfB2IMGm6OQ1J47ebRnY1K1WRXxP56OoSwfRBGGdXR9c0keaF3/M72TSkjbcmH1NgBxR8U7xmHE/pjOHIUs598J1ljGtQyx/94L8lWpeaWfhdP9qSsVo4qZAAlVLVR7paC4WAockAkihjIEDCMwL63/NGW8HBBK2bkn16SmocRlXJIb6mdJkEEfNLxzm93eCEI0jL7vAuLltIqNzEKAbV6vuofyrrhC2JdAdITd6VpdH/5Dx5Rwq2oM02jovGYPvEJZBP+JTUspC/gSVidv2oamdiCzK+DO/hMLoJVHZMyAyaZJlne+AMLmwl79KSwEdEhZ8x5SLRLmbuYWAcXgvUb5Vs/2Quq7CUtX4LK2DuD3u7P1QwpvpysYY4OZateM37i8JMbyeX/jUFmWveH5yILN8LDdrCpyLU7zBWR1i4lAf79wEd8qnA3sDzHGBWzPlAO1cm4ZxqrUPqkn9QpLvd1PnquF3aXnrj5f25TZTEQHSo7+wdBsxAOQVEvZEMgxi1QMjRFeDRyruRHluOHnt6wEU2dRSViJKE18NfeUQ9O6MgV08CqkSfN8Z7cZzo70BTGPBKHho4F0=
+  ea8f872c-75d8-4794-ac79-3f9c5626d2e6:
+    name: tnt
+    creator: 762e430d-c0a7-4ffc-a39c-4e76a3ff2241
+    displayName: TnT-Run
+    type: PLAYER
+    location:
+      world: Arcade
+      x: 27.5
+      y: 27.0
+      z: 223.5
+      yaw: -135.0
+      pitch: 0.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: true
+    messages: []
+    interactionCooldown: 0.0
+    skin:
+      identifier: https://t.novaskin.me/5657d5f2c0fd05b3a29a1cf0f758b55aa3727917f554dd02092687a386c76454
+      value: ewogICJ0aW1lc3RhbXAiIDogMTczOTY1NTgyNDA0NywKICAicHJvZmlsZUlkIiA6ICIzZjZiNjZjNDMwODA0ZTk5OGQwOGRkYThkOGY5NTczYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJUM1g3NyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80OTBiNDRmYTA4ODkyMmYxNDY3OGIyMzE1Nzg1NDE0ODU0ZDgyYWI2ZTkzZmVjOWM2MmRhOGIwMTNhY2U3OWNkIgogICAgfQogIH0KfQ==
+      signature: HPvMWMViFLFNKiJjn5911Y/E0G0wIST8uhMHKahlNlctV7qXpBDu406bZHe2tXVMk4BbvvYO4flw1ojxU09pQqE+2hLClH1IKfB2IMGm6OQ1J47ebRnY1K1WRXxP56OoSwfRBGGdXR9c0keaF3/M72TSkjbcmH1NgBxR8U7xmHE/pjOHIUs598J1ljGtQyx/94L8lWpeaWfhdP9qSsVo4qZAAlVLVR7paC4WAockAkihjIEDCMwL63/NGW8HBBK2bkn16SmocRlXJIb6mdJkEEfNLxzm93eCEI0jL7vAuLltIqNzEKAbV6vuofyrrhC2JdAdITd6VpdH/5Dx5Rwq2oM02jovGYPvEJZBP+JTUspC/gSVidv2oamdiCzK+DO/hMLoJVHZMyAyaZJlne+AMLmwl79KSwEdEhZ8x5SLRLmbuYWAcXgvUb5Vs/2Quq7CUtX4LK2DuD3u7P1QwpvpysYY4OZateM37i8JMbyeX/jUFmWveH5yILN8LDdrCpyLU7zBWR1i4lAf79wEd8qnA3sDzHGBWzPlAO1cm4ZxqrUPqkn9QpLvd1PnquF3aXnrj5f25TZTEQHSo7+wdBsxAOQVEvZEMgxi1QMjRFeDRyruRHluOHnt6wEU2dRSViJKE18NfeUQ9O6MgV08CqkSfN8Z7cZzo70BTGPBKHho4F0=
+    playerCommand: mvtp tnt
+  ae0f84a0-3b3c-4a6b-b821-aa76ee8afb5c:
+    name: PvP_Map3
+    creator: ac44621c-00d6-45a0-b025-850eb3db4aee
+    displayName: PvP_Map3
+    type: PLAYER
+    location:
+      world: PvP
+      x: 0.5
+      y: 41.0
+      z: -4.5
+      yaw: 0.0
+      pitch: 0.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    messages: []
+    interactionCooldown: 0.0
+    playerCommand: tp 400 41 0
+  2185b65c-71d9-44cd-838c-a759a88c4925:
+    name: PvP_lobby2
+    creator: ac44621c-00d6-45a0-b025-850eb3db4aee
+    displayName: Zurück
+    type: PLAYER
+    location:
+      world: PvP
+      x: -4.5
+      y: 41.0
+      z: -399.5
+      yaw: -90.0
+      pitch: 0.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: red
+    turnToPlayer: false
+    messages: []
+    interactionCooldown: 0.0
+    playerCommand: tp 0 41 0
+  7af00fa5-70aa-4327-a00b-2b46bb19d47e:
+    name: PvP_Map1
+    creator: ac44621c-00d6-45a0-b025-850eb3db4aee
+    displayName: Dschungel
+    type: PLAYER
+    location:
+      world: PvP
+      x: 0.5
+      y: 41.0
+      z: 5.5
+      yaw: -180.0
+      pitch: 0.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: dark_green
+    turnToPlayer: false
+    messages: []
+    interactionCooldown: 0.0
+    playerCommand: tp 0 40 400
+  dbca062f-5ab9-4da7-af4f-d0fadff4e257:
+    name: PvP_lobby3
+    creator: ac44621c-00d6-45a0-b025-850eb3db4aee
+    displayName: Zurück
+    type: PLAYER
+    location:
+      world: PvP
+      x: 395.5
+      y: 41.0
+      z: 0.5
+      yaw: -90.0
+      pitch: 0.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: red
+    turnToPlayer: false
+    messages: []
+    interactionCooldown: 0.0
+    playerCommand: tp 0 41 0
+  618b8fe3-a127-478f-bfc5-c84903c0dd55:
+    name: PvP_Map2
+    creator: ac44621c-00d6-45a0-b025-850eb3db4aee
+    displayName: Lasertag
+    type: PLAYER
+    location:
+      world: PvP
+      x: 5.5
+      y: 41.0
+      z: 0.5
+      yaw: 90.0
+      pitch: 0.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: gold
+    turnToPlayer: false
+    messages: []
+    interactionCooldown: 0.0
+    playerCommand: tp 0 41 -400
+  8e3829ea-f7c6-4c42-bf2d-7d3ad079e5e1:
+    name: PvP_lobby
+    creator: ac44621c-00d6-45a0-b025-850eb3db4aee
+    displayName: Zurück
+    type: PLAYER
+    location:
+      world: PvP
+      x: -4.5
+      y: 40.0
+      z: 400.5
+      yaw: -90.0
+      pitch: 0.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: red
+    turnToPlayer: false
+    messages: []
+    interactionCooldown: 0.0
+    playerCommand: tp 0 41 0

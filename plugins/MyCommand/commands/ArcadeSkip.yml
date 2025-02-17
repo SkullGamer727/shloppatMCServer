@@ -1,0 +1,18 @@
+SkipArcade:
+  command: /SkipArcade
+  type: RUN_COMMAND
+  runcmd:
+  - /tag @s add ArcadeSkip
+  aliases:
+  - SkipArcade
+  - Skiparcade
+  - skiparcade
+  - Askip
+  - ASkip
+  - aSkip
+  - askip
+  - Sa
+  - SA
+  - sa
+  permission-required: false
+  alias: askip

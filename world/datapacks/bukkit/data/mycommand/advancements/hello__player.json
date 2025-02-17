@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "IMPOSSIBLE": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:end_crystal"
+    },
+    "title": "Hello TheProPlayer639",
+    "description": "This Advancement is made by MyCommand",
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "frame": "challenge",
+    "announce_to_chat": false,
+    "show_toast": true,
+    "hidden": true
+  }
+}

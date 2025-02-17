@@ -1,0 +1,131 @@
+panels:
+  Fraktion:
+    perm: default
+    rows: 1
+    title: '&8Fraktion'
+    empty: BLACK_STAINED_GLASS_PANE
+    item:
+      '0':
+        itemType:
+          - noAttributes
+        material: Barrier
+        name: '§4§lZurück zum Mainmenu'
+        commands:
+          - cp Mainmenu
+          - playsound minecraft:ui.button.click player @s
+        lore:
+          - §7Brinngt dich zurück zum Mainmenu
+      '2':
+        itemType:
+          - noAttributes
+        material: BLACK_BANNER
+        banner:
+        - RED,GRADIENT_UP
+        - BLACK,GRADIENT_UP
+        - RED,RHOMBUS_MIDDLE
+        - RED,FLOWER
+        - BLACK,SKULL
+        name: '§4Totenkopf'
+        commands:
+          - tag @s remove Red
+          - tag @s remove Lime
+          - tag @s remove Blue
+          - tag @s remove Yellow
+          - tag @s remove Purple
+          - tag @s add Red
+          - msg= §4Du bist der Fraktion Totenkopf beigetreten
+          - playsound minecraft:ui.button.click player @s
+        lore:
+          - §7Klicke hier um in die Fraktion Totenkopf beizutreten
+      '3':
+        itemType:
+          - noAttributes
+        material: LIME_BANNER
+        name: '§aVergiftet'
+        commands: 
+          - tag @s remove Red
+          - tag @s remove Lime
+          - tag @s remove Blue
+          - tag @s remove Yellow
+          - tag @s remove Purple
+          - tag @s add Lime
+          - msg= §aDu bist der Fraktion Vergiftet beigetreten
+          - playsound minecraft:ui.button.click player @s
+        lore:
+          - §7Klicke hier um in die Fraktion Vergiftet beizutreten
+        banner:
+        - GREEN,GRADIENT_UP
+        - BLACK,CURLY_BORDER
+        - BLACK,BORDER
+        - BLACK,SQUARE_BOTTOM_RIGHT
+        - BLACK,SQUARE_TOP_LEFT
+        - BLACK,BRICKS
+        
+      '4':
+        itemType:
+          - noAttributes
+        material: WHITE_BANNER
+        banner:
+        - LIGHT_BLUE,GRADIENT
+        - BLUE,GRADIENT_UP
+        - BLACK,CURLY_BORDER
+        - BLACK,STRIPE_SMALL
+        - LIGHT_BLUE,GLOBE
+        name: '§9Forscher'
+        commands:
+          - tag @s remove Red
+          - tag @s remove Lime
+          - tag @s remove Blue
+          - tag @s remove Yellow
+          - tag @s remove Purple
+          - tag @s add Blue
+          - msg= §9Du bist der Fraktion Forscher beigetreten
+          - playsound minecraft:ui.button.click player @s
+        lore:
+          - §7Klicke hier um in die Fraktion Forscher beizutreten
+      '5':
+        itemType:
+          - noAttributes
+        material: YELLOW_BANNER
+        banner:
+          - BLACK,STRIPE_SMALL
+          - BLACK,CROSS
+          - ORANGE,BORDER
+          - WHITE,CIRCLE_MIDDLE
+          - BLACK,CURLY_BORDER
+          - BLACK,SKULL
+        name: '§6Phoenix'
+        commands:
+          - tag @s remove Red
+          - tag @s remove Lime
+          - tag @s remove Blue
+          - tag @s remove Yellow
+          - tag @s remove Purple
+          - tag @s add Yellow
+          - msg= §6Du bist der Fraktion Phoenix beigetreten
+          - playsound minecraft:ui.button.click player @s
+        lore:
+          - §7Klicke hier um in die Fraktion Phoenix beizutreten
+      '6':
+        itemType:
+          - noAttributes
+        material: PURPLE_BANNER
+        banner:
+          - BLACK,STRIPE_SMALL
+          - PURPLE,CURLY_BORDER
+          - BLACK,TRIANGLES_TOP
+          - BLACK,TRIANGLES_BOTTOM
+          - MAGENTA,RHOMBUS_MIDDLE
+          - BLACK,FLOWER
+        name: '§5Virus'
+        commands:
+          - tag @s remove Red
+          - tag @s remove Lime
+          - tag @s remove Blue
+          - tag @s remove Yellow
+          - tag @s remove Purple
+          - tag @s add Purple
+          - msg= §5Du bist der Fraktion Virus beigetreten
+          - playsound minecraft:ui.button.click player @s
+        lore:
+          - §7Klicke hier um in die Fraktion Virus beizutreten

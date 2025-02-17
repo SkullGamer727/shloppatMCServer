@@ -1,0 +1,9 @@
+menu:
+  command: /menu
+  type: RUN_COMMAND
+  runcmd:
+  - /cp Mainmenu
+  aliases:
+  - Menu
+  - menu
+  permission-required: false

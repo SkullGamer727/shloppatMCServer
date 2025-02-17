@@ -1,0 +1,40 @@
+panels:
+  panel-5:
+    perm: default
+    rows: 1
+    title: '&8Einstellungen'
+    empty: BLACK_STAINED_GLASS_PANE
+    item:
+      '3':
+        material: SPLASH_POTION
+        potion: REGEN false true
+        stack: 1
+        name: 'Partikel'
+        commands:
+          - msg= Deine Spieler Spur wurde aktiviert
+          - tag @s add Trail
+          - right= tag @s remove Trail
+          - right= msg= Deine Spieler Spur wurde deaktiviert
+          - playsound minecraft:ui.button.click player @s
+        lore:
+      '4':
+        material: LEATHER_BOOTS
+        stack: 1
+        name: 'Stiefel'
+        commands:
+          - msg= Du trägst nun Stiefel passend zu deiner Fraktion
+          - tag @s add Boots
+          - right= tag @s remove Boots
+          - right= msg= Du trägst nun keine Stiefel mehr
+          - playsound minecraft:ui.button.click player @s
+        lore:
+      '5':
+        material: WHITE_BANNER
+        banner: []
+        stack: 1
+        name: 'Capes'
+        commands:
+          - msg= Diese Feature existiert zurzeit nicht
+          - playsound minecraft:block.anvil.place player @s
+        lore:
+          - Coming Soon

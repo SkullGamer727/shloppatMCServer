@@ -1,0 +1,62 @@
+panels:
+  Settings:
+    perm: default
+    rows: 1
+    title: '&8Settings'
+    empty: BLACK_STAINED_GLASS_PANE
+    item:
+      '0':
+        itemType:
+          - noAttributes
+        material: Barrier
+        stack: 1
+        name: '§4§lZurück zum Mainmenu'
+        commands:
+          - cp Mainmenu
+          - playsound minecraft:ui.button.click player @s
+        lore:
+          - §7Brinngt dich zurück zum Mainmenu
+      '3':
+        itemType:
+          - noAttributes
+        material: SPLASH_POTION
+        stack: 1
+        name: '§lPartikel'
+        commands:
+          - msg= Deine Spieler Spur wurde aktiviert
+          - tag @s add Trail
+          - right= tag @s remove Trail
+          - right= msg= Deine Spieler Spur wurde deaktiviert
+          - playsound minecraft:ui.button.click player @s
+        lore:
+          - §7Klicke hier um die Spieler Spur zu toggeln
+          - §7Links Klick -> §aAn
+          - §7Rechts Klick -> §4Aus
+      '4':
+        itemType:
+          - noAttributes
+        material: LEATHER_BOOTS
+        stack: 1
+        name: '§lStiefel'
+        commands:
+          - msg= Du trägst nun Stiefel passend zu deiner Fraktion
+          - tag @s add Boots
+          - right= tag @s remove Boots
+          - right= msg= Du trägst nun keine Stiefel mehr
+          - playsound minecraft:ui.button.click player @s
+        lore: 
+          - §7Klicke hier um die Stiefel des Spielers zu toggeln
+          - §7Links Klick -> §aAn
+          - §7Rechts Klick -> §4Aus
+      '5':
+        itemType:
+          - noAttributes
+        material: WHITE_BANNER
+        banner: []
+        stack: 1
+        name: '§kCapes'
+        commands:
+          - msg= Diese Feature existiert zurzeit nicht
+          - playsound minecraft:block.anvil.place player @s
+        lore:
+          - §7Coming Soon

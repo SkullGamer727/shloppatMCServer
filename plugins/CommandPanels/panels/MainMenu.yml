@@ -1,0 +1,142 @@
+panels:
+  Mainmenu:
+    perm: default
+    rows: '5'
+    title: '&8Main Menu'
+    empty: black_STAINED_GLASS_PANE
+    item:
+      '4':
+        itemType:
+          -noAttributes
+        material: grass_block
+        name: §4§lSurvival
+        commands:
+          - playsound minecraft:entity.enderman.teleport player @s
+          - msg= §4Du wurdest teleportiert
+          - mvtp world
+        lore:
+          - §7Klicke um in die Survival Welt zu teleportieren
+          - §7Links Klick -> Teleport
+      '8':
+        itemType:
+          -noAttributes
+        material: redstone_torch
+        name: §4§lBug Report
+        lore:
+          - §7Klicke hier um zur Git Hub Bug Report
+          - §7Seite weiter geleitet zu werden
+          - §7Links Klick -> Link öffnen
+      '11':
+        itemType:
+          -noAttributes
+        material: iron_bars
+        name: §7§kComing Soon
+        commands:
+          - msg= Diese Feature existiert zurzeit nicht
+          - playsound minecraft:block.anvil.place player @s
+        lore:
+          - '§7Coming Soon'
+      '15':
+        itemType:
+          -noAttributes
+        material: debug_stick
+        name: §1§lPIT
+        commands:
+          - playsound minecraft:entity.enderman.teleport player @s
+          - msg= §4Du wurdest teleportiert
+          - mvtp Pit
+        lore:
+          - §7Klicke um in die PIT Welt zu teleportieren
+          - §7Links Klick -> Teleport
+      '17':
+        itemType:
+          -noAttributes
+        material: bundle
+        name: §6§lSettings
+        commands:
+          - cp Settings
+          - playsound minecraft:ui.button.click player @s
+        lore:
+          - §7Klicke hier um die Einstellungen zu ändern
+          - §7Links Klick -> Einstellungen
+      '22':
+        itemType:
+          -noAttributes
+        material: recovery_compass
+        name: §6§lMain Lobby
+        commands:
+          - playsound minecraft:entity.enderman.teleport player @s
+          - msg= §4Du wurdest teleportiert
+          - mvtp lobby
+        lore:
+          - §7Klicke um in die Main Lobby zu teleportieren
+          - §7Links Klick -> Teleport
+          - §7Rechts Klick -> Teleport zum Shop
+      '26':
+        itemType:
+          -noAttributes
+        material: white_banner
+        name: §7§lFraktionen
+        commands:
+          - cp Fraktion
+          - playsound minecraft:ui.button.click player @s
+        lore:
+          - §7Klicke hier um deine Fraktion zuwählen
+          - §7oder einfach nur alle anzusehen
+      '29':
+        itemType:
+          -noAttributes
+        material: repeating_command_block
+        name: §5§lArcade
+        commands:
+          - playsound minecraft:entity.enderman.teleport player @s
+          - msg= §4Du wurdest teleportiert
+          - mvtp Arcade
+        lore:
+          - §7Klicke um in die Arcade zu teleportieren
+          - §7Links Klick -> Teleport
+          - §7Rechts Klick -> genauere Auswahl
+      '33':
+        material: diamond_sword
+        name: §a§lPvP
+        commands:
+          - playsound minecraft:entity.enderman.teleport player @s
+          - msg= §4Du wurdest teleportiert
+          - mvtp PvP
+        lore:
+          - §7Klicke um in die PvP Welt zu teleportieren
+          - §7Links Klick -> Teleport
+        itemType:
+          -noAttributes
+      '35':
+        itemType:
+          -noAttributes
+        material: anvil
+        name: §7§lBaumodus
+        commands:
+          - playsound minecraft:ui.button.click player @s
+          - left= tag @s add test
+          - right= tag @s remove test
+          - left= msg= §aBaumodus aktiviert
+          - right= msg= §4Baumodus deaktiviert
+        lore:
+          - §7Wechselt zum Baumodus (OP only)
+          - §7Links Klick -> §aAn
+          - §7Rechts Klick -> §4Aus
+      '44':
+        itemType:
+          -noAttributes
+        material: red_bed
+        name: §7§lStandard Lobby
+        commands:
+          - playsound minecraft:ui.button.click player @s
+          - left= tag @s add PL
+          - right= tag @s remove PL
+          - right= mvtp lobby
+          - right= msg= §aOG-Lobby ausgewählt
+          - left= msg= §aParkour-Lobby ausgewählt
+        lore:
+          - §7Ändere hier in welcher Lobby du Spawnen willst
+          - §7Links Klick -> Parkour Lobby
+          - §7Rechts Klick -> OG Lobby
+          

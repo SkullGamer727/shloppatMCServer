@@ -1,0 +1,15 @@
+tnt:
+  command: /tnt
+  type: RUN_COMMAND
+  runcmd:
+  - /mvtp tnt
+  permission-required: false
+  aliases:
+  - tntrun
+  - tnt
+  - TNT
+  - TnT
+  - Tnt
+  - Tntrun
+  - TnTrun
+  - Tntrun

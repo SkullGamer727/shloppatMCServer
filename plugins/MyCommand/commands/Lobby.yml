@@ -4,3 +4,6 @@ lobby:
   runcmd:
   - /mvtp lobby
   permission-required: false
+  aliases:
+  - hub
+  - Hub

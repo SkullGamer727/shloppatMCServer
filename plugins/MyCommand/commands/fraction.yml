@@ -1,0 +1,9 @@
+fraction:
+  command: /fraktion
+  type: RUN_COMMAND
+  runcmd:
+  - /cp Fraktion
+  aliases:
+  - fraktion
+  - f
+  permission-required: false

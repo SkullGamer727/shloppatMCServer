@@ -1,5 +1,13 @@
-#-----------------------------------------------------------------------------------------------------------#
-#							MyCommand Signs Database File (last update v5.0.0)								#
-#																											#
+# -----------------------------------------------------------------------------------------------------------#
+# 							MyCommand Signs Database File (last update v5.0.0)								#
+# 																											#
 #  					BukkitDev Help page : http://dev.bukkit.org/server-mods/mycommand/    					#
-#-----------------------------------------------------------------------------------------------------------#
+
+ParcourLeave:
+  commands:
+  - ''
+  - /tag @s remove Cp01A
+  - /title @s actionbar {"text":"Parkour verlassen","color":"dark_red","bold":true,"underlined":true}
+  - /tag @s remove Cp01A;/title @s actionbar {"text":"Parkour verlassen","color":"dark_red","bold":true,"underlined":true}
+  - /tag @s remove Cp01A; /title @s actionbar {"text":"Parkour verlassen","color":"dark_red","bold":true,"underlined":true}
+  - /tag @s remove Cp01A; /title @s actionbar {"text":"Parkour verlassen","color":"red","bold":true,"underlined":true}
